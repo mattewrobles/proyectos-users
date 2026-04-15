@@ -322,12 +322,15 @@ Barra de estado del sistema iOS.
 - Variantes: `Compact` · `Minimal` · `Incoming Call` · `Expanded`
 - `Dark=True/False` — pendiente: manejar con variables en vez de propiedad manual
 
-> ⚠️ Usar `getNodeByIdAsync('1:916')` para instanciar — no `importComponentByKeyAsync`
+> ⚠️ `getNodeByIdAsync('1:916')` es del **iOS Status bar (Community)** — NO usar.
+> Siempre `importComponentByKeyAsync` con la key de `Utransfer_D_S`.
 
 ```javascript
-const statusBarComp = await figma.getNodeByIdAsync('1:916');
-const statusBar = statusBarComp.createInstance();
-screen.appendChild(statusBar);
+// Light (pantallas claras):
+const sbComp = await figma.importComponentByKeyAsync('222088d248a045f3d2e7df151f7d613bbda7fafd');
+// Dark: '74f11501df265b2a4b7fdb151bb9e6086d598262'
+const statusBar = sbComp.createInstance();
+screen.insertChild(0, statusBar); // siempre primer hijo
 statusBar.layoutSizingHorizontal = 'FILL';
 ```
 

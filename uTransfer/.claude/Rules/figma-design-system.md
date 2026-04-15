@@ -123,10 +123,14 @@ input.setProperties({
 ### Status Bar
 
 ```javascript
-// Usar getNodeByIdAsync, NO importComponentByKeyAsync
-const statusBarComp = await figma.getNodeByIdAsync('1:916');
-const statusBar = statusBarComp.createInstance();
-screen.appendChild(statusBar);
+// SIEMPRE importComponentByKeyAsync — getNodeByIdAsync('1:916') es del Community, NO del DS
+// Light mode (pantallas claras):
+const sbComp = await figma.importComponentByKeyAsync('222088d248a045f3d2e7df151f7d613bbda7fafd');
+// Dark mode:
+// const sbComp = await figma.importComponentByKeyAsync('74f11501df265b2a4b7fdb151bb9e6086d598262');
+
+const statusBar = sbComp.createInstance();
+screen.insertChild(0, statusBar); // siempre primer hijo del screen
 statusBar.layoutSizingHorizontal = 'FILL';
 ```
 
