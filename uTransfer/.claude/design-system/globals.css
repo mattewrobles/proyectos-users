@@ -1,0 +1,377 @@
+/*
+ * uTransfer Design System — CSS Custom Properties
+ * Fuente: Figma > Utransfer_D_S · Extraído 2026-04-14 via figma-cli (CDP)
+ *
+ * Colecciones: 🤖 Primitives · 🧩 Tokens · ⊢⊣ Spacing · ⊙ Radius
+ *
+ * Uso:
+ *   <html class="dark">  → App (modo oscuro, por defecto)
+ *   <html>               → Light mode (si aplica en el futuro)
+ *
+ * Regla: usar SOLO variables --token-* en componentes.
+ *        Nunca usar variables --prim-* ni hex fijo en components.
+ */
+
+/* ════════════════════════════════════════════════════════════════════════════
+   PRIMITIVOS — nunca usar directamente en componentes
+   ════════════════════════════════════════════════════════════════════════════ */
+:root {
+
+  /* ── Spacing (⊢⊣ Spacing: Spacing-0 a Spacing-20) ──────────────────────── */
+  --spacing-0:  0px;
+  --spacing-1:  2px;
+  --spacing-2:  4px;
+  --spacing-3:  8px;
+  --spacing-4:  12px;
+  --spacing-5:  16px;
+  --spacing-6:  20px;
+  --spacing-7:  24px;
+  --spacing-8:  28px;
+  --spacing-9:  32px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-13: 56px;
+  --spacing-14: 64px;
+  --spacing-15: 72px;
+  --spacing-16: 80px;
+  --spacing-17: 96px;
+  --spacing-18: 112px;
+  --spacing-19: 120px;
+  --spacing-20: 128px;
+
+  /* ── Radius (⊙ Radius) ──────────────────────────────────────────────────── */
+  --radius-none: 0px;
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   20px;
+  --radius-2xl:  24px;
+  --radius-3xl:  32px;
+  --radius-4xl:  40px;
+  --radius-full: 9999px;
+
+  /* ── Brand Primary (púrpura — color principal del DS) ───────────────────── */
+  --prim-purple:       #2b1c45;
+  --prim-purple-800:   #4e4066;
+  --prim-purple-700:   #726684;
+  --prim-purple-400:   #958da3;
+  --prim-purple-100:   #d5d1da;
+
+  /* ── Brand Rose (acento / secondary buttons / outline) ─────────────────── */
+  --prim-rose:         #d9016c;
+  --prim-rose-800:     #df2b85;
+  --prim-rose-700:     #e6569d;
+  --prim-rose-400:     #ec80b5;
+  --prim-rose-100:     #f7cce2;
+  --prim-rose-50:      #ffeef7;
+
+  /* ── Brand Aqua ─────────────────────────────────────────────────────────── */
+  --prim-aqua:         #02bbb5;
+  --prim-aqua-800:     #2acabf;
+  --prim-aqua-700:     #55d4cc;
+  --prim-aqua-400:     #80dfd8;
+  --prim-aqua-100:     #ccf2f0;
+
+  /* ── Brand Yellow ───────────────────────────────────────────────────────── */
+  --prim-yellow:       #ffa400;
+  --prim-yellow-800:   #ffb32a;
+  --prim-yellow-700:   #ffc255;
+  --prim-yellow-400:   #ffd180;
+  --prim-yellow-100:   #ffedcc;
+
+  /* ── Neutral scale ──────────────────────────────────────────────────────── */
+  --prim-n0:    #ffffff;
+  --prim-n20:   #f9fafb;
+  --prim-n50:   #f5f6f7;
+  --prim-n100:  #e1e4e8;
+  --prim-n200:  #d4d8dd;
+  --prim-n300:  #c2c7ca;
+  --prim-n400:  #abb1b5;
+  --prim-n500:  #7c8287;
+  --prim-n600:  #525252;
+  --prim-n700:  #404040;
+  --prim-n800:  #262626;
+  --prim-n900:  #28292a;
+  --prim-n950:  #191b1e;
+  --prim-n1000: #121213;
+  --prim-dark:  #090909;
+
+  /* ── Foundation Red ─────────────────────────────────────────────────────── */
+  --prim-red-50:  #fffaf9; --prim-red-100: #f8c1be; --prim-red-200: #ff8892;
+  --prim-red-300: #fc5967; --prim-red-400: #eb2e3e; --prim-red-500: #e42131;
+  --prim-red-600: #de1929; --prim-red-700: #cc1323; --prim-red-800: #be1120;
+  --prim-red-900: #b00b19;
+
+  /* ── Foundation Yellow ──────────────────────────────────────────────────── */
+  --prim-yw-50:  #fffae6; --prim-yw-100: #ffefb0; --prim-yw-200: #ffe88a;
+  --prim-yw-300: #ffdd54; --prim-yw-400: #ffd633; --prim-yw-500: #ffcc00;
+  --prim-yw-600: #fbbf24; --prim-yw-700: #edae00; --prim-yw-800: #ed9600;
+  --prim-yw-900: #d97706;
+
+  /* ── Foundation Green ───────────────────────────────────────────────────── */
+  --prim-gr-50:  #ebf9ee; --prim-gr-100: #c0eecc; --prim-gr-200: #a2e5b3;
+  --prim-gr-300: #77d990; --prim-gr-400: #5dd27a; --prim-gr-500: #34c759;
+  --prim-gr-600: #2fb551; --prim-gr-700: #258d3f; --prim-gr-800: #1d6d31;
+  --prim-gr-900: #165425;
+
+  /* ── Foundation Blue ────────────────────────────────────────────────────── */
+  --prim-bl-50:  #e6f2ff; --prim-bl-100: #b0d6ff; --prim-bl-200: #8ac2ff;
+  --prim-bl-300: #54a6ff; --prim-bl-400: #3395ff; --prim-bl-500: #007aff;
+  --prim-bl-600: #006fe8; --prim-bl-700: #0057b5; --prim-bl-800: #00438c;
+  --prim-bl-900: #00336b;
+
+  /* ── Foundation Mint / Teal / Cyan / Indigo / Purple ───────────────────── */
+  --prim-mint-500:   #00c7be;
+  --prim-teal-500:   #30b0c7;
+  --prim-cyan-500:   #32ade6;
+  --prim-indigo-500: #5856d6;
+  --prim-purp-500:   #af52de;
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   TOKENS SEMÁNTICOS — LIGHT MODE
+   ════════════════════════════════════════════════════════════════════════════ */
+:root {
+
+  /* ── Text ───────────────────────────────────────────────────────────────── */
+  --token-text-primary:            #28292a;   /* N900 */
+  --token-text-secondary:          #262626;   /* N800 */
+  --token-text-contrast:           #7c8287;   /* N500 */
+  --token-text-invert:             #ffffff;
+  --token-text-on-brand:           #ffffff;
+  --token-text-disabled:           #abb1b5;   /* N400 — placeholder, helper text */
+  --token-text-on-tint:            #28292a;   /* N900 — sobre status backgrounds, siempre oscuro */
+  --token-text-branding:           #d9016c;   /* rose */
+  --token-text-opacity-secondary:  rgba(60,60,67,0.6);
+  --token-text-opacity-tertiary:   rgba(60,60,67,0.3);
+  --token-text-opacity-quaternary: rgba(60,60,67,0.18);
+  --token-text-vibrant-primary:    #333333;
+  --token-text-vibrant-secondary:  #999999;
+  --token-text-vibrant-tertiary:   #bfbfbf;
+
+  /* ── Backgrounds ────────────────────────────────────────────────────────── */
+  --token-bg-base:                 #090909;
+  --token-bg-background:           #ffffff;
+  --token-bg-foreground:           #f9fafb;   /* pantallas y screens */
+  --token-bg-primary-elevated:     #ffffff;
+  --token-bg-secondary-elevated:   #f9fafb;
+  --token-bg-tertiary:             #ffffff;
+  --token-bg-glass:                rgba(252,252,252,0.64);   /* nav flotante — blur(20px) */
+  --token-bg-glass-modal:          rgba(252,252,252,0.84);   /* modales — blur(40px) */
+  --token-bg-clear:                rgba(255,255,255,0);
+
+  /* ── Cards / Fills ──────────────────────────────────────────────────────── */
+  --token-card:                    #ffffff;
+  --token-card-foreground:         #28292a;
+  --token-card-np:                 rgba(120,120,120,0.2);    /* Normal/Primary */
+  --token-card-ns:                 rgba(120,120,128,0.16);   /* Normal/Secondary */
+  --token-card-nt:                 rgba(118,118,128,0.12);   /* Normal/Tertiary */
+  --token-card-nq:                 rgba(116,116,128,0.08);   /* Normal/Quaternary */
+  --token-card-vp:                 #cccccc;                  /* Vibrant/Primary — Juegos */
+  --token-card-vt:                 #ededed;                  /* Vibrant/Tertiary */
+
+  /* ── Borders ────────────────────────────────────────────────────────────── */
+  --token-border-primary:          #c2c7ca;   /* N300 — hover inputs */
+  --token-border-secondary:        #d4d8dd;   /* N200 */
+  --token-border-divider:          #e1e4e8;   /* N100 — dividers suaves */
+  --token-border-brand:            #d9016c;   /* rose — outline buttons */
+  --token-border-vibrant:          #e6e6e6;
+  --token-border-non-opaque:       rgba(0,0,0,0.12);
+  --token-border-opaque:           #c6c6c8;
+  --token-border-invert:           #ffffff;
+  --token-border-focus:            #2b1c45;   /* purple — focus state */
+
+  /* ── Icons ──────────────────────────────────────────────────────────────── */
+  --token-icon-primary:            #404040;   /* N700 */
+  --token-icon-positive:           #d9016c;   /* rose */
+  --token-icon-invert:             #ffffff;
+  --token-icon-brand:              #121213;
+  --token-icon-disabled:           #abb1b5;   /* N400 */
+  --token-icon-on-dark:            #ffffff;   /* siempre blanco */
+  --token-icon-on-light:           #28292a;   /* siempre oscuro */
+  --token-icon-secondary:          #7c8287;   /* N500 */
+
+  /* ── Generals ───────────────────────────────────────────────────────────── */
+  --token-general-primary:         #2b1c45;   /* Purple — CTA principal */
+  --token-general-rose:            #d9016c;   /* Rose — acento / secondary CTA */
+  --token-general-input:           #d4d8dd;   /* N200 — fondo inputs */
+
+  /* ── Status ─────────────────────────────────────────────────────────────── */
+  --token-status-success:          #34c759;
+  --token-status-success-bg:       #ebf9ee;
+  --token-status-success-text:     #258d3f;
+  --token-status-danger:           #e42131;
+  --token-status-danger-bg:        #fffaf9;
+  --token-status-danger-text:      #cc1323;
+  --token-status-warning:          #fbbf24;
+  --token-status-warning-bg:       #fffae6;
+  --token-status-warning-text:     #edae00;
+  --token-status-info:             #007aff;
+  --token-status-info-bg:          #e6f2ff;
+  --token-status-info-text:        #0057b5;
+
+  /* ── Action ─────────────────────────────────────────────────────────────── */
+  --token-action-primary:          #2b1c45;
+  --token-action-primary-pressed:  #4e4066;
+  --token-action-primary-disabled: #d4d8dd;
+  --token-action-primary-text:     #ffffff;
+  --token-action-secondary:        #d5d1da;
+  --token-action-secondary-text:   #2b1c45;
+  --token-action-danger:           #e42131;
+  --token-action-danger-text:      #ffffff;
+
+  /* ── Components — Button ────────────────────────────────────────────────── */
+  --token-btn-primary-bg:          #2b1c45;   /* purple */
+  --token-btn-primary-text:        #ffffff;
+  --token-btn-primary-hover:       #121213;
+  --token-btn-secondary-bg:        #d9016c;   /* rose */
+  --token-btn-secondary-hover:     #df2b85;
+  --token-btn-outline-border:      #d9016c;   /* rose */
+  --token-btn-outline-text:        #d9016c;
+  --token-btn-disabled-bg:         #f5f6f7;
+  --token-btn-disabled-text:       #d4d8dd;
+  --token-btn-all-disabled:        #e1e4e8;
+
+  /* ── Components — Modal / Tooltip ───────────────────────────────────────── */
+  --token-modal-bg:                #ffffff;
+  --token-modal-title:             #28292a;
+  --token-tooltip-bg:              #28292a;
+  --token-tooltip-text:            #ffffff;
+
+  /* ── Liquid Glass ───────────────────────────────────────────────────────── */
+  --token-glass-fill:              #ededed;
+  --token-glass-labels-primary:    #404040;
+  --token-glass-labels-secondary:  #8c8c8c;
+  --token-glass-labels-tertiary:   #d9d9d9;
+
+  /* ── Logo ───────────────────────────────────────────────────────────────── */
+  --token-logo-icon1:              #02bbb5;
+  --token-logo-icon2:              #ffa400;
+  --token-logo-text:               #090909;
+
+  /* ── Effects ────────────────────────────────────────────────────────────── */
+  --effect-blur-nav:    blur(20px) saturate(180%);
+  --effect-blur-modal:  blur(40px) saturate(200%);
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   TOKENS SEMÁNTICOS — DARK MODE (modo por defecto de la app)
+   ════════════════════════════════════════════════════════════════════════════ */
+.dark {
+
+  /* ── Text ───────────────────────────────────────────────────────────────── */
+  --token-text-primary:            #f9fafb;   /* N20 */
+  --token-text-secondary:          #e1e4e8;   /* N100 */
+  --token-text-contrast:           #abb1b5;   /* N400 */
+  --token-text-invert:             #28292a;   /* N900 */
+  --token-text-on-brand:           #ffffff;
+  --token-text-disabled:           #7c8287;   /* N500 */
+  --token-text-on-tint:            #28292a;   /* N900 — SIEMPRE oscuro en ambos modos */
+  --token-text-branding:           #d9016c;   /* rose */
+  --token-text-opacity-secondary:  rgba(235,235,245,0.6);
+  --token-text-opacity-tertiary:   rgba(235,235,245,0.3);
+  --token-text-opacity-quaternary: rgba(235,235,245,0.16);
+  --token-text-vibrant-primary:    #ffffff;
+  --token-text-vibrant-secondary:  #999999;
+  --token-text-vibrant-tertiary:   #404040;
+
+  /* ── Backgrounds ────────────────────────────────────────────────────────── */
+  --token-bg-base:                 #090909;
+  --token-bg-background:           #121213;   /* N1000 */
+  --token-bg-foreground:           #191b1e;   /* N950 — pantallas y screens */
+  --token-bg-primary-elevated:     #28292a;   /* N900 */
+  --token-bg-secondary-elevated:   #404040;   /* N700 */
+  --token-bg-tertiary:             #404040;
+  --token-bg-glass:                rgba(21,21,22,0.8);    /* nav flotante — blur(20px) */
+  --token-bg-glass-modal:          rgba(21,21,22,0.8);    /* modales — blur(40px) */
+  --token-bg-clear:                rgba(8,8,8,0);
+
+  /* ── Cards / Fills ──────────────────────────────────────────────────────── */
+  --token-card:                    #28292a;   /* N900 */
+  --token-card-foreground:         #f5f6f7;   /* N50 */
+  --token-card-np:                 rgba(120,120,128,0.36);
+  --token-card-ns:                 rgba(120,120,128,0.32);
+  --token-card-nt:                 rgba(118,118,128,0.24);
+  --token-card-nq:                 rgba(118,118,128,0.18);
+  --token-card-vp:                 #333333;   /* Vibrant/Primary — Juegos */
+  --token-card-vt:                 #121212;
+
+  /* ── Borders ────────────────────────────────────────────────────────────── */
+  --token-border-primary:          #e1e4e8;   /* N100 */
+  --token-border-secondary:        #c2c7ca;   /* N300 */
+  --token-border-divider:          #404040;   /* N700 — dividers sutiles en dark */
+  --token-border-brand:            #d9016c;   /* rose */
+  --token-border-vibrant:          #1a1a1a;
+  --token-border-non-opaque:       rgba(255,255,255,0.17);
+  --token-border-opaque:           #38383a;
+  --token-border-invert:           #121213;
+  --token-border-focus:            #958da3;   /* purple-400 — focus visible en dark */
+
+  /* ── Icons ──────────────────────────────────────────────────────────────── */
+  --token-icon-primary:            #e1e4e8;   /* N100 */
+  --token-icon-positive:           #d9016c;
+  --token-icon-invert:             #121213;
+  --token-icon-brand:              #121213;
+  --token-icon-disabled:           #7c8287;   /* N500 */
+  --token-icon-on-dark:            #ffffff;
+  --token-icon-on-light:           #28292a;
+  --token-icon-secondary:          #7c8287;
+
+  /* ── Generals ───────────────────────────────────────────────────────────── */
+  --token-general-primary:         #2b1c45;   /* Purple — invariable en ambos modos */
+  --token-general-rose:            #d9016c;
+  --token-general-input:           #262626;   /* N800 */
+
+  /* ── Status ─────────────────────────────────────────────────────────────── */
+  --token-status-success:          #5dd27a;   /* green-400 */
+  --token-status-success-bg:       #165425;   /* green-900 */
+  --token-status-success-text:     #77d990;   /* green-300 */
+  --token-status-danger:           #eb2e3e;   /* red-400 */
+  --token-status-danger-bg:        #b00b19;   /* red-900 */
+  --token-status-danger-text:      #ff8892;   /* red-200 */
+  --token-status-warning:          #ffd633;   /* yellow-400 */
+  --token-status-warning-bg:       #d97706;   /* yellow-900 */
+  --token-status-warning-text:     #ffdd54;   /* yellow-300 */
+  --token-status-info:             #3395ff;   /* blue-400 */
+  --token-status-info-bg:          #00336b;   /* blue-900 */
+  --token-status-info-text:        #54a6ff;   /* blue-300 */
+
+  /* ── Action ─────────────────────────────────────────────────────────────── */
+  --token-action-primary:          #958da3;   /* purple-400 en dark */
+  --token-action-primary-pressed:  #726684;
+  --token-action-primary-disabled: #404040;
+  --token-action-primary-text:     #ffffff;
+  --token-action-secondary:        #4e4066;
+  --token-action-secondary-text:   #d5d1da;
+  --token-action-danger:           #eb2e3e;
+  --token-action-danger-text:      #ffffff;
+
+  /* ── Components — Button ────────────────────────────────────────────────── */
+  --token-btn-primary-bg:          #2b1c45;   /* purple — igual en ambos modos */
+  --token-btn-primary-text:        #ffffff;
+  --token-btn-primary-hover:       #121213;
+  --token-btn-secondary-bg:        #d9016c;
+  --token-btn-secondary-hover:     #df2b85;
+  --token-btn-outline-border:      #d9016c;
+  --token-btn-outline-text:        #d9016c;
+  --token-btn-disabled-bg:         #525252;   /* N600 en dark */
+  --token-btn-disabled-text:       #525252;
+  --token-btn-all-disabled:        #262626;
+
+  /* ── Components — Modal / Tooltip ───────────────────────────────────────── */
+  --token-modal-bg:                #262626;
+  --token-modal-title:             #ffffff;
+  --token-tooltip-bg:              #28292a;
+  --token-tooltip-text:            #ffffff;
+
+  /* ── Liquid Glass ───────────────────────────────────────────────────────── */
+  --token-glass-fill:              #121212;
+  --token-glass-labels-primary:    #bfbfbf;
+  --token-glass-labels-secondary:  #737373;
+  --token-glass-labels-tertiary:   #262626;
+
+  /* ── Logo ───────────────────────────────────────────────────────────────── */
+  --token-logo-text:               #ffffff;
+}

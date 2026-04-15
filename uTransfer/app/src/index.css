@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ─── uTransfer Design System Tokens ──────────────────────────────────── */
+/* Extracted directly from Figma Utransfer_D_S — node 40006005:26441      */
+
+@theme {
+  /* ── Backgrounds ──────────────────────────────────────────────────── */
+  --color-bg-foreground: #ffffff;
+  --color-bg-base:       #f5f5f7;
+  --color-bg-glass:      rgba(255, 255, 255, 0.6);
+  --color-bg-glass-2:    rgba(255, 255, 255, 0.85);
+
+  /* ── Cards ────────────────────────────────────────────────────────── */
+  --color-card:           #f5f5f7;
+  --color-card-primary:   #ebebed;
+  --color-card-secondary: #e2e2e6;
+
+  /* ── Text ─────────────────────────────────────────────────────────── */
+  --color-text-primary:   #0d0d12;
+  --color-text-secondary: #5a5a72;
+  --color-text-disabled:  #7c8287;
+  --color-text-invert:    #ffffff;
+  --color-text-on-tint:   #0d0d12;
+  --color-text-muted:     #e1e4e8;
+
+  /* ── Borders ──────────────────────────────────────────────────────── */
+  --color-border-primary: #313131;
+  --color-border-subtle:  #e2e2e6;
+  --color-border-focus:   #2b1c45;
+
+  /* ── Status ───────────────────────────────────────────────────────── */
+  --color-status-success: #34c759;
+  --color-status-danger:  #e42131;
+  --color-status-warning: #f59e0b;
+  --color-status-info:    #3b82f6;
+
+  /* ── Button colors — extracted from Figma node 40006005:26441 ─────── */
+  --color-btn-primary:        #2b1c45;
+  --color-btn-primary-hover:  #121213;
+  --color-btn-secondary:      #d9016c;
+  --color-btn-tertiary:       #151516;
+  --color-btn-error:          #e42131;
+  --color-btn-success:        #34c759;
+  --color-btn-disabled:       #525252;
+  --color-btn-disabled-text:  #7c8287;
+  --color-btn-outline-border: #313131;
+  --color-btn-outline-text:   #e1e4e8;
+
+  /* ── Radius — from Figma DS ─────────────────────────────────────── */
+  --radius-none: 0px;
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   20px;
+  --radius-2xl:  24px;
+  --radius-3xl:  32px;
+  --radius-full: 9999px;
+
+  /* ── Spacing ─────────────────────────────────────────────────────── */
+  --spacing-ds-0:  0px;
+  --spacing-ds-1:  2px;
+  --spacing-ds-2:  4px;
+  --spacing-ds-3:  8px;
+  --spacing-ds-4:  12px;
+  --spacing-ds-5:  16px;
+  --spacing-ds-6:  20px;
+  --spacing-ds-7:  24px;
+  --spacing-ds-8:  32px;
+  --spacing-ds-9:  40px;
+  --spacing-ds-10: 48px;
+
+  /* ── Font ────────────────────────────────────────────────────────── */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ─── Dark mode ─────────────────────────────────────────────────────────── */
+.dark {
+  --color-bg-foreground:  #0d0d12;
+  --color-bg-base:        #151516;
+  --color-card:           #1c1c24;
+  --color-card-primary:   #26262f;
+  --color-text-primary:   #f9fafb;
+  --color-text-secondary: #a1a1b0;
+  --color-text-disabled:  #525252;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-foreground);
+  color: var(--color-text-primary);
+}

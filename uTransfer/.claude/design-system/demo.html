@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>uTransfer Design System — Demo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          colors: {
+            'bg-base':        'var(--bg-base)',
+            'bg-bg':          'var(--bg-background)',
+            'bg-fg':          'var(--bg-foreground)',
+            'card':           'var(--card)',
+            'card-fg':        'var(--card-foreground)',
+            'card-np':        'var(--card-normal-primary)',
+            'card-ns':        'var(--card-normal-secondary)',
+            'input-bg':       'var(--general-input)',
+            'brand':          'var(--general-primary)',
+            'brand-hover':    'var(--btn-primary-bg-hover)',
+            'brand-aqua':     '#02bbb5',
+            'brand-yellow':   '#ffa400',
+            'text-p':         'var(--text-primary)',
+            'text-s':         'var(--text-secondary)',
+            'text-brand':     'var(--text-branding)',
+            'icon-ok':        'var(--icon-positive)',
+            'border-p':       'var(--border-primary)',
+            'border-s':       'var(--border-secondary)',
+            'border-brand':   'var(--border-brand)',
+            'btn-dis':        'var(--btn-disabled-bg)',
+            'btn-dis-text':   'var(--btn-disabled-text)',
+          },
+          borderRadius: {
+            'none': '0', 'xs': '4px', 'sm': '8px', 'md': '12px',
+            'lg': '16px', 'xl': '20px', '2xl': '24px', '3xl': '32px',
+            '4xl': '40px', 'full': '9999px',
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* ── Tokens DS ── */
+    :root {
+      --bg-base:           #090909;
+      --bg-background:     #0d0d0e;
+      --bg-foreground:     #1a1a1b;
+      --card:              #1c1d1e;
+      --card-foreground:   #242526;
+      --general-input:     #1e1f20;
+      --general-primary:   #d9016c;
+      --btn-primary-bg-hover: #e6569d;
+      --btn-disabled-bg:   #262626;
+      --btn-disabled-text: #525252;
+      --btn-outline-border:#d9016c;
+      --bg-glass:          rgba(28,28,30,0.80);
+      --bg-glass-2:        rgba(20,20,22,0.92);
+      --card-normal-primary:  rgba(120,120,120,0.20);
+      --card-normal-secondary:rgba(120,120,128,0.18);
+      --text-primary:      #f2f2f2;
+      --text-secondary:    #7c8287;
+      --text-branding:     #d9016c;
+      --icon-positive:     #34c759;
+      --border-primary:    rgba(255,255,255,0.12);
+      --border-secondary:  rgba(255,255,255,0.06);
+      --border-brand:      #d9016c;
+      --modal-bg:          rgba(20,20,22,0.92);
+    }
+
+    /* ── Base ── */
+    * { box-sizing: border-box; margin: 0; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg-base); color: var(--text-primary); -webkit-font-smoothing: antialiased; }
+
+    /* ── Glass ── */
+    .glass-nav   { background: var(--bg-glass);   backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%); }
+    .glass-modal { background: var(--bg-glass-2); backdrop-filter: blur(40px) saturate(200%); -webkit-backdrop-filter: blur(40px) saturate(200%); }
+
+    /* ── Sections ── */
+    .ds-section { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; }
+    .ds-section-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 24px; }
+    .ds-label { font-size: 11px; color: var(--text-secondary); margin-bottom: 6px; }
+    .ds-grid { display: grid; gap: 16px; }
+
+    /* ── Swatch ── */
+    .swatch { width: 48px; height: 48px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); }
+
+    /* ── Phone frame ── */
+    .phone { width: 393px; background: var(--bg-foreground); border-radius: 40px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 32px 80px rgba(0,0,0,0.6); flex-shrink: 0; }
+    .phone-screen { height: 852px; overflow-y: auto; display: flex; flex-direction: column; }
+
+    /* ── Buttons ── */
+    .btn { display: inline-flex; align-items: center; justify-content: center; border-radius: 9999px; font-size: 16px; font-weight: 500; cursor: pointer; border: none; transition: all 0.2s; user-select: none; padding: 0 32px; height: 56px; width: 100%; }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary { background: var(--general-primary); color: #fff; }
+    .btn-primary:hover { background: var(--btn-primary-bg-hover); }
+    .btn-outline { background: transparent; color: var(--general-primary); border: 1.5px solid var(--general-primary); }
+    .btn-ghost { background: transparent; color: var(--text-primary); }
+    .btn-ghost:hover { background: var(--card-normal-primary); }
+    .btn-disabled { background: var(--btn-disabled-bg); color: var(--btn-disabled-text); cursor: not-allowed; }
+    .btn-sm { height: 44px; font-size: 14px; padding: 0 20px; width: auto; }
+    .btn-destructive { background: #e42131; color: #fff; }
+
+    /* ── Inputs ── */
+    .input-wrap { position: relative; display: flex; align-items: center; background: var(--general-input); border-radius: 12px; border: 1px solid rgba(255,255,255,0.12); height: 56px; transition: border-color 0.2s; }
+    .input-wrap:focus-within { border-color: var(--general-primary); box-shadow: 0 0 0 3px rgba(217,1,108,0.15); }
+    .input-wrap.error { border-color: #e42131; }
+    .input-wrap.disabled { opacity: 0.5; }
+    .input-wrap input { flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-size: 16px; font-family: inherit; padding: 0 16px; }
+    .input-wrap input::placeholder { color: rgba(235,235,245,0.30); }
+    .input-prefix { padding-left: 16px; color: var(--text-secondary); font-size: 16px; white-space: nowrap; }
+    .input-suffix { padding-right: 16px; color: var(--text-secondary); font-size: 16px; white-space: nowrap; }
+    .input-label { font-size: 14px; font-weight: 500; color: var(--text-secondary); margin-bottom: 8px; display: block; }
+    .input-hint  { font-size: 12px; color: rgba(235,235,245,0.40); margin-top: 6px; }
+    .input-error { font-size: 12px; color: #f87171; margin-top: 6px; }
+
+    /* ── Cards ── */
+    .card { background: var(--card); border-radius: 20px; padding: 20px; }
+    .card-2xl { border-radius: 24px; }
+    .card-item { background: var(--card-normal-primary); border-radius: 16px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; cursor: pointer; transition: opacity 0.15s; }
+    .card-item:active { opacity: 0.7; }
+    .avatar { width: 44px; height: 44px; border-radius: 9999px; background: var(--card-normal-primary); display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 16px; color: var(--text-primary); flex-shrink: 0; overflow: hidden; }
+
+    /* ── Tab bar ── */
+    .tab-bar { display: flex; align-items: center; justify-content: space-around; height: 68px; padding: 0 8px; border-top: 1px solid rgba(255,255,255,0.06); }
+    .tab-item { display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 44px; height: 44px; justify-content: center; border-radius: 12px; padding: 0 10px; cursor: pointer; transition: all 0.15s; }
+    .tab-item:active { transform: scale(0.88); }
+    .tab-item.active { color: var(--general-primary); }
+    .tab-item:not(.active) { color: var(--text-secondary); }
+    .tab-label { font-size: 10px; font-weight: 500; }
+
+    /* ── Status bar ── */
+    .status-bar { display: flex; align-items: center; justify-content: space-between; height: 44px; padding: 0 24px; flex-shrink: 0; background: var(--bg-foreground); }
+    .status-time { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+    .status-icons { display: flex; align-items: center; gap: 6px; color: var(--text-primary); font-size: 13px; }
+
+    /* ── Modal overlay ── */
+    .modal-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.6); display: flex; align-items: flex-end; z-index: 50; }
+    .modal-sheet { width: 100%; padding: 20px; border-radius: 24px 24px 0 0; }
+    .modal-handle { width: 36px; height: 4px; background: rgba(255,255,255,0.2); border-radius: 9999px; margin: 0 auto 20px; }
+
+    /* ── Upoints badge ── */
+    .upoints { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,164,0,0.15); border-radius: 9999px; padding: 4px 10px; }
+    .upoints-dot { width: 8px; height: 8px; border-radius: 9999px; background: #ffa400; }
+
+    /* ── Quick action ── */
+    .quick-action { display: flex; flex-direction: column; align-items: center; gap: 8px; cursor: pointer; transition: transform 0.15s; }
+    .quick-action:active { transform: scale(0.92); }
+    .quick-icon { width: 56px; height: 56px; border-radius: 9999px; background: var(--card-normal-primary); display: flex; align-items: center; justify-content: center; }
+
+    /* ── Toast ── */
+    .toast { background: var(--card-foreground); border-radius: 14px; padding: 12px 16px; border: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; gap: 10px; }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 9999px; }
+
+    /* ── Demo page layout ── */
+    .demo-header { padding: 48px 0 24px; border-bottom: 1px solid rgba(255,255,255,0.06); margin-bottom: 48px; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+
+    /* ── Color grid ── */
+    .color-row { display: flex; gap: 4px; }
+    .color-chip { width: 32px; height: 32px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.06); cursor: pointer; transition: transform 0.1s; }
+    .color-chip:hover { transform: scale(1.15); }
+
+    /* ── Chip / tag ── */
+    .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 9999px; font-size: 12px; font-weight: 500; cursor: pointer; transition: all 0.15s; }
+    .chip.active { background: var(--general-primary); color: #fff; }
+    .chip:not(.active) { background: var(--card-normal-primary); color: var(--text-secondary); }
+    .chip:active { transform: scale(0.95); }
+
+    /* ── Notification dot ── */
+    .notif-dot { width: 8px; height: 8px; border-radius: 9999px; background: var(--general-primary); position: absolute; top: 1px; right: 1px; }
+
+    /* ── Progress bar ── */
+    .progress { height: 4px; background: rgba(255,255,255,0.08); border-radius: 9999px; overflow: hidden; }
+    .progress-fill { height: 100%; border-radius: 9999px; transition: width 0.3s; }
+
+    /* ── Nav header ── */
+    .nav-header { display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 0 20px; flex-shrink: 0; }
+    .nav-back { width: 36px; height: 36px; border-radius: 9999px; background: var(--card-normal-primary); display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: var(--text-primary); }
+
+    /* ── Amount input ── */
+    .amount-display { font-size: 52px; font-weight: 700; color: var(--text-primary); text-align: center; background: transparent; border: none; outline: none; width: 100%; font-family: inherit; caret-color: var(--general-primary); }
+    .amount-display::placeholder { color: rgba(235,235,245,0.20); }
+
+    /* ── List divider ── */
+    .list-divider { height: 1px; background: var(--border-secondary); margin: 0 16px; }
+  </style>
+</head>
+
+<body>
+  <!-- ═══════════════════════════════════════════════════════════════ HEADER -->
+  <div class="container">
+    <div class="demo-header">
+      <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+        <div style="width:40px;height:40px;background:var(--general-primary);border-radius:12px;display:flex;align-items:center;justify-content:center;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </div>
+        <div>
+          <h1 style="font-size:22px;font-weight:700;color:var(--text-primary);">uTransfer Design System</h1>
+          <p style="font-size:13px;color:var(--text-secondary);margin-top:2px;">Utransfer_D_S · 237 variables · React + Tailwind CSS</p>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <span class="chip active">Dark mode</span>
+        <span class="chip">Inter font</span>
+        <span class="chip">88 tokens</span>
+        <span class="chip">Revolut-inspired</span>
+        <span class="chip">Mobile-first 393px</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ MAIN CONTENT -->
+  <div class="container" style="display:grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; padding-bottom: 80px;">
+
+    <!-- ═══ COLUMNA IZQUIERDA — Docs ═══════════════════════════════════════ -->
+    <div>
+
+      <!-- ─── COLORES ────────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Colores del sistema</p>
+
+        <div style="display:flex;flex-direction:column;gap:24px;">
+
+          <!-- Brand -->
+          <div>
+            <p class="ds-label">Brand — Rose (primario)</p>
+            <div class="color-row">
+              <div class="color-chip" style="background:#ffeef7" title="rose-50"></div>
+              <div class="color-chip" style="background:#f7cce2" title="rose-100"></div>
+              <div class="color-chip" style="background:#ec80b5" title="rose-400"></div>
+              <div class="color-chip" style="background:#e6569d" title="rose-700"></div>
+              <div class="color-chip" style="background:#df2b85" title="rose-800"></div>
+              <div class="color-chip" style="background:#d9016c;border:2px solid rgba(255,255,255,0.3)" title="Brand Rose (primario)"></div>
+            </div>
+          </div>
+
+          <!-- Brand Aqua + Yellow -->
+          <div style="display:flex;gap:32px;">
+            <div>
+              <p class="ds-label">Aqua</p>
+              <div class="color-row">
+                <div class="color-chip" style="background:#ccf2f0" title="aqua-100"></div>
+                <div class="color-chip" style="background:#80dfd8" title="aqua-400"></div>
+                <div class="color-chip" style="background:#55d4cc" title="aqua-700"></div>
+                <div class="color-chip" style="background:#02bbb5;border:2px solid rgba(255,255,255,0.2)" title="Brand Aqua"></div>
+              </div>
+            </div>
+            <div>
+              <p class="ds-label">Yellow</p>
+              <div class="color-row">
+                <div class="color-chip" style="background:#ffedcc" title="yellow-100"></div>
+                <div class="color-chip" style="background:#ffd180" title="yellow-400"></div>
+                <div class="color-chip" style="background:#ffc255" title="yellow-700"></div>
+                <div class="color-chip" style="background:#ffa400;border:2px solid rgba(255,255,255,0.2)" title="Brand Yellow"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Neutral -->
+          <div>
+            <p class="ds-label">Neutral</p>
+            <div class="color-row">
+              <div class="color-chip" style="background:#ffffff" title="N0"></div>
+              <div class="color-chip" style="background:#f9fafb" title="N20"></div>
+              <div class="color-chip" style="background:#e1e4e8" title="N100"></div>
+              <div class="color-chip" style="background:#abb1b5" title="N400"></div>
+              <div class="color-chip" style="background:#7c8287" title="N500 — text-secondary"></div>
+              <div class="color-chip" style="background:#525252" title="N600"></div>
+              <div class="color-chip" style="background:#404040" title="N700"></div>
+              <div class="color-chip" style="background:#262626" title="N800"></div>
+              <div class="color-chip" style="background:#28292a" title="N900"></div>
+              <div class="color-chip" style="background:#121213" title="N1000"></div>
+              <div class="color-chip" style="background:#090909" title="Dark — bg-base"></div>
+            </div>
+          </div>
+
+          <!-- Semantic -->
+          <div>
+            <p class="ds-label">Fondos (capas dark)</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                <div class="swatch" style="background:#090909"></div>
+                <p style="font-size:10px;color:var(--text-secondary);">base</p>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                <div class="swatch" style="background:#0d0d0e"></div>
+                <p style="font-size:10px;color:var(--text-secondary);">background</p>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                <div class="swatch" style="background:#1a1a1b"></div>
+                <p style="font-size:10px;color:var(--text-secondary);">foreground</p>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                <div class="swatch" style="background:#1c1d1e"></div>
+                <p style="font-size:10px;color:var(--text-secondary);">card</p>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+                <div class="swatch" style="background:#1e1f20"></div>
+                <p style="font-size:10px;color:var(--text-secondary);">input</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- States -->
+          <div>
+            <p class="ds-label">Estados semánticos</p>
+            <div style="display:flex;gap:12px;">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="swatch" style="background:#34c759;width:32px;height:32px;border-radius:8px;"></div>
+                <span style="font-size:12px;color:var(--text-secondary);">Success</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="swatch" style="background:#e42131;width:32px;height:32px;border-radius:8px;"></div>
+                <span style="font-size:12px;color:var(--text-secondary);">Error</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="swatch" style="background:#fbbf24;width:32px;height:32px;border-radius:8px;"></div>
+                <span style="font-size:12px;color:var(--text-secondary);">Warning</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="swatch" style="background:#007aff;width:32px;height:32px;border-radius:8px;"></div>
+                <span style="font-size:12px;color:var(--text-secondary);">Info</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── TIPOGRAFÍA ─────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Tipografía — Inter</p>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:48px;font-weight:700;color:var(--text-primary);">Display</span>
+            <span style="font-size:11px;color:var(--text-secondary);">48 / 700</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:28px;font-weight:600;color:var(--text-primary);">Headers / H3</span>
+            <span style="font-size:11px;color:var(--text-secondary);">28 / 600</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:20px;font-weight:500;color:var(--text-primary);">Headers / H5</span>
+            <span style="font-size:11px;color:var(--text-secondary);">20 / 500</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:16px;font-weight:500;color:var(--text-primary);">Subtitle M</span>
+            <span style="font-size:11px;color:var(--text-secondary);">16 / 500</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:14px;font-weight:400;color:var(--text-primary);">Body MD — texto normal de la app</span>
+            <span style="font-size:11px;color:var(--text-secondary);">14 / 400</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)">
+            <span style="font-size:12px;font-weight:400;color:var(--text-primary);">Body SM — listas y descripciones</span>
+            <span style="font-size:11px;color:var(--text-secondary);">12 / 400</span>
+          </div>
+          <div style="display:flex;align-items:baseline;justify-content:space-between;">
+            <span style="font-size:12px;font-weight:400;color:var(--text-secondary);">Caption 1 — hints y metadata</span>
+            <span style="font-size:11px;color:var(--text-secondary);">12 / 400</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── RADIUS ─────────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Border Radius</p>
+        <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:0;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">none · 0</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:4px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">xs · 4</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:8px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">sm · 8</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:12px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">md · 12</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:16px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">lg · 16</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:20px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">xl · 20</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:24px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">2xl · 24</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:32px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">3xl · 32</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px;">
+            <div style="width:60px;height:60px;background:var(--card);border-radius:9999px;border:1px solid rgba(255,255,255,0.12);"></div>
+            <span style="font-size:10px;color:var(--text-secondary);">full</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── BUTTONS ────────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Buttons</p>
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:360px;">
+          <div><p class="ds-label">Primary (Giant)</p><button class="btn btn-primary">Enviar dinero</button></div>
+          <div><p class="ds-label">Outline</p><button class="btn btn-outline">Cancelar</button></div>
+          <div><p class="ds-label">Ghost</p><button class="btn btn-ghost">Más tarde</button></div>
+          <div><p class="ds-label">Disabled</p><button class="btn btn-disabled" disabled>Continuar</button></div>
+          <div><p class="ds-label">Destructive</p><button class="btn btn-destructive">Eliminar cuenta</button></div>
+          <div>
+            <p class="ds-label">Small (sm)</p>
+            <div style="display:flex;gap:8px;">
+              <button class="btn btn-primary btn-sm">Confirmar</button>
+              <button class="btn btn-outline btn-sm">Cancelar</button>
+              <button class="btn btn-ghost btn-sm">Omitir</button>
+            </div>
+          </div>
+          <div>
+            <p class="ds-label">ButtonGroup (selector)</p>
+            <div style="display:flex;gap:4px;padding:4px;background:var(--card);border-radius:9999px;">
+              <button class="btn btn-primary btn-sm" style="flex:1;border-radius:9999px;">Enviar</button>
+              <button class="btn btn-ghost btn-sm" style="flex:1;border-radius:9999px;color:var(--text-secondary);">Recibir</button>
+              <button class="btn btn-ghost btn-sm" style="flex:1;border-radius:9999px;color:var(--text-secondary);">Solicitar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── INPUTS ─────────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Inputs</p>
+        <div style="display:flex;flex-direction:column;gap:20px;max-width:360px;">
+          <div>
+            <label class="input-label">Correo electrónico</label>
+            <div class="input-wrap">
+              <input type="email" placeholder="tu@email.com" />
+            </div>
+          </div>
+          <div>
+            <label class="input-label">Contraseña</label>
+            <div class="input-wrap">
+              <input type="password" placeholder="Mínimo 8 caracteres" />
+              <span class="input-suffix" style="cursor:pointer;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </span>
+            </div>
+          </div>
+          <div>
+            <label class="input-label">Monto</label>
+            <div class="input-wrap">
+              <span class="input-prefix">$</span>
+              <input type="number" placeholder="0.00" style="padding-left:8px;"/>
+              <span class="input-suffix">USD</span>
+            </div>
+          </div>
+          <div>
+            <label class="input-label">Error state</label>
+            <div class="input-wrap error">
+              <input type="tel" value="+593 9 123" />
+            </div>
+            <p class="input-error">Número inválido. Incluye el código de país.</p>
+          </div>
+          <div>
+            <label class="input-label" style="opacity:0.5;">Campo deshabilitado</label>
+            <div class="input-wrap disabled">
+              <input type="text" value="Ecuador" disabled />
+            </div>
+          </div>
+          <div>
+            <label class="input-label">Búsqueda</label>
+            <div class="input-wrap">
+              <span class="input-prefix">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <input type="search" placeholder="Buscar contacto..." style="padding-left:8px;"/>
+            </div>
+            <p class="input-hint">Busca entre tus contactos de uTransfer</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── CARDS ──────────────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Cards</p>
+        <div style="display:flex;flex-direction:column;gap:12px;max-width:360px;">
+
+          <!-- Balance card -->
+          <div>
+            <p class="ds-label">Card principal (balance)</p>
+            <div class="card card-2xl">
+              <p style="font-size:12px;color:var(--text-secondary);margin-bottom:8px;">Balance disponible</p>
+              <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:12px;">
+                <span style="font-size:36px;font-weight:700;color:var(--text-primary);">$1,250.00</span>
+                <span style="font-size:16px;color:var(--text-secondary);">USD</span>
+              </div>
+              <div class="upoints">
+                <div class="upoints-dot"></div>
+                <span style="font-size:12px;font-weight:500;color:#ffa400;">450 Upoints</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Transaction list -->
+          <div>
+            <p class="ds-label">Lista de transacciones</p>
+            <div class="card card-2xl" style="padding:0;overflow:hidden;">
+              <div class="card-item" style="border-radius:0;padding:14px 16px;">
+                <div class="avatar" style="background:linear-gradient(135deg,#d9016c,#e6569d);">M</div>
+                <div style="flex:1;">
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">María García</p>
+                  <p style="font-size:12px;color:rgba(235,235,245,0.40);">Hoy, 10:42 AM</p>
+                </div>
+                <p style="font-size:14px;font-weight:600;color:#34c759;">+$50.00</p>
+              </div>
+              <div class="list-divider"></div>
+              <div class="card-item" style="border-radius:0;padding:14px 16px;">
+                <div class="avatar" style="background:linear-gradient(135deg,#02bbb5,#55d4cc);">J</div>
+                <div style="flex:1;">
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">Juan Pérez</p>
+                  <p style="font-size:12px;color:rgba(235,235,245,0.40);">Ayer, 3:15 PM</p>
+                </div>
+                <p style="font-size:14px;font-weight:600;color:var(--text-primary);">-$120.00</p>
+              </div>
+              <div class="list-divider"></div>
+              <div class="card-item" style="border-radius:0;padding:14px 16px;">
+                <div class="avatar" style="background:linear-gradient(135deg,#ffa400,#ffc255);">A</div>
+                <div style="flex:1;">
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">Ana López</p>
+                  <p style="font-size:12px;color:rgba(235,235,245,0.40);">Lun, 9:00 AM</p>
+                </div>
+                <p style="font-size:14px;font-weight:600;color:#34c759;">+$200.00</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vibrant (games) -->
+          <div>
+            <p class="ds-label">Vibrant (solo en Juegos/Upoints)</p>
+            <div style="background:rgba(217,1,108,0.12);border-radius:20px;padding:20px;border:1px solid rgba(217,1,108,0.2);">
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+                <span style="font-size:16px;font-weight:600;color:var(--text-primary);">Ruleta diaria</span>
+                <div class="upoints">
+                  <div class="upoints-dot"></div>
+                  <span style="font-size:12px;font-weight:500;color:#ffa400;">x2 puntos</span>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-fill" style="width:65%;background:linear-gradient(90deg,#d9016c,#e6569d);"></div>
+              </div>
+              <p style="font-size:12px;color:var(--text-secondary);margin-top:8px;">3 de 5 giros usados hoy</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── MISC COMPONENTS ────────────────────────────────────────────── -->
+      <section class="ds-section">
+        <p class="ds-section-title">Otros elementos</p>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+
+          <!-- Toast / notification -->
+          <div>
+            <p class="ds-label">Toast de notificación</p>
+            <div style="display:flex;flex-direction:column;gap:8px;max-width:360px;">
+              <div class="toast">
+                <div style="width:32px;height:32px;border-radius:9999px;background:rgba(52,199,89,0.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34c759" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">Dinero enviado</p>
+                  <p style="font-size:12px;color:var(--text-secondary);">$150 recibidos por María</p>
+                </div>
+              </div>
+              <div class="toast">
+                <div style="width:32px;height:32px;border-radius:9999px;background:rgba(217,1,108,0.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d9016c" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                </div>
+                <div>
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">Fondos insuficientes</p>
+                  <p style="font-size:12px;color:var(--text-secondary);">Deposita para continuar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Progress / steps -->
+          <div>
+            <p class="ds-label">Indicador de pasos</p>
+            <div style="display:flex;align-items:center;gap:8px;max-width:300px;">
+              <div style="width:32px;height:32px;border-radius:9999px;background:var(--general-primary);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;color:#fff;flex-shrink:0;">1</div>
+              <div style="flex:1;height:2px;background:var(--general-primary);"></div>
+              <div style="width:32px;height:32px;border-radius:9999px;background:var(--general-primary);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;color:#fff;flex-shrink:0;">2</div>
+              <div style="flex:1;height:2px;background:rgba(255,255,255,0.12);"></div>
+              <div style="width:32px;height:32px;border-radius:9999px;background:var(--card-normal-primary);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;color:var(--text-secondary);flex-shrink:0;">3</div>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:8px;max-width:300px;">
+              <span style="font-size:10px;color:var(--general-primary);font-weight:500;flex:1;text-align:center;">Monto</span>
+              <span style="font-size:10px;color:var(--general-primary);font-weight:500;flex:1;text-align:center;">Contacto</span>
+              <span style="font-size:10px;color:var(--text-secondary);flex:1;text-align:center;">Confirmar</span>
+            </div>
+          </div>
+
+          <!-- Upoints badge grande -->
+          <div>
+            <p class="ds-label">Upoints — sistema de puntos</p>
+            <div style="background:linear-gradient(135deg,rgba(255,164,0,0.15),rgba(255,164,0,0.05));border-radius:20px;padding:20px;border:1px solid rgba(255,164,0,0.2);max-width:360px;">
+              <div style="display:flex;align-items:center;justify-content:space-between;">
+                <div>
+                  <p style="font-size:28px;font-weight:700;color:#ffa400;">1,240</p>
+                  <p style="font-size:14px;color:var(--text-secondary);margin-top:4px;">Upoints disponibles</p>
+                </div>
+                <div style="width:60px;height:60px;border-radius:9999px;background:rgba(255,164,0,0.2);display:flex;align-items:center;justify-content:center;font-size:28px;">⭐</div>
+              </div>
+              <div class="progress" style="margin-top:16px;">
+                <div class="progress-fill" style="width:45%;background:linear-gradient(90deg,#ffa400,#ffc255);"></div>
+              </div>
+              <p style="font-size:12px;color:var(--text-secondary);margin-top:8px;">760 puntos más para el siguiente nivel</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ═══ COLUMNA DERECHA — Phone frames ════════════════════════════════ -->
+    <div style="display:flex;flex-direction:column;gap:48px;align-items:center;position:sticky;top:40px;">
+
+      <!-- ─── PHONE 1: Home Screen ──────────────────────────────────────── -->
+      <div>
+        <p style="font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);text-align:center;margin-bottom:16px;">Home Screen</p>
+        <div class="phone">
+          <div class="phone-screen">
+
+            <!-- Status bar -->
+            <div class="status-bar">
+              <span class="status-time">9:41</span>
+              <div class="status-icons">
+                <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0" width="3" height="12" rx="1"/><rect x="13.5" y="1" width="3" height="11" rx="1"/></svg>
+                <svg width="16" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="3.5" stroke="currentColor" stroke-opacity="0.35"/><rect x="2" y="2" width="16" height="8" rx="2" fill="currentColor"/><path d="M22 4.5v3a2 2 0 0 0 0-3z" fill="currentColor" fill-opacity="0.4"/></svg>
+              </div>
+            </div>
+
+            <!-- Nav header -->
+            <div class="nav-header">
+              <div style="display:flex;align-items:center;gap:10px;">
+                <div class="avatar" style="width:36px;height:36px;background:linear-gradient(135deg,#d9016c,#e6569d);font-size:14px;">M</div>
+                <div>
+                  <p style="font-size:11px;color:var(--text-secondary);">Hola,</p>
+                  <p style="font-size:13px;font-weight:600;color:var(--text-primary);">Mauricio</p>
+                </div>
+              </div>
+              <div style="position:relative;">
+                <div style="width:36px;height:36px;border-radius:9999px;background:var(--card-normal-primary);display:flex;align-items:center;justify-content:center;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--text-primary)" stroke-width="2" stroke-linecap="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                </div>
+                <div class="notif-dot"></div>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div style="flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:16px;">
+
+              <!-- Balance card -->
+              <div class="card card-2xl">
+                <p style="font-size:12px;color:var(--text-secondary);margin-bottom:6px;">Balance total</p>
+                <div style="display:flex;align-items:baseline;gap:6px;margin-bottom:10px;">
+                  <span style="font-size:38px;font-weight:700;color:var(--text-primary);">$1,250</span>
+                  <span style="font-size:14px;color:var(--text-secondary);">.00 USD</span>
+                </div>
+                <div class="upoints">
+                  <div class="upoints-dot"></div>
+                  <span style="font-size:11px;font-weight:500;color:#ffa400;">1,240 Upoints</span>
+                </div>
+              </div>
+
+              <!-- Quick actions -->
+              <div style="display:flex;justify-content:space-around;padding:16px;background:var(--card);border-radius:20px;">
+                <div class="quick-action">
+                  <div class="quick-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--general-primary)" stroke-width="2" stroke-linecap="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  </div>
+                  <span style="font-size:11px;color:var(--text-secondary);">Enviar</span>
+                </div>
+                <div class="quick-action">
+                  <div class="quick-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--brand-aqua)" stroke-width="2" stroke-linecap="round"><polyline points="7 7 12 12 17 7"/><line x1="12" y1="12" x2="12" y2="21"/><polyline points="3 7 12 2 21 7"/></svg>
+                  </div>
+                  <span style="font-size:11px;color:var(--text-secondary);">Recibir</span>
+                </div>
+                <div class="quick-action">
+                  <div class="quick-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                  </div>
+                  <span style="font-size:11px;color:var(--text-secondary);">Depositar</span>
+                </div>
+                <div class="quick-action">
+                  <div class="quick-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#af52de" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                  </div>
+                  <span style="font-size:11px;color:var(--text-secondary);">Más</span>
+                </div>
+              </div>
+
+              <!-- Contactos -->
+              <div>
+                <p style="font-size:13px;font-weight:600;color:var(--text-primary);margin-bottom:12px;">Recientes</p>
+                <div style="display:flex;gap:16px;overflow-x:auto;padding-bottom:4px;">
+                  <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0;">
+                    <div class="avatar" style="width:48px;height:48px;background:linear-gradient(135deg,#d9016c,#e6569d);">M</div>
+                    <span style="font-size:11px;color:var(--text-secondary);">María</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0;">
+                    <div class="avatar" style="width:48px;height:48px;background:linear-gradient(135deg,#02bbb5,#55d4cc);">J</div>
+                    <span style="font-size:11px;color:var(--text-secondary);">Juan</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0;">
+                    <div class="avatar" style="width:48px;height:48px;background:linear-gradient(135deg,#ffa400,#ffc255);">A</div>
+                    <span style="font-size:11px;color:var(--text-secondary);">Ana</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0;">
+                    <div class="avatar" style="width:48px;height:48px;background:linear-gradient(135deg,#5856d6,#7978de);">C</div>
+                    <span style="font-size:11px;color:var(--text-secondary);">Carlos</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0;">
+                    <div class="avatar" style="width:48px;height:48px;background:var(--card-normal-primary);border:1.5px dashed rgba(255,255,255,0.2);">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-secondary)" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                    </div>
+                    <span style="font-size:11px;color:var(--text-secondary);">Nuevo</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Transactions -->
+              <div>
+                <p style="font-size:13px;font-weight:600;color:var(--text-primary);margin-bottom:12px;">Últimos movimientos</p>
+                <div class="card card-2xl" style="padding:0;overflow:hidden;">
+                  <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;">
+                    <div class="avatar" style="width:40px;height:40px;background:linear-gradient(135deg,#d9016c,#e6569d);font-size:14px;">M</div>
+                    <div style="flex:1;">
+                      <p style="font-size:13px;font-weight:500;color:var(--text-primary);">María García</p>
+                      <p style="font-size:11px;color:rgba(235,235,245,0.40);">Hoy · 10:42 AM</p>
+                    </div>
+                    <p style="font-size:14px;font-weight:600;color:#34c759;">+$50</p>
+                  </div>
+                  <div class="list-divider"></div>
+                  <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;">
+                    <div class="avatar" style="width:40px;height:40px;background:linear-gradient(135deg,#02bbb5,#55d4cc);font-size:14px;">J</div>
+                    <div style="flex:1;">
+                      <p style="font-size:13px;font-weight:500;color:var(--text-primary);">Juan Pérez</p>
+                      <p style="font-size:11px;color:rgba(235,235,245,0.40);">Ayer · 3:15 PM</p>
+                    </div>
+                    <p style="font-size:14px;font-weight:600;color:var(--text-primary);">-$120</p>
+                  </div>
+                  <div class="list-divider"></div>
+                  <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;">
+                    <div style="width:40px;height:40px;border-radius:9999px;background:linear-gradient(135deg,#d9016c,#ffa400);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
+                    <div style="flex:1;">
+                      <p style="font-size:13px;font-weight:500;color:var(--text-primary);">Visa Direct</p>
+                      <p style="font-size:11px;color:rgba(235,235,245,0.40);">Lun · *4521</p>
+                    </div>
+                    <p style="font-size:14px;font-weight:600;color:var(--text-primary);">-$300</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab bar glass -->
+            <div class="tab-bar glass-nav" style="flex-shrink:0;">
+              <div class="tab-item active">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                <span class="tab-label">Home</span>
+              </div>
+              <div class="tab-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <span class="tab-label">Enviar</span>
+              </div>
+              <div class="tab-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                <span class="tab-label">Juegos</span>
+              </div>
+              <div class="tab-item">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                <span class="tab-label">Perfil</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── PHONE 2: Send Flow + Modal ───────────────────────────────── -->
+      <div>
+        <p style="font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-secondary);text-align:center;margin-bottom:16px;">Send Flow + Modal</p>
+        <div class="phone">
+          <div class="phone-screen" style="position:relative;">
+
+            <!-- Status bar -->
+            <div class="status-bar">
+              <span class="status-time">9:41</span>
+              <div class="status-icons">
+                <svg width="17" height="12" viewBox="0 0 17 12" fill="currentColor"><rect x="0" y="3" width="3" height="9" rx="1"/><rect x="4.5" y="2" width="3" height="10" rx="1"/><rect x="9" y="0" width="3" height="12" rx="1"/><rect x="13.5" y="1" width="3" height="11" rx="1"/></svg>
+                <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="3.5" stroke="currentColor" stroke-opacity="0.35"/><rect x="2" y="2" width="14" height="8" rx="2" fill="currentColor"/><path d="M22 4.5v3a2 2 0 0 0 0-3z" fill="currentColor" fill-opacity="0.4"/></svg>
+              </div>
+            </div>
+
+            <!-- Header -->
+            <div class="nav-header">
+              <button class="nav-back">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <span style="font-size:16px;font-weight:600;color:var(--text-primary);">Enviar dinero</span>
+              <div style="width:36px;"></div>
+            </div>
+
+            <!-- Steps -->
+            <div style="padding:0 20px 16px;display:flex;align-items:center;gap:6px;">
+              <div style="width:24px;height:24px;border-radius:9999px;background:var(--general-primary);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;flex-shrink:0;">1</div>
+              <div style="flex:1;height:2px;background:var(--general-primary);border-radius:9999px;"></div>
+              <div style="width:24px;height:24px;border-radius:9999px;background:var(--general-primary);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;color:#fff;flex-shrink:0;">2</div>
+              <div style="flex:1;height:2px;background:rgba(255,255,255,0.12);border-radius:9999px;"></div>
+              <div style="width:24px;height:24px;border-radius:9999px;background:var(--card-normal-primary);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:500;color:var(--text-secondary);flex-shrink:0;">3</div>
+            </div>
+
+            <!-- Content -->
+            <div style="flex:1;padding:0 20px;display:flex;flex-direction:column;gap:16px;">
+
+              <!-- Amount big input -->
+              <div style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:20px 0;">
+                <p style="font-size:12px;color:var(--text-secondary);">¿Cuánto vas a enviar?</p>
+                <div style="display:flex;align-items:baseline;gap:8px;">
+                  <span style="font-size:20px;color:var(--text-secondary);">$</span>
+                  <input class="amount-display" type="text" value="150" style="width:120px;text-align:right;" />
+                  <span style="font-size:16px;color:var(--text-secondary);">USD</span>
+                </div>
+                <p style="font-size:12px;color:rgba(235,235,245,0.40);">≈ S/. 555.00 PEN</p>
+              </div>
+
+              <!-- Recipient card -->
+              <div class="card" style="display:flex;align-items:center;gap:12px;padding:14px;">
+                <div class="avatar" style="background:linear-gradient(135deg,#d9016c,#e6569d);">M</div>
+                <div style="flex:1;">
+                  <p style="font-size:14px;font-weight:500;color:var(--text-primary);">María García</p>
+                  <p style="font-size:12px;color:var(--text-secondary);">@maria.garcia · uTransfer</p>
+                </div>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--text-secondary)" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+
+              <!-- Fee breakdown -->
+              <div class="card" style="padding:14px;">
+                <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+                  <span style="font-size:13px;color:var(--text-secondary);">Monto</span>
+                  <span style="font-size:13px;color:var(--text-primary);">$150.00 USD</span>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+                  <span style="font-size:13px;color:var(--text-secondary);">Comisión</span>
+                  <span style="font-size:13px;color:#34c759;">$0.00</span>
+                </div>
+                <div class="list-divider" style="margin:10px 0;"></div>
+                <div style="display:flex;justify-content:space-between;">
+                  <span style="font-size:14px;font-weight:600;color:var(--text-primary);">Total</span>
+                  <span style="font-size:14px;font-weight:600;color:var(--text-primary);">$150.00 USD</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer -->
+            <div style="padding:16px 20px 24px;">
+              <button class="btn btn-primary">Revisar envío</button>
+            </div>
+
+            <!-- Modal overlay -->
+            <div class="modal-overlay">
+              <div class="modal-sheet glass-modal">
+                <div class="modal-handle"></div>
+                <h2 style="font-size:20px;font-weight:600;color:var(--text-primary);margin-bottom:6px;">Confirmar envío</h2>
+                <p style="font-size:13px;color:var(--text-secondary);margin-bottom:20px;">Revisa los detalles antes de continuar</p>
+
+                <div style="background:var(--card);border-radius:16px;padding:14px;margin-bottom:16px;">
+                  <div style="display:flex;justify-content:space-between;margin-bottom:10px;">
+                    <span style="font-size:13px;color:var(--text-secondary);">Envías</span>
+                    <span style="font-size:22px;font-weight:700;color:var(--text-primary);">$150 USD</span>
+                  </div>
+                  <div style="display:flex;justify-content:space-between;">
+                    <span style="font-size:13px;color:var(--text-secondary);">Recibe María</span>
+                    <span style="font-size:13px;font-weight:500;color:#34c759;">$150.00 USD</span>
+                  </div>
+                </div>
+
+                <div style="display:flex;gap:8px;align-items:center;margin-bottom:20px;padding:12px;background:rgba(255,164,0,0.1);border-radius:12px;">
+                  <div class="upoints-dot"></div>
+                  <span style="font-size:12px;color:#ffa400;font-weight:500;">+15 Upoints por esta transferencia</span>
+                </div>
+
+                <div style="display:flex;flex-direction:column;gap:8px;">
+                  <button class="btn btn-primary" style="height:52px;font-size:15px;">Confirmar envío</button>
+                  <button class="btn btn-ghost" style="height:44px;font-size:14px;color:var(--text-secondary);">Cancelar</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ FOOTER NOTE -->
+  <div style="border-top:1px solid rgba(255,255,255,0.06);padding:32px 40px;max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;">
+    <div>
+      <p style="font-size:13px;font-weight:500;color:var(--text-primary);">uTransfer Design System</p>
+      <p style="font-size:12px;color:var(--text-secondary);margin-top:4px;">237 variables · Figma Utransfer_D_S · Dark mode · Inter</p>
+    </div>
+    <div style="display:flex;gap:8px;">
+      <span class="chip">globals.css</span>
+      <span class="chip">tailwind.config.js</span>
+      <span class="chip active">MEMORY_CONTEXT.md</span>
+    </div>
+  </div>
+
+</body>
+</html>
