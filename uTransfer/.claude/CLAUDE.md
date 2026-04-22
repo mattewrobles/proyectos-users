@@ -1,4 +1,4 @@
-# uTransfer — Contexto para Cleo
+# Utransfer — Contexto para Cleo
 
 **uTransfer** es una billetera digital global (iOS + Android) para enviar dinero con stablecoins bajo el capó — el usuario siempre ve su moneda local. Mercado: Ecuador y Latinoamérica.
 
