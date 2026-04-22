@@ -158,3 +158,18 @@ input.setProperties({
 - Duplicados: `Icon` (×2), `Tab Bar` (×2) — resolver manualmente
 - `Property 1` genérica en Face ID Prompt, Visa, Tab Bar
 - Emojis/flechas en Stepper y Stepper Icon variants
+
+---
+
+## Auto-Skills — invocar según contexto
+
+| Contexto | Skill |
+|---------|-------|
+| Cualquier trabajo en Figma (OBLIGATORIO antes de tocar nodos) | `figma-use` + `figma-mcp-quality` |
+| Crear o editar pantallas desde el DS | `figma-generate-design` |
+| Tokens, variables, DS, librería | `figma-generate-library` |
+| Exportar diseño a código (SwiftUI/React) | `figma-design-code` |
+| Diseño UI/UX: jerarquía, spacing, color, accesibilidad | `ui-ux-pro-max-intelligence` |
+| Liquid Glass, iOS 26, glassmorphism | `liquid-glass-design` |
+| Code Connect — mapear componentes a código | `figma-code-connect` |
+| Crear reglas del DS para codebase | `figma-create-design-system-rules` |
