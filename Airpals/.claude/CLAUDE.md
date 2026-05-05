@@ -1,85 +1,195 @@
 # Airpals — Contexto para Cleo
 
-**Airpals** es una plataforma B2B de shipping inteligente para oficinas y empresas. Simplifica el envío de paquetes combinando múltiples carriers (USPS, UPS, FedEx) con un asistente IA que recomienda la mejor opción según peso, urgencia y presupuesto.
+**Airpals** es una **Workplace Logistics Platform** — sistema de record para shipping interno de empresas.  
+Centraliza cómo las empresas manejan shipping interno: equipment, docs, samples, supplies entre equipos, locations y partners.
+
+> ⚠️ **CRÍTICO:** Airpals NO es e-commerce, NO es 3PL, NO es fulfillment. Diseñado para teams de workplace, facilities, mailroom y office management.
 
 - **Web:** https://airpals.co
-- **LinkedIn:** https://www.linkedin.com/company/airpals/
+- **Fundador:** Joshe Ordonez
 - **HQ:** Brooklyn, New York
-- **Stack web:** Next.js (detectado en análisis de sitio)
+- **Stack web:** Next.js
 - **Estado:** Producto activo, 1,000+ clientes empresariales
+
+---
+
+## Misión y Visión
+
+**Mission:** To give time back to the people running operations by removing the friction of internal shipping.
+
+**Vision:** A world where operational work is elevated — where coordinating physical workflows is no longer manual, fragmented, or invisible, but powered by intelligent systems.
+
+**Core Value Prop:** *"Stop being the middle person for shipping."*  
+Airpals lets your team ship, track, and manage everything themselves — while you stay out of the back-and-forth.
+
+**Tagline:** *"The smartest way to ship from your office"*
 
 ---
 
 ## Qué es Airpals
 
-Airpals resuelve el caos del shipping en oficinas: empleados que necesitan enviar paquetes sin saber cuál carrier elegir, sin cuenta corporativa, sin visibilidad de costos. La plataforma lo unifica todo.
+Airpals resuelve el caos del shipping interno. En lugar de empleados saltando entre carriers, emails y spreadsheets, todo en un solo lugar:
+- Crear shipments con múltiples carriers
+- Coordinar requests entre equipos
+- Track paquetes y acceder a recibos
+- Gestionar permisos y billing centralmente
 
-**Tagline:** *"The smartest way to ship from your office"*
+**El shift real:** No es solo agregar carriers. Es la capa donde el shipping *realmente sucede* dentro de las organizaciones — entre personas, workflows y decisiones — no solo la transacción de imprimir un label.
 
-### Propuesta de valor
-
-| Para quién | Qué resuelve |
-|-----------|-------------|
-| Office managers / admins | Un solo dashboard para todos los envíos del equipo |
-| Empresas con envíos frecuentes | Tarifas negociadas con carriers, sin mínimos |
-| Startups y scaleups | Shipping profesional sin infraestructura propia |
-| Empleados | No necesitan cuenta personal en FedEx/UPS — todo por la app |
-
----
-
-## Productos y features
-
-### Core: Shipping Platform
-- **Multi-carrier** — USPS, UPS, FedEx en una sola interfaz
-- **AI Shipping Assistant** — recomienda carrier + servicio según precio, velocidad y confiabilidad
-- **Same-day courier** — mensajería local el mismo día (NYC área)
-- **Pickup scheduling** — el carrier llega a la oficina a recoger
-- **Tracking unificado** — todos los envíos en un solo lugar
-- **Labels instantáneos** — imprimir etiquetas en segundos
-
-### Management
-- **Dashboard corporativo** — historial, costos, reportes por departamento
-- **Multi-user** — varios empleados bajo una cuenta empresa
-- **Facturación centralizada** — una sola factura para todos los envíos del equipo
-- **Cost allocation** — asignar envíos por proyecto, cliente o departamento
-- **Automations** — reglas de envío automáticas (si peso > X kg → usar UPS Ground)
-
-### Integraciones (futuras / en roadmap)
-- Slack — notificaciones de tracking
-- Shopify — envíos de e-commerce
-- NetSuite / QuickBooks — reconciliación contable
+**Con AI:**
+- Extraer detalles de shipment desde mensajes o forms
+- Recomendar carriers y servicios
+- Estandarizar workflows y enforcement de políticas
 
 ---
 
-## Clientes y mercado
+## Productos
 
-**Clientes conocidos:** WeWork, Spotify, Meta, Reddit, Figma, y 1,000+ empresas más.
+### Same-Day Courier (SD)
+Para shipments urgentes que requieren velocidad, coordinación y flexibilidad.
 
-**Segmento objetivo:**
-- Empresas con oficina física en áreas urbanas (NYC, LA, Chicago, etc.)
-- Equipos de 10-500 personas
-- Empresas que gastan $500-$50,000/mes en shipping
+- **NYC:** Coverage completa de los 5 boroughs (Manhattan, Brooklyn, Queens, Bronx, Staten Island) — **principal revenue source**
+- **Nationwide:** 100+ US cities vía Airpals Concierge
 
-**Diferenciadores vs. competitors:**
+**Airpals Concierge:** Same-day delivery en 100+ ciudades US usando couriers locales. Para empresas con branches en múltiples ciudades. No necesitan buscar y manejar vendors de courier ciudad por ciudad.
+
+**Casos de uso SD:**
+- Shipments urgentes de negocio
+- Equipment o document transport
+- Van or truck orders
+- Multi-stop deliveries
+
+### Multi-Carrier (MC)
+Shipping nationwide con FedEx, UPS, USPS.
+
+> ⚠️ **REGLA:** Multi-Carrier → siempre "carrier", NUNCA "courier"
+
+**Features:**
+- Comparar tarifas de múltiples carriers en un lugar
+- Crear y print shipping labels sin cambiar de plataforma
+- Conectar cuentas propias de FedEx/UPS para usar tarifas negociadas
+- Gestionar shipments por todo US
+
+---
+
+## Target Audience
+
+**Usuarios principales:**
+| Rol | Por qué usa Airpals |
+|-----|-------------------|
+| Workplace Operators | Coordinar shipping de toda la empresa |
+| Facility Managers | Visibilidad y control de operaciones físicas |
+| Office Managers | Gestionar envíos del equipo sin fricción |
+| Administrative teams | Procesar requests sin back-and-forth |
+| Operations teams | Control de costos y políticas de shipping |
+
+**Industrias clave:**
+- Non-profit organizations
+- PR y creative agencies
+- Admin teams inside large tech companies (ej: WeWork, Spotify, Meta, Reddit, Figma)
+- Fashion y beauty brands
+- Higher education organizations
+
+**Perfil demográfico:** 25-34 años, US-based, personas para quienes el shipping es UNA de muchas responsabilidades, no función dedicada.
+
+---
+
+## Pain Points que resuelve
+
+| Pain | Cómo Airpals lo soluciona |
+|------|--------------------------|
+| Operaciones fragmentadas | Todo en una plataforma — carriers, couriers, tracking |
+| Coordinación manual | AI extrae datos, recomienda, automatiza |
+| Sin visibilidad | Dashboard centralizado de toda actividad |
+| Costos difíciles de controlar | Expense management, identificar hidden fees |
+| Overload operacional | Menos interrupciones, menos manual work |
+
+---
+
+## Platform Capabilities
+
+**Operational Visibility**
+- Centralized view de toda actividad de shipping
+- Track shipments across teams y locations
+
+**Expense Management**
+- Identificar unnecessary charges y hidden fees
+- Budget visibility y control
+
+**Policies & Compliance Controls**
+- Enforce internal shipping rules
+- Reducir account sharing
+- Chain of custody accountability
+
+**Multi-Carrier Shipping**
+- Comparar carrier rates
+- Crear y print shipping labels
+- Conectar carrier accounts existentes
+
+**Same-Day Delivery Integration**
+- Acceso a courier services en 100+ US cities
+- Urgent shipments, multi-stop routes, bulk orders
+
+---
+
+## Use Cases
+
+- Inter-office shipping across locations
+- Corporate gift distribution
+- Event material logistics
+- Influencer o partner shipments
+- Remote employee equipment delivery
+- Exchange of office supplies entre locations
+- Shipping de materials durante product development
+
+---
+
+## Valores de la empresa
+
+| Valor | Qué significa |
+|-------|--------------|
+| Operational clarity | Teams siempre saben qué pasa con sus shipments |
+| Efficiency over manual work | Reducir tareas repetitivas y administrativas |
+| Accountability (chain of custody) | Visibilidad clara de quién manejó cada shipment |
+| Practical solutions | Tech para workplace real, no solo dashboards |
+| Scalability | Soportar crecimiento sin agregar complejidad |
+| Experience & usability | Plataforma intuitiva, clean, enjoyable |
+
+---
+
+## Key Differentiators
+
 | vs. | Diferencia |
 |-----|-----------|
-| FedEx/UPS directo | Mejor UX, AI recommendations, multi-carrier |
-| Stamps.com | B2B-first, team management, courier same-day |
-| Shippo/EasyPost | Para empresas, no e-commerce. Dashboard corporativo. |
-| Courier apps (Lalamove, Dunzo) | Multi-carrier + long distance, no solo local |
+| FedEx/UPS directo | Mejor UX, AI recommendations, multi-carrier, management layer |
+| Stamps.com | B2B workplace-first, team management, courier same-day |
+| Shippo/EasyPost | Para workplace teams, no e-commerce. Dashboard corporativo. |
+| Courier apps (Lalamove) | Multi-carrier + long distance, no solo local |
+
+**No reemplaza carriers o couriers** — empresas siguen trabajando con FedEx, UPS, USPS. Airpals coordina y da visibilidad alrededor del shipment.
 
 ---
 
-## Identidad visual (inferida del sitio)
+## Identidad Visual (inferida — pendiente confirmar con Mau)
 
 - **Primario:** Azul marino / navy — confianza, corporativo
 - **Acento:** Azul cielo / azul brillante
-- **Neutros:** Blancos y grises claros — limpieza, espacio
-- **Tipografía:** Sans-serif moderna (estilo Söhne o Inter)
-- **Estilo:** Limpio, profesional, startup NY. Nada de iconografía stock barata. Similar a Linear o Notion en tono visual.
+- **Neutros:** Blancos y grises claros
+- **Tipografía:** Sans-serif moderna (Inter o Geist)
+- **Estilo:** Limpio, profesional, startup NY. Similar a Linear o Vercel en tono.
 - **Modo:** Light mode principal (B2B professional)
 
-> ⚠️ **Pendiente:** Mau debe confirmar brand colors exactos, tipografía, y compartir acceso a Figma cuando esté disponible.
+> ⚠️ **Pendiente:** Confirmar brand colors exactos, tipografía y Figma cuando esté disponible.
+
+---
+
+## Brand Voice
+
+- **Tono:** Human, natural, conversacional — NO robótico, NO salesy
+- **Estilo:** Claro, práctico, levemente clever cuando aplica
+- **Evitar:** "streamline", "workflows", claims exagerados, over-explaining features
+- **Closing newsletters:** "Your pals, at Airpals"
+- **Storytelling:** Usarlo cuando es relevante, siempre creíble y realista
 
 ---
 
@@ -89,7 +199,7 @@ Airpals resuelve el caos del shipping en oficinas: empleados que necesitan envia
 |-----------|--------|
 | **Web App (dashboard)** | Principal — multi-carrier management, reportes |
 | **Web marketing (airpals.co)** | Activo — Next.js |
-| **Mobile** | No confirmado — posible en roadmap |
+| **Mobile** | No confirmado |
 
 ---
 
@@ -100,24 +210,32 @@ Airpals resuelve el caos del shipping en oficinas: empleados que necesitan envia
 | Mau | Diseñador UI/UX |
 | Gaby | Diseñadora UI/UX |
 
-**Estado del proyecto:** Inicio — no hay Figma aún. Comenzando con análisis, estructura y definición.
+**Estado del proyecto (2026-04-28):** Brief completo procesado. Sin DS ni Figma todavía.
 
 ---
 
 ## Recursos de referencia
 
+> Ver `rules/figma-files.md` para todos los links de Figma del proyecto.
 > Ver `rules/design-refs.md` para competidores y design systems de referencia.
 > Ver `rules/product.md` para flujos y features en detalle.
+> Ver `rules/brand-voice.md` para tono, copy y newsletter strategy.
+> Ver `rules/seo-blog-briefs.md` para generar briefs de blog (WRITER o INHOUSE).
+> Ver `rules/seo-blog-writing.md` para escribir blogs completos.
+> Ver `rules/seo-reddit.md` para monitoreo orgánico en Reddit.
+> Ver `rules/seo-reporting.md` para reporte mensual de SEO.
 
 ---
 
 ## Reglas para trabajar en Airpals
 
-1. **Plataforma B2B** — no es fintech consumer. Tono: profesional pero no corporativo frío. Directo, eficiente.
-2. **Desktop-first** — el dashboard es principalmente web desktop. Mobile es secundario.
-3. **Density-friendly** — los usuarios son office admins que manejan muchos envíos. Tablas, listas, filtros son ciudadanos de primera clase.
-4. **AI is a feature, not a gimmick** — las recomendaciones del AI deben ser visibles, explicadas y confiables. No solo "el AI decidió".
-5. **No hay DS todavía** — cuando Mau comparta Figma, hacer auditoría DS antes de diseñar. Hasta entonces, proponer basado en referentes.
+1. **Workplace Logistics Platform** — NO es e-commerce, 3PL ni fulfillment. Ese framing es crítico.
+2. **Terminología:** Multi-Carrier → siempre "carrier". Same-day → OK decir "courier service".
+3. **Desktop-first** — dashboard principalmente web desktop. Mobile secundario.
+4. **Density-friendly** — office admins manejan muchos envíos. Tablas, listas, filtros son ciudadanos de primera clase.
+5. **AI es feature real** — recomendaciones visibles, explicadas y confiables. No "el AI decidió".
+6. **Brand voice:** Humano, directo, no corporativo frío. Práctico y levemente clever.
+7. **Sin DS todavía** — cuando Mau comparta Figma, hacer auditoría DS antes de diseñar.
 
 ---
 
@@ -131,3 +249,8 @@ Airpals resuelve el caos del shipping en oficinas: empleados que necesitan envia
 | Tokens, variables, DS (cuando haya Figma) | `figma-generate-library` |
 | Exportar diseño a código (Next.js / React) | `figma-design-code` |
 | Patrones frontend web (Next.js, React) | `frontend-patterns` |
+| Copy, newsletters, brand messaging | Brief en `rules/brand-voice.md` |
+| Generar blog brief (WRITER o INHOUSE) | `rules/seo-blog-briefs.md` |
+| Escribir blog completo | `rules/seo-blog-writing.md` |
+| Reddit organic monitoring | `rules/seo-reddit.md` |
+| Reporte mensual SEO | `rules/seo-reporting.md` |
