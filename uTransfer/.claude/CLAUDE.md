@@ -9,6 +9,27 @@
 
 ---
 
+## Inicio de sesión — CLI setup
+
+```bash
+cd /Users/mau/Developer/Claude/figma-cli
+
+# 1. Conectar
+node src/index.js connect
+
+# 2. Cargar DESIGN.md (para render-batch con var: en prototipos rápidos)
+node src/index.js import /Users/mau/Developer/Projects/uTransfer/.claude/design.md --collection utransfer
+```
+
+**Dos flujos según el objetivo:**
+
+| Flujo | Cuándo | Cómo |
+|-------|--------|------|
+| **Librería Figma** (`importVar`) | Pantallas de producción — tokens actualizables, dark/light mode real | Scripts eval con `teamLibrary.getAvailableLibraryVariableCollectionsAsync()` |
+| **DESIGN.md** (`var:`) | Prototipos rápidos, exploración, render-batch | `import design.md --collection utransfer` → `render-batch [...] --collection utransfer` |
+
+---
+
 ## Reglas críticas — siempre aplicar
 
 1. **Tokens semánticos SIEMPRE** — usar `🧩 Tokens` en componentes. Nunca primitivos, nunca hex fijo.

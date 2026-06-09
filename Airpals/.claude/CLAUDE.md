@@ -216,9 +216,27 @@ Shipping nationwide con FedEx, UPS, USPS.
 
 ## Recursos de referencia
 
+### Design System — Figma
+> Ver `rules/ds-credo.md` — **LEER PRIMERO.** Credo completo: token map, hex→token lookup, spacing, radius, tipografía, catálogo de componentes con keys, variable binding status, recetas de construcción. Generado por scan directo del DS real (2026-05-15).
+> Ver `rules/ds-tokens.md` — tokens de color, tipografía, spacing, radius detallados.
+> Ver `rules/ds-components.md` — catálogo de componentes (complementa ds-credo).
+> Ver `rules/ds-tailwind.md` — mapeo de tokens a clases Tailwind v3, patrones de código.
+
+### Design System — Código (Storybook & npm)
+> Ver `rules/ds-storybook.md` — **LEER cuando se trabaje en código del DS.** Path del repo, token system (surface/ink/line/icon), Alert API (v0.3.0+), cómo crear/modificar componentes, cómo publicar a npm, CI/Chromatic, cómo usan los devs el paquete.
+> **Path del repo:** `/Users/mau/Developer/Projects/Airpals/design-system/`
+> **GitHub:** `github.com/mattewrobles/airpals-ds` — push siempre desde esa carpeta.
+
+### Producto y diseño
 > Ver `rules/figma-files.md` para todos los links de Figma del proyecto.
 > Ver `rules/design-refs.md` para competidores y design systems de referencia.
 > Ver `rules/product.md` para flujos y features en detalle.
+> Ver `rules/screens/_index.md` para mapa de pantallas del sitio web y app — cargar solo el archivo específico que necesites (website-home, website-landings, website-pages, website-navbar).
+
+### Experimentos y analytics
+> Ver `rules/experiments/reward-modal.md` para el experimento del modal de descuento 20% — datos GA4, sesiones LogRocket, hallazgos, oportunidades y estado de la presentación checkpoint.
+
+### Contenido y marketing
 > Ver `rules/brand-voice.md` para tono, copy y newsletter strategy.
 > Ver `rules/seo-blog-briefs.md` para generar briefs de blog (WRITER o INHOUSE).
 > Ver `rules/seo-blog-writing.md` para escribir blogs completos.
@@ -235,7 +253,20 @@ Shipping nationwide con FedEx, UPS, USPS.
 4. **Density-friendly** — office admins manejan muchos envíos. Tablas, listas, filtros son ciudadanos de primera clase.
 5. **AI es feature real** — recomendaciones visibles, explicadas y confiables. No "el AI decidió".
 6. **Brand voice:** Humano, directo, no corporativo frío. Práctico y levemente clever.
-7. **Sin DS todavía** — cuando Mau comparta Figma, hacer auditoría DS antes de diseñar.
+7. **DS activo** — colecciones: TailwindCSS → Primitives → Semantics. Ver `rules/ds-tokens.md`.
+8. **Tokens siempre** — usar tokens de `Semantics` en componentes. Nunca hex fijo. Nunca slate directo en Figma.
+9. **Tailwind nativo** — usar clases de la escala nativa siempre que sea posible. Ver `rules/ds-tailwind.md`.
+10. **Catálogo de componentes** — antes de crear un componente, revisar `rules/ds-components.md`. Actualizar al crear nuevos.
+
+## Design System — Estado (2026-05-14)
+
+- **Stack:** Next.js + Tailwind v3
+- **Fuentes:** Lexend (headings) + Inter (body)
+- **Grises:** Tailwind slate (complementa el primary blue)
+- **Primary:** `#0043FF` (brand/blue)
+- **Dark mode:** Soportado con columna Dark en todos los tokens Semantics
+- **Tipografía:** H1–H4 + Body Large/Medium/Small + Caption — pesos: Regular/Medium/SemiBold
+- **Fixes pendientes en tokens:** Ver `rules/ds-tokens.md` sección background/secondary y background/tertiary dark mode
 
 ---
 
@@ -248,6 +279,7 @@ Shipping nationwide con FedEx, UPS, USPS.
 | Diseño UI/UX: B2B dashboard, tablas, shipping UX | `ui-ux-pro-max-intelligence` |
 | Tokens, variables, DS (cuando haya Figma) | `figma-generate-library` |
 | Exportar diseño a código (Next.js / React) | `figma-design-code` |
+| Trabajar en código del DS (componentes React, tokens, npm) | `rules/ds-storybook.md` |
 | Patrones frontend web (Next.js, React) | `frontend-patterns` |
 | Copy, newsletters, brand messaging | Brief en `rules/brand-voice.md` |
 | Generar blog brief (WRITER o INHOUSE) | `rules/seo-blog-briefs.md` |

@@ -1,1 +1,6 @@
 CuencaHouse/
+.DS_Store
+**/.DS_Store
+*.backup
+ud-config/
+node_modules/
