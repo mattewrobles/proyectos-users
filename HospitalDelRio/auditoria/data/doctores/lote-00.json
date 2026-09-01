@@ -1,0 +1,427 @@
+[
+  {
+    "slug": "/doctor/aida-f-marino-a",
+    "url": "https://hospital-del-rio.webflow.io/doctor/aida-f-marino-a",
+    "carga_ok": true,
+    "nombre": "Aida F. Mariño A.",
+    "especialidad": "Oncología Clínica · Cuidados Paliativos",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593962759153",
+    "problemas": [
+      "No tiene redes sociales propias (solo aparecen los links genéricos del hospital en el footer, no específicos del médico)"
+    ]
+  },
+  {
+    "slug": "/doctor/alba-marina-abad-cardenas",
+    "url": "https://hospital-del-rio.webflow.io/doctor/alba-marina-abad-cardenas",
+    "carga_ok": true,
+    "nombre": "Alba Marina Abad Cárdenas",
+    "especialidad": "Psiquiatría",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/p0i4yl",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/alberto-esteban-moscoso-vintimilla",
+    "url": "https://hospital-del-rio.webflow.io/doctor/alberto-esteban-moscoso-vintimilla",
+    "carga_ok": true,
+    "nombre": "Alberto Esteban Moscoso Vintimilla",
+    "especialidad": "Cirugía General · Cirugía Digestiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593999755954",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/aldo-mateo-torracchi-carrasco",
+    "url": "https://hospital-del-rio.webflow.io/doctor/aldo-mateo-torracchi-carrasco",
+    "carga_ok": true,
+    "nombre": "Aldo Mateo Torracchi Carrasco",
+    "especialidad": "Neumología · Medicina Interna",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/gvdlg5",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/alexandra-cordova-v",
+    "url": "https://hospital-del-rio.webflow.io/doctor/alexandra-cordova-v",
+    "carga_ok": true,
+    "nombre": "Alexandra Córdova V.",
+    "especialidad": "Psicología · Psicoterapia Integrativa",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/xvcp21",
+    "problemas": [
+      "No tiene redes sociales propias",
+      "La bio se corta a mitad de palabra (\"terapia psicoterapéutica individ...\"), parece truncada / falta contenido"
+    ]
+  },
+  {
+    "slug": "/doctor/alfredo-sanchez-b",
+    "url": "https://hospital-del-rio.webflow.io/doctor/alfredo-sanchez-b",
+    "carga_ok": true,
+    "nombre": "Alfredo Sanchez B.",
+    "especialidad": "Urología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593995708918",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/ana-cristina-moncayo-torres",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ana-cristina-moncayo-torres",
+    "carga_ok": true,
+    "nombre": "Ana Cristina Moncayo Torres",
+    "especialidad": "Pediatría",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593986909106",
+    "problemas": [
+      "No tiene redes sociales propias",
+      "La bio parece truncada (\"vacunación y manejo \" corta a mitad de frase)"
+    ]
+  },
+  {
+    "slug": "/doctor/ana-maria-toral-granda",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ana-maria-toral-granda",
+    "carga_ok": true,
+    "nombre": "Ana Maria Toral Granda",
+    "especialidad": "Neurología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/wpwhbe",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/andrea-carolina-macedo-anzola",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andrea-carolina-macedo-anzola",
+    "carga_ok": true,
+    "nombre": "Andrea Carolina Macedo Anzola",
+    "especialidad": "Sexología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593960138667",
+    "problemas": [
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/andrea-elizabeth-astudillo-campoverde",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andrea-elizabeth-astudillo-campoverde",
+    "carga_ok": true,
+    "nombre": "Andrea Elizabeth Astudillo Campoverde",
+    "especialidad": "Medicina Estética",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/dra.andreaastudillo/",
+      "https://www.facebook.com/andreaastudilloec/",
+      "https://www.linkedin.com/in/andrea-astudillo-md-55619338/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón 'Agendar cita' ni número de teléfono/WhatsApp visible en la página, a diferencia de la mayoría de los demás perfiles"
+    ]
+  },
+  {
+    "slug": "/doctor/andrea-susana-astudillo-carrera",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andrea-susana-astudillo-carrera",
+    "carga_ok": true,
+    "nombre": "Andrea Susana Astudillo Carrera",
+    "especialidad": "Otorrinolaringología · Cirugía de Cabeza y Cuello",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene descripción/bio",
+      "No tiene teléfono ni botón 'Agendar cita'/WhatsApp",
+      "No tiene redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/andrea-veronica-garcia-pacheco",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andrea-veronica-garcia-pacheco",
+    "carga_ok": true,
+    "nombre": "Andrea Veronica García Pacheco",
+    "especialidad": "Medicina Interna",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/dra.andreagarciap/",
+      "https://www.facebook.com/AndreaGarciaDoctora/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593995973038",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/andres-cardenas-h",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andres-cardenas-h",
+    "carga_ok": true,
+    "nombre": "Andrés Cárdenas H.",
+    "especialidad": "Medicina Critica e Intensiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593984101470",
+    "problemas": [
+      "La foto es un placeholder genérico (nombre de archivo '..._placeholder.jpeg'), no una foto real del doctor",
+      "No tiene ubicación (piso/consultorio) especificada",
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/andres-esteban-delgado-ponce",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andres-esteban-delgado-ponce",
+    "carga_ok": true,
+    "nombre": "Andres Esteban Delgado Ponce",
+    "especialidad": "Fertilidad · Biología de la Reproducción · Ginecología y Obstetricia",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drandresdelgadop/",
+      "https://www.facebook.com/DrAndresDelgadoFertilidadGinecologiaObstetricia/",
+      "https://mx.linkedin.com/in/andr%C3%A9s-esteban-delgado-ponce-87730a73"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593999800061",
+    "problemas": [
+      "El teléfono mostrado en la página (+593 961763318) no coincide con el número del botón de WhatsApp (593999800061)",
+      "La bio menciona 'consultorio 135' pero el dato estructurado de ubicación dice 'Piso 4 - Consultorio 401' — inconsistencia de consultorio"
+    ]
+  },
+  {
+    "slug": "/doctor/andres-hernan-diaz-carrasco",
+    "url": "https://hospital-del-rio.webflow.io/doctor/andres-hernan-diaz-carrasco",
+    "carga_ok": true,
+    "nombre": "Andrés Hernán Diaz Carrasco",
+    "especialidad": "Oftalmología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/diazoftalmologia/",
+      "https://www.facebook.com/DiazOftalmologia/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "La foto es un placeholder genérico (mismo archivo '..._placeholder.jpeg' que otros perfiles), no una foto real",
+      "No tiene botón 'Agendar cita'/WhatsApp, solo teléfono en texto"
+    ]
+  },
+  {
+    "slug": "/doctor/anyi-machuca-castrellon",
+    "url": "https://hospital-del-rio.webflow.io/doctor/anyi-machuca-castrellon",
+    "carga_ok": true,
+    "nombre": "Anyi Machuca Castrellón",
+    "especialidad": "Medicina Estética",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/medical.time.am/",
+      "https://www.facebook.com/medical.time.am/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593987441825",
+    "problemas": [
+      "La foto es un placeholder genérico (mismo archivo '..._placeholder.jpeg'), no una foto real",
+      "El teléfono mostrado (+593 07 2459 553, formato raro con prefijo '07') no coincide con el número del WhatsApp (593987441825)"
+    ]
+  },
+  {
+    "slug": "/doctor/ariadna-evelyne-garcia-castro",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ariadna-evelyne-garcia-castro",
+    "carga_ok": true,
+    "nombre": "Ariadna Evelyne García Castro",
+    "especialidad": "Oftalmología · Córnea y Cirugía Refractiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Tiene teléfono en texto pero no botón 'Agendar cita'/WhatsApp",
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/aurelio-amadeo-maldonado-aguilar",
+    "url": "https://hospital-del-rio.webflow.io/doctor/aurelio-amadeo-maldonado-aguilar",
+    "carga_ok": true,
+    "nombre": "Aurelio Amadeo Maldonado Aguilar",
+    "especialidad": "Otorrinolaringología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://ec.linkedin.com/in/dr-aurelio-maldonado-aguilar-5a580086"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Tiene teléfono en texto pero no botón 'Agendar cita'/WhatsApp"
+    ]
+  },
+  {
+    "slug": "/doctor/byron-humberto-guillen-berdesoto",
+    "url": "https://hospital-del-rio.webflow.io/doctor/byron-humberto-guillen-berdesoto",
+    "carga_ok": true,
+    "nombre": "Byron Humberto Guillén Berdesoto",
+    "especialidad": "Neonatología · Pediatría",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/byronguillen_md/",
+      "https://ec.linkedin.com/in/byron-guillen-1b33a645"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/hu4z7d",
+    "problemas": [
+      "La bio lo llama 'Bayron' en vez de 'Byron' (inconsistencia de nombre vs. el heading)"
+    ]
+  },
+  {
+    "slug": "/doctor/carlos-andres-machuca-carpio",
+    "url": "https://hospital-del-rio.webflow.io/doctor/carlos-andres-machuca-carpio",
+    "carga_ok": true,
+    "nombre": "Carlos Andres Machuca Carpio",
+    "especialidad": "Cirugía Oncológica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/dr.carlosmachuca/",
+      "https://www.facebook.com/DrCarlosMachuca/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593986350347",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/carlos-fernando-arias-pesantez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/carlos-fernando-arias-pesantez",
+    "carga_ok": true,
+    "nombre": "Carlos Fernando Arias Pesantez",
+    "especialidad": "Neurocirugía · Columna",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drcarlosarias/",
+      "https://www.facebook.com/drcarlosariasp/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593994408705",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/carlos-orlando-sisalima-zuna",
+    "url": "https://hospital-del-rio.webflow.io/doctor/carlos-orlando-sisalima-zuna",
+    "carga_ok": true,
+    "nombre": "Carlos Orlando Sisalima Zuña",
+    "especialidad": "Gastroenterología · Medicina Interna",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Tiene teléfono en texto (0961215047) pero no botón 'Agendar cita'/WhatsApp funcional — solo texto plano",
+      "No tiene redes sociales propias"
+    ]
+  },
+  {
+    "slug": "/doctor/carmen-cecilia-cedillo-armijos",
+    "url": "https://hospital-del-rio.webflow.io/doctor/carmen-cecilia-cedillo-armijos",
+    "carga_ok": true,
+    "nombre": "Carmen Cecilia Cedillo Armijos",
+    "especialidad": "Geriatría",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Tiene teléfono en texto pero no botón 'Agendar cita'/WhatsApp",
+      "No tiene redes sociales propias"
+    ]
+  }
+]

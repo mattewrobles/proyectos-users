@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "carlos-fernando-arias-pesantez",
+    "item_id": "6a54d2013978164200903e12",
+    "nombre": "Carlos Fernando Arias Pesantez",
+    "descripcion_actual": "<p>El Dr. Carlos Fernando Arias Pesantez es neurocirujano especialista en cirugía mínimamente invasiva de columna vertebral, con consulta en el Hospital del Río de Cuenca, Ecuador. Es Past Chairman de AO Spine Ecuador y referente en procedimientos de columna de alta complejidad. Atiende patologías como hernias discales, estenosis y tumores raquídeos con enfoque en técnicas de mínima invasión.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marcia-janeth-bermeo-cabrera",
+    "item_id": "6a54d27b4164caab75a4c02c",
+    "nombre": "Marcia Janeth Bermeo Cabrera",
+    "descripcion_actual": "<p>La Dra. Marcia Janneth Bermeo Cabrera es endocrinóloga con consulta en el Hospital del Río y también vinculada al Hospital Municipal de Cuenca. Es especialista en el diagnóstico y tratamiento de patologías hormonales, diabetes y trastornos metabólicos.</p>",
+    "descripcion_propuesta": "<p>La Dra. Marcia Janeth Bermeo Cabrera es endocrinóloga con consulta en el Hospital del Río de Cuenca, Ecuador. Es especialista en el diagnóstico y tratamiento de patologías hormonales, diabetes y trastornos metabólicos.</p>",
+    "cambio": "Se eliminó la mención de vínculo con el Hospital Municipal de Cuenca (regla 2 — prohibido mencionar trabajo en otro hospital).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "diego-almeida-p",
+    "item_id": "6a54d222d54e6bcacb49281d",
+    "nombre": "Diego Almeida P.",
+    "descripcion_actual": "<p>El Dr. Diego Almeida P. es médico especialista en Urología y Cirujano Urológico con consulta en el Hospital Universitario del Río, piso 2, consultorio 226, en Cuenca, Ecuador. Ofrece atención presencial y por telemedicina. Las citas se coordinan directamente por teléfono.</p>",
+    "descripcion_propuesta": "<p>El Dr. Diego Almeida P. es médico especialista en Urología y Cirujano Urológico con consulta en el Hospital del Río, piso 2, consultorio 226, en Cuenca, Ecuador. Ofrece atención presencial y por telemedicina. Las citas se coordinan directamente por teléfono.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "N/A",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch 'Diego Almeida urólogo Cuenca Ecuador instagram OR facebook' no devolvió ningún perfil identificable del doctor (solo directorios médicos genéricos y resultados no relacionados). No se propone ninguna URL."
+      }
+    ]
+  },
+  {
+    "slug": "juan-pablo-pacheco-bacuilima",
+    "item_id": "6a54d2aab662e7aa38411e2e",
+    "nombre": "Juan Pablo Pacheco Bacuilima",
+    "descripcion_actual": "<p>El Dr. Pacheco es especialista en Anestesiología, con práctica clínica en el Hospital Universitario del Río en Cuenca, Ecuador. Su trabajo abarca la administración de anestesia general y regional para procedimientos quirúrgicos, así como el manejo del dolor perioperatorio y el cuidado del paciente en sala de operaciones. Forma parte del equipo de anestesiología de uno de los hospitales de referencia del Austro ecuatoriano.</p>",
+    "descripcion_propuesta": "<p>El Dr. Pacheco es especialista en Anestesiología, con práctica clínica en el Hospital del Río en Cuenca, Ecuador. Su trabajo abarca la administración de anestesia general y regional para procedimientos quirúrgicos, así como el manejo del dolor perioperatorio y el cuidado del paciente en sala de operaciones. Forma parte del equipo de anestesiología de uno de los hospitales de referencia del Austro ecuatoriano.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "N/A",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch 'Juan Pablo Pacheco anestesiólogo Cuenca Ecuador instagram OR facebook' devolvió varios perfiles de personas homónimas (Juan Pablo Pacheco Bejarano, Juan Pablo Pacheco Guevara, etc.) sin ninguna confirmación de que sean el anestesiólogo del CMS ni de que estén en Cuenca. No se propone ninguna URL por ambigüedad."
+      }
+    ]
+  },
+  {
+    "slug": "alba-marina-abad-cardenas",
+    "item_id": "6a54d1ced7bf40956cfd4d10",
+    "nombre": "Alba Marina Abad Cárdenas",
+    "descripcion_actual": "<p>La Dra. Alba Abad Cárdenas es una médica psiquiatra orientada al tratamiento de trastornos emocionales y de la salud mental. Su práctica médica combina la consulta privada en el área de Psiquiatría del Hospital del Río con la atención pública, enfocándose en brindar un espacio seguro para el diagnóstico y terapia de patologías como la depresión, ansiedad, estrés agudo y trastornos del ánimo en la ciudad de Cuenca.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios (menciona 'atención pública' de forma genérica, sin nombrar otro hospital o clínica específica)",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "diego-andres-guarango-jaramillo",
+    "item_id": "6a54d225d2181feb90de09c6",
+    "nombre": "Diego Andres Guarango Jaramillo",
+    "descripcion_actual": "<p>El Dr. Diego Andres Guarango Jaramillo es especialista en Neumología y Endoscopía Respiratoria, con formación médica en la Universidad de Cuenca y subespecialización en la Universidade de São Paulo, Brasil. Atiende en el consultorio 437, piso 4, del Hospital Universitario del Río en Cuenca, y es miembro de la Sociedad Ecuatoriana de Neumología y Cirugía de Tórax, Núcleo del Azuay.</p>",
+    "descripcion_propuesta": "<p>El Dr. Diego Andres Guarango Jaramillo es especialista en Neumología y Endoscopía Respiratoria, con formación médica en la Universidad de Cuenca y subespecialización en la Universidade de São Paulo, Brasil. Atiende en el consultorio 437, piso 4, del Hospital del Río en Cuenca, y es miembro de la Sociedad Ecuatoriana de Neumología y Cirugía de Tórax, Núcleo del Azuay.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "N/A",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch 'Diego Guarango neumólogo Cuenca Ecuador instagram OR facebook' no devolvió perfiles de redes sociales, solo directorios médicos (doctoranytime, doctorisy, ZoomInfo). ZoomInfo lo lista además ejerciendo en el Hospital José Carrasco Arteaga (IESS) — dato que NO se incluyó en la descripción por la regla 2. No se propone ninguna URL de red social."
+      }
+    ]
+  },
+  {
+    "slug": "fabian-esteban-cardenas",
+    "item_id": "6a54d252972ac4970d693871",
+    "nombre": "Fabian Esteban Cárdenas",
+    "descripcion_actual": "<p>El Dr. Fabián Cárdenas es médico especialista en Diagnóstico por Imágenes y Radiología Intervencionista, formado en la Universidad de Cuenca. Forma parte del equipo de Radiología e Imagen del Hospital Universitario del Río en Cuenca, Ecuador, donde brinda servicios de diagnóstico por imágenes a nivel hospitalario.</p>",
+    "descripcion_propuesta": "<p>El Dr. Fabián Cárdenas es médico especialista en Diagnóstico por Imágenes y Radiología Intervencionista, formado en la Universidad de Cuenca. Forma parte del equipo de Radiología e Imagen del Hospital del Río en Cuenca, Ecuador, donde brinda servicios de diagnóstico por imágenes a nivel hospitalario.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "andrea-elizabeth-astudillo-campoverde",
+    "item_id": "6a54d1d54398e2de78f50767",
+    "nombre": "Andrea Elizabeth Astudillo Campoverde",
+    "descripcion_actual": "<p>Especialista en Medicina Estética y Láser con formación en España y Francia. Es reconocida como injector, speaker y líder de opinión en el ámbito de la estética médica y el cuidado de la piel.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jose-david-cabrera-ledesma",
+    "item_id": "6a54d292950ac3e97128eafe",
+    "nombre": "Jose David Cabrera Ledesma",
+    "descripcion_actual": "<p>El Dr. Cabrera Ledesma es especialista en Urología y Endourología, con formación en Medicina por la Universidad del Azuay (UDA-Ecuador), especialización en Cirugía Urológica por la UNAM-México y subespecialización avanzada en Endourología también por la UNAM-México. Ejerce en el Hospital Universitario del Río en Cuenca, Ecuador, donde atiende patologías del sistema urinario con enfoque en cirugía de mínima invasión, litiasis urinaria y urología laparoscópica.</p>",
+    "descripcion_propuesta": "<p>El Dr. Cabrera Ledesma es especialista en Urología y Endourología, con formación en Medicina por la Universidad del Azuay (UDA-Ecuador), especialización en Cirugía Urológica por la UNAM-México y subespecialización avanzada en Endourología también por la UNAM-México. Ejerce en el Hospital del Río en Cuenca, Ecuador, donde atiende patologías del sistema urinario con enfoque en cirugía de mínima invasión, litiasis urinaria y urología laparoscópica.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "david-agustin-cordero-delgado",
+    "item_id": "6a54d22026b0bb512b036476",
+    "nombre": "David Agustin Cordero Delgado",
+    "descripcion_actual": "<p>El Dr. David Agustín Cordero Delgado es especialista en Ortopedia y Traumatología con alta especialidad en reemplazos articulares de cadera, rodilla y hombro. Realizó su formación de subespecialidad en la Universidad Nacional Autónoma de México (UNAM) y ejerce en el Hospital Universitario del Río en Cuenca, Ecuador. Su práctica se enfoca en cirugía de cadera y rodilla, incluyendo prótesis y reemplazos articulares.</p>",
+    "descripcion_propuesta": "<p>El Dr. David Agustín Cordero Delgado es especialista en Ortopedia y Traumatología con alta especialidad en reemplazos articulares de cadera, rodilla y hombro. Realizó su formación de subespecialidad en la Universidad Nacional Autónoma de México (UNAM) y ejerce en el Hospital del Río en Cuenca, Ecuador. Su práctica se enfoca en cirugía de cadera y rodilla, incluyendo prótesis y reemplazos articulares.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ana-maria-toral-granda",
+    "item_id": "6a54d1d4b662e7aa3840a7e0",
+    "nombre": "Ana Maria Toral Granda",
+    "descripcion_actual": "<p>La Dra. Ana María Toral es una médico especialista en Neurología, formada en el prestigioso Hospital Italiano de Buenos Aires (Argentina) y magíster en Neuroinmunología por la Universitat Autònoma de Barcelona.Ejerce en el Hospital del Río y ha sido Jefa de Neurología en el Hospital del Río en Cuenca. Es experta en el diagnóstico de migrañas, epilepsia y trastornos del sistema nervioso, con un enfoque especializado en esclerosis múltiple.</p>",
+    "descripcion_propuesta": "<p>La Dra. Ana María Toral es una médico especialista en Neurología, con formación internacional en Argentina y magíster en Neuroinmunología por la Universitat Autònoma de Barcelona. Ejerce en el Hospital del Río y ha sido Jefa de Neurología en el Hospital del Río en Cuenca. Es experta en el diagnóstico de migrañas, epilepsia y trastornos del sistema nervioso, con un enfoque especializado en esclerosis múltiple.</p>",
+    "cambio": "Se eliminó la mención del Hospital Italiano de Buenos Aires (formación en un hospital/clínica específico, no universidad — regla 2). Se dejó únicamente la mención de la Universitat Autònoma de Barcelona, que sí es formación universitaria pura.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "alberto-esteban-moscoso-vintimilla",
+    "item_id": "6a54d24e6056f575081c4182",
+    "nombre": "Alberto Esteban Moscoso Vintimilla",
+    "descripcion_actual": "<p>El Dr. Alberto Esteban Moscoso Vintimilla es especialista en Cirugía General y Digestiva, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador, piso 1, consultorio 138. Ofrece atención presencial y telemedicina, y atiende citas mediante contacto telefónico directo.</p>",
+    "descripcion_propuesta": "<p>El Dr. Alberto Esteban Moscoso Vintimilla es especialista en Cirugía General y Digestiva, con consulta en el Hospital del Río de Cuenca, Ecuador, piso 1, consultorio 138. Ofrece atención presencial y telemedicina, y atiende citas mediante contacto telefónico directo.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "gustavo-enrique-calle-hinojosa",
+    "item_id": "6a54d26cbff580afc1dd469b",
+    "nombre": "Gustavo Enrique Calle Hinojosa",
+    "descripcion_actual": "<p>El Dr. Gustavo Calle Hinojosa es especialista en Gastroenterología y Hepatología con consulta en el Hospital del Río de Cuenca, Ecuador. Cuenta con amplia experiencia en el diagnóstico y tratamiento de enfermedades del sistema digestivo y del hígado. Forma parte del cuerpo médico del Hospital del Río, uno de los centros de salud privados más reconocidos del Azuay.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "soraya-tahiri-guillen-velastegui",
+    "item_id": "6a54d347bff580afc1ddd81a",
+    "nombre": "Soraya Tahiri Guillén Velástegui",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>Soraya Tahiri Guillén Velástegui es psicóloga con consulta en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 313.</p>",
+    "cambio": "Descripción creada desde cero. No tenía descripción, sitio web, ni ninguna red social en el CMS, y la búsqueda web no encontró ninguna fuente confiable. Se escribió una descripción mínima 100% factual con los únicos datos disponibles (nombre, especialidad, consultorio) sin inventar formación ni logros.",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "N/A",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch 'Soraya Guillén psicóloga Cuenca Ecuador instagram OR facebook' no devolvió ningún perfil identificable de la doctora. No se propone ninguna URL."
+      }
+    ]
+  },
+  {
+    "slug": "andrea-carolina-macedo-anzola",
+    "item_id": "6a54d1d78740aaa736c67805",
+    "nombre": "Andrea Carolina Macedo Anzola",
+    "descripcion_actual": "<p>La Mgs. Andrea Carolina Macedo Anzola es psicóloga clínica y sexóloga con formación en la Universidad Bicentenaria de Aragua (Venezuela) y una Maestría en Sexología del Centro de Investigaciones Psiquiátricas, Psicológicas y Sexológicas de Venezuela (2010). Atiende a niños, adolescentes y adultos en áreas de psicología clínica, terapia de pareja y orientación sexológica. Ejerce en el Hospital del Río de Cuenca, en el piso 4, consultorio 424.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios (el Centro de Investigaciones Psiquiátricas, Psicológicas y Sexológicas es la institución académica donde obtuvo su maestría, no un hospital o clínica donde ejerce/rota)",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jimena-mancera-sanchez",
+    "item_id": "6a54d28313dd3bf3f89cc668",
+    "nombre": "Jimena Mancera Sánchez",
+    "descripcion_actual": "<p>La Dra. Jimena Mancera Sánchez es especialista en Otorrinolaringología y Cirugía de Cabeza y Cuello, con formación en la Universidad La Salle y alta especialidad en el Instituto Nacional de Rehabilitación de México, avalada por la UNAM. Atiende patologías del oído, nariz y garganta, trastornos de voz y deglución, vértigo y cirugía estética facial. Ejerce en Cuenca, Ecuador, con consultorios en el Hospital del Río y Hospital Monte Sinaí.</p>",
+    "descripcion_propuesta": "<p>La Dra. Jimena Mancera Sánchez es especialista en Otorrinolaringología y Cirugía de Cabeza y Cuello, con formación en la Universidad La Salle y alta especialidad avalada por la UNAM (México). Atiende patologías del oído, nariz y garganta, trastornos de voz y deglución, vértigo y cirugía estética facial. Ejerce en Cuenca, Ecuador, con consulta en el Hospital del Río.</p>",
+    "cambio": "Se eliminó la mención de consultorio en el Hospital Monte Sinaí (otro hospital, regla 2) y la mención del Instituto Nacional de Rehabilitación de México (institución de formación específica no universitaria, regla 2), dejando solo el aval universitario de la UNAM.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "eudoxia-georgina-munoz-ortiz",
+    "item_id": "6a54d26762cd0a61dd553491",
+    "nombre": "Eudoxia Georgina Muñoz Ortiz",
+    "descripcion_actual": "<p>La Dra. Eudoxia Georgina Muñoz Ortiz es especialista en Pediatría y Neonatología con consulta en el Hospital Universitario del Río de Cuenca, Ecuador, donde atiende en el Piso 3, Consultorio 315. Su práctica se enfoca en la atención médica de recién nacidos y niños, brindando cuidado especializado en el área neonatal.</p>",
+    "descripcion_propuesta": "<p>La Dra. Eudoxia Georgina Muñoz Ortiz es especialista en Pediatría y Neonatología con consulta en el Hospital del Río de Cuenca, Ecuador, donde atiende en el Piso 3, Consultorio 315. Su práctica se enfoca en la atención médica de recién nacidos y niños, brindando cuidado especializado en el área neonatal.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jose-luis-izquierdo-coronel",
+    "item_id": "6a54d292b1043d6b41bf8daf",
+    "nombre": "José Luis Izquierdo Coronel",
+    "descripcion_actual": "<p>El Dr. Izquierdo Coronel es especialista en Odontología con enfoque en Estética Dental y Odontopediatría. Atiende en el Hospital Universitario del Río de Cuenca, Ecuador, brindando servicios de rehabilitación estética y atención odontológica integral para niños y adultos. Su consulta se encuentra en el Piso 1, Consultorio 111 del hospital.</p>",
+    "descripcion_propuesta": "<p>El Dr. Izquierdo Coronel es especialista en Odontología con enfoque en Estética Dental y Odontopediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, brindando servicios de rehabilitación estética y atención odontológica integral para niños y adultos. Su consulta se encuentra en el Piso 1, Consultorio 111 del hospital.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "N/A",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch 'José Luis Izquierdo odontólogo Cuenca Ecuador instagram OR facebook' no devolvió ningún perfil identificable del doctor (solo homónimos y clínicas dentales no relacionadas). No se propone ninguna URL."
+      }
+    ]
+  },
+  {
+    "slug": "jenny-gabriela-torres-ortiz",
+    "item_id": "6a54d1af950ac3e97128640c",
+    "nombre": "Jenny Gabriela Torres Ortiz",
+    "descripcion_actual": "<p>La Dra. Gabriela Torres Ortiz es una médico especialista en Reumatología con formación académica internacional en el prestigioso Hospital Universitario La Paz de Madrid, España.Es miembro del staff médico del Hospital del Río en Cuenca y es experta en el diagnóstico y tratamiento integral de enfermedades autoinmunes y articulares, tales como artritis reumatoide, lupus, osteoporosis, artrosis y artritis psoriásica.</p>",
+    "descripcion_propuesta": "<p>La Dra. Gabriela Torres Ortiz es una médico especialista en Reumatología con formación académica internacional en España. Es miembro del staff médico del Hospital del Río en Cuenca y es experta en el diagnóstico y tratamiento integral de enfermedades autoinmunes y articulares, tales como artritis reumatoide, lupus, osteoporosis, artrosis y artritis psoriásica.</p>",
+    "cambio": "Se eliminó la mención del Hospital Universitario La Paz de Madrid (formación en un hospital específico, regla 2), dejando la referencia genérica a formación internacional en España.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "israel-destruge-molina",
+    "item_id": "6a54d2784d0989d14d9abad2",
+    "nombre": "Israel Destruge Molina",
+    "descripcion_actual": "<p>El Dr. Israel Destruge Molina es oncólogo clínico en Cuenca, Ecuador, con práctica en el Hospital del Río y en el Instituto del Cáncer SOLCA Cuenca. Se desempeña también como docente universitario, impartiendo la cátedra de Oncología y Cuidados Paliativos en la Universidad Católica de Cuenca. Es experto en oncología gastrointestinal y emergencias oncológicas estructurales.</p>",
+    "descripcion_propuesta": "<p>El Dr. Israel Destruge Molina es oncólogo clínico en Cuenca, Ecuador, con consulta en el Hospital del Río. Se desempeña también como docente universitario, impartiendo la cátedra de Oncología y Cuidados Paliativos en la Universidad Católica de Cuenca. Es experto en oncología gastrointestinal y emergencias oncológicas estructurales.</p>",
+    "cambio": "Se eliminó la mención de práctica en el Instituto del Cáncer SOLCA Cuenca (otro hospital/clínica, regla 2). Se mantuvo la mención de docencia en la Universidad Católica de Cuenca porque es rol académico universitario, no práctica clínica en otra institución.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  }
+]

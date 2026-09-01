@@ -1,0 +1,22 @@
+ACCESIBILIDAD
+Hospital del Río — preparado por Cleo, 2026-08-28
+
+YA CORREGIDO por Cleo vía API (guardado en Webflow, PENDIENTE DE
+PUBLICAR — el sitio no se publicó a propósito porque había diseñadores
+trabajando; avisen cuando lo publiquen para que este fix salga en vivo):
+- Los 5 links sociales del footer (Instagram, TikTok, Facebook, LinkedIn,
+  YouTube) ahora tienen aria-label con nombre accesible.
+
+FALTA (requiere criterio de diseño, no lo tocamos):
+- 3 botones de play/pause de video de fondo sin nombre accesible — estos
+  los genera Webflow automáticamente en tiempo de ejecución para el
+  elemento nativo "Background Video", no existen como elemento editable
+  en el Designer. Si hace falta arreglarlos, habría que reemplazar el
+  Background Video nativo por un video embebido custom con controles
+  accesibles propios.
+- 1 elemento con clase "tone-medium" no cumple contraste mínimo AA —
+  requiere ajustar el color (cambio visual, decisión de diseño).
+- 1 heading con atributo ARIA no permitido (aria-label en un div que no
+  lo necesita) + 1 mismatch entre aria-label y texto visible en los
+  lightbox de video ("open lightbox") — revisar y limpiar atributos ARIA
+  sobrantes.

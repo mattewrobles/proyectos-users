@@ -1,0 +1,216 @@
+[
+  {
+    "slug": "juana-priscila-nieto-canizares",
+    "item_id": "6a54d2ac1f8ec52f938dc7f4",
+    "nombre": "Juana Priscila Nieto Cañizares",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Juana Priscila Nieto Cañizares es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 2, consultorio 219.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS (nombre, especialidad, ubicación).",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/priscila_pediatria/",
+        "confianza": "baja",
+        "fuente": "WebSearch \"Juana Priscila Nieto pediatra Cuenca Ecuador instagram OR facebook\" — el handle combina \"Priscila\" + \"pediatria\" pero no se pudo confirmar el apellido completo ni la ubicación en Cuenca. Revisar manualmente antes de usar."
+      }
+    ]
+  },
+  {
+    "slug": "julio-cesar-gonzalez-pineda",
+    "item_id": "6a54d2aeb612b7f6c11e229d",
+    "nombre": "Julio César González Pineda",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Julio César González Pineda es especialista en Ginecología y Obstetricia. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 3, consultorio 320.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS. La búsqueda de redes no arrojó ningún perfil confiable (nombre muy común, sin coincidencia verificable con la especialidad).",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "karina-alexandra-merchan-astudillo",
+    "item_id": "6a54d2b0167cf6172578b5fb",
+    "nombre": "Karina Alexandra Merchán Astudillo",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Karina Alexandra Merchán Astudillo es especialista en Neonatología, con formación en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 1, consultorio 133.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS. La búsqueda encontró un listado de directorio médico (teléfono y correo distintos a los del CMS) pero ningún perfil de red social verificable, así que no se propone candidato.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "hernan-patricio-martinez-calderon",
+    "item_id": "6a54d30ed2181feb90de8d4f",
+    "nombre": "Hernan Patricio Martínez Calderón",
+    "descripcion_actual": "<p>El Dr. Hernán Sacoto A. es especialista en Cirugía General con formación en cirugía digestiva, laparoscopia y endoscopia gastrointestinal. Completó su posgrado en Cirugía General en la Universidad de Cuenca y amplió su formación en universidades de Chile. Ejerce en el Hospital Universitario del Río en Cuenca, Ecuador, en el piso 3, consultorio 306.</p>",
+    "descripcion_propuesta": "<p>El Dr. Hernán Patricio Martínez Calderón es especialista en Cirugía General. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 2, consultorio 230.</p>",
+    "cambio": "La descripción publicada corresponde a otro médico (nombra a 'Hernán Sacoto A.', no a Hernán Patricio Martínez Calderón) y además decía 'Hospital Universitario del Río' y un consultorio distinto (306 en vez de 230). Se reemplazó por una descripción mínima y factual del doctor correcto usando solo los datos del CMS.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "josimar-fabricio-reyes-ortiz",
+    "item_id": "6a54d29362cd0a61dd557ac8",
+    "nombre": "Josimar Fabricio Reyes Ortiz",
+    "descripcion_actual": "<p>El Dr. Reyes Ortiz es especialista en Neurocirugía con subespecialidad en Neurocirugía Funcional y Dolor, formación orientada al diagnóstico y tratamiento quirúrgico de condiciones neurológicas complejas como el dolor crónico, la epilepsia refractaria y los trastornos del movimiento. Ejerce en el Hospital Universitario del Río en Cuenca, Ecuador, reconocido como el principal centro médico hospitalario de la región austral. Su práctica combina técnicas neuroquirúrgicas avanzadas con un enfoque en la calidad de vida del paciente.</p>",
+    "descripcion_propuesta": "<p>El Dr. Reyes Ortiz es especialista en Neurocirugía con subespecialidad en Neurocirugía Funcional y Dolor, formación orientada al diagnóstico y tratamiento quirúrgico de condiciones neurológicas complejas como el dolor crónico, la epilepsia refractaria y los trastornos del movimiento. Ejerce en el Hospital del Río en Cuenca, Ecuador, reconocido como el principal centro médico hospitalario de la región austral. Su práctica combina técnicas neuroquirúrgicas avanzadas con un enfoque en la calidad de vida del paciente.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' → 'Hospital del Río'. Resto del texto sin cambios, no menciona otro hospital.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-canizares-u",
+    "item_id": "6a54d295b2d9486b374dab32",
+    "nombre": "Juan Cañizares U.",
+    "descripcion_actual": "<p>El Dr. Cañizares es especialista en Anatomía Patológica, rama de la medicina dedicada al diagnóstico de enfermedades mediante el estudio macroscópico y microscópico de tejidos, órganos y células. Forma parte del cuerpo médico del Hospital Universitario del Río en Cuenca, Ecuador, institución de referencia en el Austro del país. Su trabajo es fundamental en el proceso diagnóstico de enfermedades oncológicas y otras patologías que requieren análisis histopatológico.</p>",
+    "descripcion_propuesta": "<p>El Dr. Cañizares es especialista en Anatomía Patológica, rama de la medicina dedicada al diagnóstico de enfermedades mediante el estudio macroscópico y microscópico de tejidos, órganos y células. Forma parte del cuerpo médico del Hospital del Río en Cuenca, Ecuador, institución de referencia en el Austro del país. Su trabajo es fundamental en el proceso diagnóstico de enfermedades oncológicas y otras patologías que requieren análisis histopatológico.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' → 'Hospital del Río'. Resto del texto sin cambios, no menciona otro hospital.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "luis-alberto-nunez-del-arco",
+    "item_id": "6a54d2b9e97151d6ff8d123f",
+    "nombre": "Luis Alberto Nuñez del Arco",
+    "descripcion_actual": "<p>El Dr. Luis Alberto Núñez del Arco Serrano es neurocirujano formado en la Universidad San Francisco de Quito, con rotación en la University of Utah (USA) en cirugía de base de cráneo y endovascular. Ha ejercido en el Hospital del Río y actualmente brinda atención en Cuenca, con consulta privada y telemedicina.</p>",
+    "descripcion_propuesta": "<p>El Dr. Luis Alberto Núñez del Arco Serrano es neurocirujano formado en la Universidad San Francisco de Quito. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Se eliminó la mención de la rotación práctica en la University of Utah (formación práctica en otra institución, contenido prohibido) y se corrigió el texto que decía 'ha ejercido' en pasado en el Hospital del Río seguido de 'consulta privada y telemedicina' fuera de él — se dejó claro que atiende actualmente en el Hospital del Río, sin mencionar consulta privada externa.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "sonia-tosi-m",
+    "item_id": "6a54d34637de3718614a9765",
+    "nombre": "Sonia Tosi M.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Sonia Tosi M. es especialista en Radiología e Imagen. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS (no hay consultorio cargado).",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/sonia.tosi.12/",
+        "confianza": "baja",
+        "fuente": "WebSearch \"Sonia Tosi radióloga Cuenca Ecuador instagram OR facebook\" — coincide el nombre exacto pero no se pudo confirmar que sea la misma persona ni que ejerza como radióloga en Cuenca. Revisar manualmente antes de usar."
+      }
+    ]
+  },
+  {
+    "slug": "manuel-jesus-tenesaca-tenecela",
+    "item_id": "6a54d2bc99a728deb65e46ef",
+    "nombre": "Manuel Jesús Tenesaca Tenecela",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Manuel Jesús Tenesaca Tenecela es especialista en Radiología e Imagen. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS (no hay consultorio cargado). La búsqueda solo encontró una referencia académica como director de tesis en otra institución pública, sin ningún perfil de red social — no se propone candidato ni se incluyó esa mención en la descripción.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "daniela-karolina-argudo-vazquez",
+    "item_id": "6a54d2b3d6acf999f462c5f1",
+    "nombre": "Daniela Karolina Argudo Vázquez",
+    "descripcion_actual": "<p>La <strong>Dra. Daniela Karolina Argudo Vázquez</strong> es una <strong>médica endocrinóloga ecuatoriana</strong> basada en <strong>Cuenca</strong>. Se especializa en el diagnóstico y tratamiento de <strong>trastornos hormonales</strong>, <strong>diabetes</strong>, <strong>tiroides</strong> y <strong>problemas metabólicos</strong>, atendiendo en centros destacados como el <strong>Hospital del Río</strong>.</p><p>‍</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — dice correctamente 'Hospital del Río', sin 'Universitario' ni mención de otro hospital o clínica.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jorge-luis-ulloa-lopez",
+    "item_id": "6a54d28ef590e02a7d09bee2",
+    "nombre": "Jorge Luis Ulloa López",
+    "descripcion_actual": "<p>El Dr. Ulloa López es especialista en Ortopedia y Traumatología con subespecialidad en Medicina Traumatológica Ortopédica Reconstructiva y Osteosíntesis Avanzada. Ejerce en el Hospital Universitario del Río de Cuenca, Ecuador, donde atiende en el consultorio 323 del piso 3. Cuenta además con formación como docente universitario adjunto en la Universidad Católica de Cuenca y experiencia previa como Jefe de Traumatología en el IESS.</p>",
+    "descripcion_propuesta": "<p>El Dr. Ulloa López es especialista en Ortopedia y Traumatología con subespecialidad en Medicina Traumatológica Ortopédica Reconstructiva y Osteosíntesis Avanzada. Ejerce en el Hospital del Río de Cuenca, Ecuador, donde atiende en el consultorio 323 del piso 3. Cuenta además con formación como docente universitario adjunto en la Universidad Católica de Cuenca.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' → 'Hospital del Río' y se eliminó la mención de experiencia previa como Jefe de Traumatología en el IESS (contenido prohibido: trabajo en otro hospital, aunque sea pasado). Se mantuvo la mención de docencia universitaria en la Universidad Católica de Cuenca, que sí está permitida.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marco-vinicio-palacios-quezada",
+    "item_id": "6a54d2c262cd0a61dd55947b",
+    "nombre": "Marco Vinicio Palacios Quezada",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Marco Vinicio Palacios Quezada es especialista en Medicina Interna. Obtuvo su título de Médico y Cirujano en la Universidad de Cuenca en 2003 y completó su especialidad en Medicina Interna en la misma universidad en 2015. Sus líneas de investigación incluyen educación médica, simulación clínica y enfermedades no transmisibles. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 1, consultorio 120.</p>",
+    "cambio": "Sin descripción previa. Se generó a partir de su perfil académico en irene.uazuay.edu.ec (sitio web cargado en el CMS), filtrando cualquier mención de hospitales o clínicas de trabajo — solo se incluyó formación universitaria y líneas de investigación, que sí están permitidas.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "pedro-pacheco-bacuilima",
+    "item_id": "6a54d314e0a9a0910c3db34a",
+    "nombre": "Pedro Pacheco Bacuilima",
+    "descripcion_actual": "<p>El Dr. Pedro Pacheco es especialista en Cuidados Paliativos y Medicina Familiar en el Hospital del Río de Cuenca, Ecuador. Su práctica está orientada a brindar alivio del dolor y mejorar la calidad de vida de pacientes con enfermedades crónicas o en etapa terminal.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — dice correctamente 'Hospital del Río', sin 'Universitario' ni mención de otro hospital o clínica. Ya tiene redes cargadas (Instagram, LinkedIn).",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "sebastian-salcedo-v",
+    "item_id": "6a54d341a82704928633dc96",
+    "nombre": "Sebastián Salcedo V.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Sebastián Salcedo V. es especialista en Ortopedia y Traumatología. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 3, consultorio 303.</p>",
+    "cambio": "Sin descripción previa. Ya tiene Facebook cargado en el CMS, así que no se hizo búsqueda adicional de redes. Se creó descripción mínima y factual solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "mariana-eulalia-gaybor-guillen",
+    "item_id": "6a54d2ed950ac3e971292493",
+    "nombre": "Mariana Eulalia Gaybor Guillén",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Mariana Eulalia Gaybor Guillén es especialista en Ginecología y Obstetricia. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 1, consultorio 103.</p>",
+    "cambio": "Sin descripción previa. Ya tiene LinkedIn cargado en el CMS, así que no se hizo búsqueda adicional de redes. Se creó descripción mínima y factual solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "mariela-elisa-siguencia-avila",
+    "item_id": "6a54d2efb18ad47dadaaee72",
+    "nombre": "Mariela Elisa Sigüencia Avila",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Mariela Elisa Sigüencia Avila es especialista en Prótesis Maxilofacial, con formación en Odontología. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 4, consultorio 413.</p>",
+    "cambio": "Sin descripción previa. Ya tiene Facebook cargado en el CMS, así que no se hizo búsqueda adicional de redes. Se creó descripción mínima y factual solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-isabel-lojano-gutierrez",
+    "item_id": "6a54d2e6dc5aabbe1f5ff525",
+    "nombre": "Maria Isabel Lojano Gutiérrez",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Isabel Lojano Gutiérrez es especialista en Ginecología y Obstetricia. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 2, consultorio 215.</p>",
+    "cambio": "Sin descripción previa. Ya tiene Facebook cargado en el CMS, así que no se hizo búsqueda adicional de redes. Se creó descripción mínima y factual solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-jose-jarrin",
+    "item_id": "6a54d2e96056f575081ccc16",
+    "nombre": "María José Jarrín",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María José Jarrín es especialista en Nutrición. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 2, consultorio 237.</p>",
+    "cambio": "Sin descripción previa. Ya tiene LinkedIn cargado en el CMS, así que no se hizo búsqueda adicional de redes. Se creó descripción mínima y factual solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maritza-alexandra-campoverde-encalada",
+    "item_id": "6a54d2f064ddb74f3be29c02",
+    "nombre": "Maritza Alexandra Campoverde Encalada",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Maritza Alexandra Campoverde Encalada es especialista en Neumología. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 1, consultorio 130.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS. La búsqueda de redes no arrojó ningún perfil confiable.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marx-bravo-m",
+    "item_id": "6a54d2f34164caab75a52c67",
+    "nombre": "Marx Bravo M.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Marx Bravo M. es especialista en Cirugía Oncológica, con formación en Cirugía General. Atiende en el Hospital del Río de Cuenca, Ecuador, en el piso 4, consultorio 416.</p>",
+    "cambio": "Sin descripción previa, sin sitio web y sin redes sociales en el CMS. Se creó descripción mínima y factual solo con datos del CMS. La búsqueda de redes no arrojó ningún perfil confiable.",
+    "prioridad": "",
+    "redes_candidatas": []
+  }
+]

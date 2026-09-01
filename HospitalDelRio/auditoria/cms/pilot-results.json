@@ -1,0 +1,210 @@
+[
+  {
+    "nombre": "Ginelda Veronica Montalván Rodríguez",
+    "slug": "ginelda-veronica-montalvan-rodriguez",
+    "item_id": "6a54d268b662e7aa3840f54f",
+    "descripcion_actual": "La Dra. Ginelda Verónica Montalván Rodríguez es especialista en Cirugía Plástica, Reconstructiva y Estética, graduada de la Universidad de Especialidades \"Espíritu Santo\" con rotación en la Clínica Planas de España. Atiende en el Hospital Universitario del Río de Cuenca y es miembro de la Sociedad Ecuatoriana de Cirugía Plástica (SECPRE) y de la Sociedad Panamericana de Trauma.",
+    "descripcion_propuesta": "La Dra. Ginelda Verónica Montalván Rodríguez es especialista en Cirugía Plástica, Reconstructiva y Estética, graduada de la Universidad de Especialidades \"Espíritu Santo\". Atiende en el Hospital del Río de Cuenca y es miembro de la Sociedad Ecuatoriana de Cirugía Plástica (SECPRE) y de la Sociedad Panamericana de Trauma.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'. Además quité 'con rotación en la Clínica Planas de España' (feedback: rotación = trabajo en otro lado, se quita).",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Aurelio Amadeo Maldonado Aguilar",
+    "slug": "aurelio-amadeo-maldonado-aguilar",
+    "item_id": "6a54d1fd1f210111b03d0607",
+    "descripcion_actual": "El Dr. Aurelio Amadeo Maldonado Aguilar es especialista en Otorrinolaringología en el Hospital Universitario del Río de Cuenca, Ecuador, donde atiende en el Consultorio 329 del piso 3. Participa activamente en programas de divulgación médica, como el espacio radial \"En las Mejores Manos\" del Hospital del Río, donde aborda temas de salud auditiva y su prevención.",
+    "descripcion_propuesta": "El Dr. Aurelio Amadeo Maldonado Aguilar es especialista en Otorrinolaringología en el Hospital del Río de Cuenca, Ecuador, donde atiende en el Consultorio 329 del piso 3. Participa activamente en programas de divulgación médica, como el espacio radial \"En las Mejores Manos\" del Hospital del Río, donde aborda temas de salud auditiva y su prevención.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Cecibel Yadira Cevallos Agurto",
+    "slug": "cecibel-yadira-cevallos-agurto",
+    "item_id": "6a54d208e22eae1436a55175",
+    "descripcion_actual": "La Dra. Cecibel Yadira Cevallos Agurto es especialista en Cirugía General y Cirugía de Trauma y Emergencias, con ejercicio profesional en el Hospital Universitario del Río en Cuenca, Ecuador. Cuenta con formación académica vinculada a la Universidad de Cuenca y ha participado en publicaciones científicas en el área médico-quirúrgica. Atiende en el Piso 1, Consultorio 114 del Hospital del Río.",
+    "descripcion_propuesta": "La Dra. Cecibel Yadira Cevallos Agurto es especialista en Cirugía General y Cirugía de Trauma y Emergencias, con ejercicio profesional en el Hospital del Río en Cuenca, Ecuador. Cuenta con formación académica vinculada a la Universidad de Cuenca y ha participado en publicaciones científicas en el área médico-quirúrgica. Atiende en el Piso 1, Consultorio 114 del Hospital del Río.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Ana Cristina Moncayo Torres",
+    "slug": "ana-cristina-moncayo-torres",
+    "item_id": "6a54d217e0a9a0910c3d17e8",
+    "descripcion_actual": "La Dra. Ana Cristina Moncayo Torres es pediatra y especialista en Nutrición Pediátrica, jefa del servicio de Pediatría en el Hospital Universitario del Río de Cuenca, Ecuador. Cuenta con Maestría en Nutrición Infantil y certificación internacional PALS (Pediatric Advanced Life Support) de la American Heart Association. Su enfoque abarca atención integral del recién nacido hasta el adolescente, incluyendo control de crecimiento y desarrollo, evaluación nutricional, vacunación y manejo de enfermedades.",
+    "descripcion_propuesta": "La Dra. Ana Cristina Moncayo Torres es pediatra y especialista en Nutrición Pediátrica, jefa del servicio de Pediatría en el Hospital del Río de Cuenca, Ecuador. Cuenta con Maestría en Nutrición Infantil y certificación internacional PALS (Pediatric Advanced Life Support) de la American Heart Association. Su enfoque abarca atención integral del recién nacido hasta el adolescente, incluyendo control de crecimiento y desarrollo, evaluación nutricional, vacunación y manejo de enfermedades.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Javier Andrés Vega Morejón",
+    "slug": "javier-andres-vega-morejon",
+    "item_id": "6a54d1fb972ac4970d68fd61",
+    "descripcion_actual": "El Dr. Javier Andrés Vega Morejón es especialista en Otorrinolaringología y subespecialista en Cirugía de Cabeza y Cuello, con formación en el Hospital Italiano de Buenos Aires y un diplomado en Rinología y Cirugía Plástica Facial. Atiende en el Hospital Universitario del Río de Cuenca, Ecuador, donde ofrece consultas en su consultorio 113, piso 1.",
+    "descripcion_propuesta": "El Dr. Javier Andrés Vega Morejón es especialista en Otorrinolaringología y subespecialista en Cirugía de Cabeza y Cuello, con un diplomado en Rinología y Cirugía Plástica Facial. Atiende en el Hospital del Río de Cuenca, Ecuador, donde ofrece consultas en su consultorio 113, piso 1.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'. Quité 'con formación en el Hospital Italiano de Buenos Aires' (feedback: rotación/formación práctica en otro hospital también se quita).",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Pierina León A.",
+    "slug": "pierina-leon-a",
+    "item_id": "6a54d3166056f575081ced5a",
+    "descripcion_actual": "La Dra. Pierina León Astudillo es reumatóloga con consulta en el Hospital del Río de Cuenca. Pertenece a la Sociedad Ecuatoriana de Reumatología y ejerce también en el IESS de Cuenca. Se especializa en el diagnóstico y tratamiento de enfermedades articulares y musculares.",
+    "descripcion_propuesta": "La Dra. Pierina León Astudillo es reumatóloga con consulta en el Hospital del Río de Cuenca. Pertenece a la Sociedad Ecuatoriana de Reumatología. Se especializa en el diagnóstico y tratamiento de enfermedades articulares y musculares, incluyendo artritis reumatoide, artrosis, fibromialgia, gota y enfermedades autoinmunes.",
+    "cambio": "IMPORTANTE: la descripción actual YA MENCIONA que 'ejerce también en el IESS de Cuenca' — esto viola tu regla de no mencionar trabajo en otros hospitales. Lo quité y agregué el detalle clínico (encontrado en masquemedicos.ec) para compensar el largo.",
+    "redes_ok": true,
+    "prioridad": "ALTA — contenido prohibido ya publicado"
+  },
+  {
+    "nombre": "Juan José Aguilar",
+    "slug": "juan-jose-aguilar",
+    "item_id": "6a54d2a3167cf6172578b122",
+    "descripcion_actual": "El Dr. Juan José Aguilar Astudillo es cirujano pediátrico en el Hospital del Río de Cuenca, Ecuador. Realiza procedimientos quirúrgicos especializados en niños. Cuenta con presencia en plataformas médicas de Ecuador.",
+    "descripcion_propuesta": "El Dr. Juan José Aguilar Astudillo es cirujano pediátrico en el Hospital del Río de Cuenca, Ecuador. Es médico graduado de la Universidad de Cuenca (2005) con especialización en Cirugía Pediátrica de la Universidad Internacional del Ecuador (2015). Es miembro del International Pediatric Endosurgery Group (IPEG) y de la Sociedad Ecuatoriana de Cirugía Pediátrica.",
+    "cambio": "Ya decía 'Hospital del Río' correctamente, no necesitaba fix. Enriquecida con datos de doctoranytime.ec (educación, membresías). Quité 'formación en cirugía laparoscópica neonatal en el Hospital Garrahan de Buenos Aires' (feedback: formación práctica en otro hospital se quita).",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada."
+  },
+  {
+    "nombre": "Andrés Cárdenas H.",
+    "slug": "andres-cardenas-h",
+    "item_id": "6a54d1f6338bfedff0c9d53d",
+    "descripcion_actual": "El Dr. Andrés Cárdenas H. es especialista en Medicina Crítica y Terapia Intensiva, adscrito al Hospital Universitario del Río en Cuenca, Ecuador. Su práctica se centra en la atención de pacientes en estado crítico que requieren monitoreo y soporte intensivo. Forma parte del equipo médico especializado de uno de los centros hospitalarios de referencia del austro ecuatoriano.",
+    "descripcion_propuesta": "El Dr. Andrés Cárdenas H. es especialista en Medicina Crítica y Terapia Intensiva, adscrito al Hospital del Río en Cuenca, Ecuador. Su práctica se centra en la atención de pacientes en estado crítico que requieren monitoreo y soporte intensivo. Forma parte del equipo médico especializado de uno de los centros hospitalarios de referencia del austro ecuatoriano.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada."
+  },
+  {
+    "nombre": "Maria Belén Cabrera Ledesma",
+    "slug": "maria-belen-cabrera-ledesma",
+    "item_id": "6a54d200dc5aabbe1f5f5a14",
+    "descripcion_actual": "La Lic. María Belén Cabrera Ledesma es Licenciada en Nutrición y Dietética con Máster en Epidemiología, especialista en el Hospital Universitario del Río de Cuenca, Ecuador. Atiende en el piso 4, consultorio 415, ofreciendo planes nutricionales personalizados según la edad, datos antropométricos, patologías, actividad física y hábitos alimenticios del paciente. Su formación en epidemiología le permite abordar la nutrición con una perspectiva de salud pública integral.",
+    "descripcion_propuesta": "La Lic. María Belén Cabrera Ledesma es Licenciada en Nutrición y Dietética con Máster en Epidemiología, especialista en el Hospital del Río de Cuenca, Ecuador. Atiende en el piso 4, consultorio 415, ofreciendo planes nutricionales personalizados según la edad, datos antropométricos, patologías, actividad física y hábitos alimenticios del paciente. Su formación en epidemiología le permite abordar la nutrición con una perspectiva de salud pública integral.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada (el LinkedIn candidato queda descartado)."
+  },
+  {
+    "nombre": "Carlos Orlando Sisalima Zuña",
+    "slug": "carlos-orlando-sisalima-zuna",
+    "item_id": "6a54d2035b903a2fa50415f5",
+    "descripcion_actual": "El Dr. Carlos Sisalima Z. es especialista en Gastroenterología y Medicina Interna, con consulta en el Hospital del Río de Cuenca, Ecuador (Piso 2, Consultorio 228). Atiende afecciones del sistema digestivo y enfermedades internas, brindando atención integral a sus pacientes. Puede ser contactado al teléfono 0961215047.",
+    "descripcion_propuesta": null,
+    "cambio": "Ya dice 'Hospital del Río' correctamente — sin cambios necesarios.",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada."
+  },
+  {
+    "nombre": "Pablo Xavier Machuca Chiriboga",
+    "slug": "pablo-xavier-machuca-chiriboga",
+    "item_id": "6a54d3034164caab75a53584",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Pablo Xavier Machuca Chiriboga es especialista en Cirugía General, con subespecialidad en Cirugía del Aparato Digestivo. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2, Consultorio 209.",
+    "cambio": "Sin bio pública encontrada en su Facebook (drpablomachuca) — no pude extraer texto de esa red. Descripción generada SOLO con los datos del CMS (especialidad, subespecialidad, consultorio). Recomiendo pedirle una bio real al doctor si quieren algo más completo.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "María de Lourdes Monsalve Vega",
+    "slug": "maria-de-lourdes-monsalve-vega",
+    "item_id": "6a567e492f69e5dfe9643e84",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "La Lic. María de Lourdes Monsalve Vega es especialista en Nutrición. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 139.",
+    "cambio": "Sin bio pública encontrada en Instagram/Facebook (lulymonsalvenutricionista) — no pude extraer texto de esas redes. Descripción generada SOLO con datos del CMS. Recomiendo pedir bio real.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Julia Marcela Quizhpi Lazo",
+    "slug": "julia-marcela-quizhpi-lazo",
+    "item_id": "6a54d2bd95f8b37799008b08",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "La Dra. Julia Marcela Quizhpi Lazo es especialista en Cirugía General. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2, Consultorio 212.",
+    "cambio": "Sin bio pública encontrada en su Instagram (dra.marcela_quizhpi_cirujana). Descripción generada SOLO con datos del CMS. Recomiendo pedir bio real.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Julio Cesar Molina Molina",
+    "slug": "julio-cesar-molina-molina",
+    "item_id": "6a54d2add6acf999f462bd4d",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Julio César Molina Molina es especialista en Cirugía General, con subespecialidad en Cirugía Laparoscópica. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 129.",
+    "cambio": "Sin bio pública accesible en su LinkedIn (perfil no da texto biográfico extraíble). Descripción generada SOLO con datos del CMS. Recomiendo pedir bio real.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Marcos Fernando Molina Matute",
+    "slug": "marcos-fernando-molina-matute",
+    "item_id": "6a54d2c26709f408a2f93c22",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Marcos Fernando Molina Matute es especialista en Infectología, con subespecialidad en Medicina Interna. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 101.",
+    "cambio": "Sin bio pública encontrada en Instagram/Facebook (doctormarcosmolina). Descripción generada SOLO con datos del CMS. Recomiendo pedir bio real.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Christian Ramiro Machuca Dávila",
+    "slug": "christian-ramiro-machuca-davila",
+    "item_id": "6a54d20fa06b16ffe13c1691",
+    "descripcion_actual": "El Dr. Christian Machuca es especialista en Anestesiología en el Hospital Universitario del Río, ubicado en Cuenca, Ecuador. Forma parte del equipo médico de la institución, brindando atención anestesiológica a pacientes en procedimientos quirúrgicos y de reanimación. Puede ser contactado a través de la central del hospital al 072 459 555, extensión 1208.",
+    "descripcion_propuesta": "El Dr. Christian Machuca es especialista en Anestesiología en el Hospital del Río, ubicado en Cuenca, Ecuador. Forma parte del equipo médico de la institución, brindando atención anestesiológica a pacientes en procedimientos quirúrgicos y de reanimación. Puede ser contactado a través de la central del hospital al 072 459 555, extensión 1208.",
+    "cambio": "Fix: 'Hospital Universitario del Río' → 'Hospital del Río'. Nota aparte: el 'Sitio web' que tiene cargado en el CMS (clinicasantaana.com.ec) es un directorio de OTRA clínica donde también aparece — no lo pude usar como bio porque implicaría mencionar que trabaja ahí. Sugiero revisar si ese campo 'Sitio web' debería quitarse.",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada."
+  },
+  {
+    "nombre": "Santiago José Reinoso Quezada",
+    "slug": "santiago-jose-reinoso-quezada",
+    "item_id": "6a54d34044e8daf778c5e778",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Santiago José Reinoso Quezada es especialista en Cirugía Maxilofacial. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 331.",
+    "cambio": "Su 'Sitio web' cargado (ResearchGate) bloqueó el acceso (403). Descripción generada SOLO con datos del CMS. Recomiendo pedir bio real o revisar el perfil de ResearchGate manualmente.",
+    "redes_ok": true
+  },
+  {
+    "nombre": "Jorge Edmundo Ugalde Puyol",
+    "slug": "jorge-edmundo-ugalde-puyol",
+    "item_id": "6a54d28fd7ced48cb5552d4c",
+    "descripcion_actual": "El Dr. Jorge Ugalde Puyol es especialista en Anatomía Patológica, graduado de la Universidad de Cuenca y especializado en la Universidad Complutense de Madrid. Dirige Labpato.com, el primer laboratorio de patología en Cuenca en virtualizar completamente sus servicios, con atención desde 1981 en Patología, Inmunohistoquímica y Biología Molecular.",
+    "descripcion_propuesta": null,
+    "cambio": "Ya está bien — no menciona 'Hospital Universitario' ni trabajo en otro HOSPITAL (Labpato es su propio laboratorio, no un hospital competidor). Sin cambios.",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada."
+  },
+  {
+    "nombre": "Xavier Segundo Abad Cárdenas",
+    "slug": "xavier-segundo-abad-cardenas",
+    "item_id": "6a54d35013dd3bf3f89d44e7",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Xavier Segundo Abad Cárdenas es especialista en Urología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 118, ofreciendo tratamiento de cálculos renales, incontinencia urinaria y cirugía de próstata, entre otros procedimientos urológicos.",
+    "cambio": "Confirmado en guiamedica.com.ec que es el mismo Dr. Xavier Abad Cárdenas de Cuenca (no el otro 'Xavier Abad' de Guayaquil que aparece en seurologia.org — ojo, hay tocayo). Descripción con los servicios que ofrece según ese directorio.",
+    "redes_ok": false,
+    "redes_nota": "CONFIRMADO por Mau: dejar sin redes, no agregar nada (los candidatos de Instagram/Facebook quedan descartados)."
+  },
+  {
+    "nombre": "Andrea Susana Astudillo Carrera",
+    "slug": "andrea-susana-astudillo-carrera",
+    "item_id": "6a54d1d6b2d9486b374d2c5c",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "La Dra. Andrea Susana Astudillo Carrera es especialista en Otorrinolaringología, con subespecialidad en Cirugía de Cabeza y Cuello. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2, Consultorio 223.",
+    "cambio": "Descripción generada solo con datos del CMS (especialidad, subespecialidad, consultorio) — no usé nada del Instagram que decía 'medicina estética' porque Mau confirmó que ese dato no aplica.",
+    "redes_ok": true,
+    "redes_nota": "APROBADO por Mau — agregar Facebook y LinkedIn (el Instagram queda descartado porque dice 'láser' y no es):\nFacebook: https://www.facebook.com/DraAndreaAstudillo/\nLinkedIn: https://www.linkedin.com/in/andrea-astudillo-82411b61/",
+    "redes_aprobadas": {
+      "Facebook": "https://www.facebook.com/DraAndreaAstudillo/",
+      "Linkedln": "https://www.linkedin.com/in/andrea-astudillo-82411b61/"
+    }
+  },
+  {
+    "nombre": "Juan Pablo Arias Cortez",
+    "slug": "juan-pablo-arias-cortez",
+    "item_id": "6a7f8791b21c62bc60843272",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "El Dr. Juan Pablo Arias Cortez es especialista en Otorrinolaringología, graduado de la Universidad Estatal de Cuenca y certificado por la Universidad de Buenos Aires. Cuenta además con un diplomado en Medicina del Sueño (Universidad Austral, Argentina) y formación en Rinología y Cirugía Facial (Universidad Autónoma de México). Atiende en el Hospital del Río de Cuenca, Piso 1, Consultorio 141, con enfoque en rinoplastia, cirugía de apnea del sueño y cirugía endoscópica de senos paranasales.",
+    "cambio": "Bio construida con datos de su sitio propio (drarias.com.ec). Quité la mención de 'residencia en el Hospital Universitario Clínicas José de San Martín de Buenos Aires' (feedback: residencia/rotación en otro hospital se quita) — dejé solo las certificaciones y diplomados que son a nivel de Universidad, no de hospital.",
+    "redes_ok": true,
+    "redes_nota": "APROBADO por Mau — agregar Instagram, Sitio web y TikTok:\nInstagram: https://www.instagram.com/drjparias/\nSitio web: https://drarias.com.ec/\nTikTok: https://www.tiktok.com/@drjparias",
+    "redes_aprobadas": {
+      "Instagram": "https://www.instagram.com/drjparias/",
+      "Sitio web": "https://drarias.com.ec/",
+      "TikTok": "https://www.tiktok.com/@drjparias"
+    }
+  }
+]

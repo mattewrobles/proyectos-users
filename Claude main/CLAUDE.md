@@ -13,10 +13,20 @@ Mau · Gaby · Naho · John → diseño | Berny · Christian → PM
 |---------|--------|-----------|
 | **uTransfer** | Billetera digital con stablecoins, gamificación Upoints | `uTransfer/.claude/CLAUDE.md` |
 | **Airpals** | Plataforma B2B shipping para oficinas, multi-carrier + AI | `Airpals/.claude/CLAUDE.md` |
-| **Kaito** | Rail de pagos B2B: Kaito Konnect (API) + Business (dashboard) | `Kaito/.claude/CLAUDE.md` |
+| **Kaito** | Rail de pagos B2B: Kaito Konnect (API) + Business (dashboard) | `Kaito/CLAUDE.md` |
+| **Hospital del Río** | Web médica en Webflow, mayor centro médico del Austro | `HospitalDelRio/CLAUDE.md` |
 | **Ecogara DS** | Design System para cliente externo | ver memory: project_ecogara_ds.md |
 
 > Leer el CLAUDE.md específico del proyecto al inicio de cada sesión de trabajo.
+
+## Rules globales — leer también
+
+Además del contexto de proyecto, cargar `rules/` de este repo:
+- `behaviors.md` — comportamientos críticos, SESSION.md automático, gstack
+- `design.md` — Design Read, auto-skills por contexto de diseño
+- `project-loop.md` — PROMPT.md + IMPLEMENTATION_PLAN.md para tareas grandes
+- `web-project-assets.md` — estructura estándar de `public/`
+- `common/*.md` — calidad de código, testing, seguridad, git workflow
 
 ---
 
@@ -50,6 +60,7 @@ Mau · Gaby · Naho · John → diseño | Berny · Christian → PM
 | uTransfer | Revolut, Wise, Cash App |
 | Airpals | Linear, Notion, Stripe |
 | Kaito | Stripe, Ripple |
+| Hospital del Río | sitios médicos institucionales |
 | Ecogara DS | Material Design, Primer |
 
 ---

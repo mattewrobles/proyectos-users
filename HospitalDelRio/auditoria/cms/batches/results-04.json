@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "juan-carlos-bermeo-ortega",
+    "item_id": "6a54d298f590e02a7d09c7f4",
+    "nombre": "Juan Carlos Bermeo Ortega",
+    "descripcion_actual": "<p>El Dr. Bermeo Ortega es especialista en Cirugía General y Mastología, con consulta en el Hospital del Río de Cuenca, Ecuador. Su práctica se enfoca en el diagnóstico y tratamiento quirúrgico de enfermedades de la mama, incluyendo patología benigna y oncológica. Atiende en el piso 3, consultorio 307 del Hospital del Río.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — descripción ya correcta, sin menciones prohibidas",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "nathelie-cristina-pinos-velez",
+    "item_id": "6a54d2ffb768fad8c4a82b44",
+    "nombre": "Nathelie Cristina Pinos Velez",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Nathelie Cristina Pinos Vélez es especialista en Cirugía de Tórax, con consulta en el Hospital del Río de Cuenca, Ecuador. Es Doctora en Medicina y Cirugía por la Universidad de Cuenca, con especialización en Cirugía General por la misma universidad y formación avanzada en cirugía torácica. Cuenta además con un doctorado en investigación clínica por la Universidad de Sevilla, España. Atiende en el piso 4, consultorio 421 del Hospital del Río.</p>",
+    "cambio": "creada desde cero — sitio web (doctorisy.com, redirige a doctoranytime.ec) tenía datos académicos de Universidad de Cuenca y Universidad de Sevilla, sin mención de otros hospitales",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "priscila-jamel-sanchez-astudillo",
+    "item_id": "6a54d31837de3718614a76a9",
+    "nombre": "Priscila Jamel Sánchez Astudillo",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Priscila Jamel Sánchez Astudillo es especialista en Radiología e Imagen. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "creada — sin sitio web ni fuente con datos académicos verificables, descripción mínima factual solo con datos del CMS (no hay consultorio cargado)",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "miguel-enrique-jerves-andrade",
+    "item_id": "6a54d2f8b612b7f6c11e44be",
+    "nombre": "Miguel Enrique Jerves Andrade",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Miguel Enrique Jerves Andrade es especialista en Oncología Clínica, con consulta en el Hospital del Río de Cuenca, Ecuador. Atiende en el piso 2, consultorio 218 del Hospital del Río.</p>",
+    "cambio": "creada — el sitio web cargado (cuencamedicalresources.com) devolvió una especialidad inconsistente con el CMS (otorrinolaringología vs. oncología clínica) y no aportó datos académicos confiables; la búsqueda web sí encontró que trabaja en SOLCA Cuenca, pero esa mención de otro centro médico está prohibida y se excluyó. Descripción mínima factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "monica-fabiola-vasquez-palacios",
+    "item_id": "6a54d2ff6056f575081cdaee",
+    "nombre": "Mónica Fabiola Vásquez Palacios",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Mónica Fabiola Vásquez Palacios es especialista en Gastroenterología, con subespecialidad en Hepatología. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 3, consultorio 330.</p>",
+    "cambio": "creada — no tiene sitio web cargado; tiene Facebook pero esa plataforma no se intenta leer por regla del proyecto. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "miguel-patricio-moscoso-fernandez",
+    "item_id": "6a54d2fefbb935ec54e2d9da",
+    "nombre": "Miguel Patricio Moscoso Fernández",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Miguel Patricio Moscoso Fernández es especialista en Cirugía Oncológica, con subespecialidad en Oncología Torácica. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 1, consultorio 140.</p>",
+    "cambio": "creada — sin sitio web ni fuente académica verificable. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "heidy-vasquez-r",
+    "item_id": "6a54d26f62cd0a61dd556379",
+    "nombre": "Heidy Vásquez R.",
+    "descripcion_actual": "<p>La Dra. Heidy Vásquez R. es cirujana pediátrica en Cuenca, Ecuador. Ejerce en el Hospital del Río y también está vinculada al Hospital Santa Inés. Ha participado en casos quirúrgicos de alta complejidad en neonatos prematuros, incluyendo corrección de malformaciones digestivas congénitas.</p>",
+    "descripcion_propuesta": "<p>La Dra. Heidy Vásquez R. es cirujana pediátrica en Cuenca, Ecuador, con consulta en el Hospital del Río. Su práctica se enfoca en casos quirúrgicos de alta complejidad en neonatos prematuros, incluyendo corrección de malformaciones digestivas congénitas. Atiende en el piso 3, consultorio 330 del Hospital del Río.</p>",
+    "cambio": "corregido — se eliminó la mención de que ejerce también en el Hospital Santa Inés (contenido prohibido: trabajo en otro hospital)",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "pablo-gerardo-pena-tapia",
+    "item_id": "6a54d30495f8b3779900b68e",
+    "nombre": "Pablo Gerardo Peña Tapia",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Pablo Gerardo Peña Tapia es especialista en Neurocirugía, con consulta en el Hospital del Río de Cuenca, Ecuador. Es médico graduado de la Universidad de Cuenca (2000), reconocido como Mejor Egresado con el Premio Benigno Malo. Obtuvo su certificación en Neurocirugía por la Universidad de Heidelberg, Alemania (2008), y una Maestría en Neurociencias por la Universidad Pablo de Olavide, Sevilla, España (2012). Es miembro de la Sociedad Alemana de Neurocirugía (DGNC), la Asociación Americana de Cirujanos Neurológicos (AANS), la Sociedad Ecuatoriana de Neurocirugía y AOSpine. Atiende en el piso 4, consultorio 414 del Hospital del Río.</p>",
+    "cambio": "creada desde el sitio web oficial (drpablopena.com) — se excluyó la mención de 'Klinikum Mannheim' (clínica específica donde hizo su formación de especialidad) y se dejó solo la universidad certificadora (Universidad de Heidelberg), según regla del proyecto",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/DrPabloPena",
+        "confianza": "alta",
+        "fuente": "ya cargado en el CMS"
+      },
+      {
+        "plataforma": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pablo-pe%C3%B1a-tapia-29488038/",
+        "confianza": "alta",
+        "fuente": "ya cargado en el CMS"
+      }
+    ]
+  },
+  {
+    "slug": "paola-alejandra-jaramillo-mieles",
+    "item_id": "6a54d3066709f408a2f96d16",
+    "nombre": "Paola Alejandra Jaramillo Mieles",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Paola Alejandra Jaramillo Mieles es especialista en Nutrición, con subespecialidad en Nutrición Infantil, con consulta en el Hospital del Río de Cuenca, Ecuador. Tiene una Maestría en Nutrición Infantil (2016) por la Universidad de Especialidades Espíritu Santo, Ecuador, y un Diploma en Nutrición Pediátrica y Errores Innatos del Metabolismo (2018) por el Instituto de Nutrición y Tecnología de los Alimentos de Chile. Atiende en el piso 3, consultorio 317 del Hospital del Río.</p>",
+    "cambio": "creada — la búsqueda web encontró su perfil en doctoranytime.ec con datos académicos (dos universidades); se excluyó la mención errónea de 'Hospital Universitario del Río' encontrada en la fuente, usando siempre 'Hospital del Río'",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "patricia-zea-g",
+    "item_id": "6a54d3086709f408a2f96df6",
+    "nombre": "Patricia Zea G.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Patricia Zea G. es especialista en Ginecología y Obstetricia. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 4, consultorio 419.</p>",
+    "cambio": "creada — el sitio web cargado (cuencanos.com) no tenía datos académicos, solo confirmaba especialidad. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "romulo-patricio-barzallo-cabrera",
+    "item_id": "6a54d30be22eae1436a65619",
+    "nombre": "Romulo Patricio Barzallo Cabrera",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Romulo Patricio Barzallo Cabrera es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 2, consultorio 203.</p>",
+    "cambio": "creada — sin sitio web ni fuente académica verificable. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "patricio-fernando-cordova-lopez",
+    "item_id": "6a54d30db768fad8c4a834ec",
+    "nombre": "Patricio Fernando Córdova López",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Patricio Fernando Córdova López es especialista en Neurología. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 3, consultorio 327.</p>",
+    "cambio": "creada — sin sitio web ni fuente académica verificable. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "priscila-rosana-sanchez-avila",
+    "item_id": "6a54d3199c775de11bb39d82",
+    "nombre": "Priscila Rosana Sánchez Ávila",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Priscila Rosana Sánchez Ávila es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, consultorio 418.</p>",
+    "cambio": "creada — sin sitio web ni fuente académica verificable. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marcelo-hernando-cordero-loyola",
+    "item_id": "6a54d2bfa827049286339071",
+    "nombre": "Marcelo Hernando Cordero Loyola",
+    "descripcion_actual": "<p>El <strong>Dr. Marcelo Hernando Cordero Loyola</strong> es un prestigioso <strong>médico endocrinólogo ecuatoriano</strong> con sede en <strong>Cuenca</strong>. Es <strong>socio fundador del Hospital del Río</strong> y director de <strong>Hormolab</strong>, especializándose en el diagnóstico y tratamiento de <strong>trastornos hormonales</strong>, <strong>diabetes</strong> y <strong>metabolismo</strong>.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — la única mención de institución es el propio Hospital del Río (permitida) y Hormolab, que no es un hospital o clínica sino su laboratorio/dirección propia; no hay mención de 'Universitario' ni de otro hospital",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "paul-santiago-martinez-torres",
+    "item_id": "6a54d31013dd3bf3f89d1719",
+    "nombre": "Paúl Santiago Martínez Torres",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Paúl Santiago Martínez Torres es especialista en Medicina Interna. Atiende en el Hospital del Río de Cuenca, Ecuador, piso 3, consultorio 333.</p>",
+    "cambio": "creada — tiene redes sociales cargadas pero no sitio web ni otra fuente con datos académicos verificables (no se intentó leer Instagram/Facebook/TikTok por regla del proyecto). Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "paul-ramiro-cobos-villavicencio",
+    "item_id": "6a54d30f3978164200912fcc",
+    "nombre": "Paúl Ramiro Cobos Villavicencio",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Paúl Ramiro Cobos Villavicencio es especialista en Medicina Crítica e Intensiva, con subespecialidad en Cuidado Intensivo. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "creada — la búsqueda web encontró que también trabaja en el Hospital José Carrasco Arteaga (IESS); esa mención de otro hospital está prohibida y se excluyó por completo. Descripción mínima factual solo con datos del CMS (no hay consultorio cargado)",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "pedro-alvarez-mendoza",
+    "item_id": "6a54d311d2181feb90de8ed6",
+    "nombre": "Pedro Álvarez Mendoza",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Pedro Álvarez Mendoza es especialista en Anestesiología. Atiende en el Hospital del Río de Cuenca, Ecuador, consultorio 1208.</p>",
+    "cambio": "creada — sin sitio web ni fuente académica verificable. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "pedro-sebastian-cordero-asanza",
+    "item_id": "6a54d3124164caab75a54513",
+    "nombre": "Pedro Sebastian Cordero Asanza",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Pedro Sebastian Cordero Asanza es especialista en Psiquiatría. Atiende en el Hospital del Río de Cuenca, Ecuador, consultorio 427.</p>",
+    "cambio": "creada — el sitio web cargado (doctopro.com) solo confirmó la especialidad, sin datos académicos. Descripción mínima factual con datos del CMS",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "lorena-villa-crespo",
+    "item_id": "6a54d2b7b2d9486b374dbb1d",
+    "nombre": "Lorena Villa Crespo",
+    "descripcion_actual": "<p>La Dra. Lorena Villa Crespo es dermatóloga certificada con especialidad en oncodermatología y medicina estética, con consulta en el Hospital del Río de Cuenca. Es experta en acne, vitiligo, alopecia, cáncer de piel, tratamientos láser y procedimientos estéticos avanzados como botox y peelings químicos.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — descripción ya correcta, sin menciones prohibidas",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "javier-marcelo-coello-serrano",
+    "item_id": "6a54d27ef590e02a7d09b927",
+    "nombre": "Javier Marcelo Coello Serrano",
+    "descripcion_actual": "<p>El Dr. Coello Serrano es especialista en Gastroenterología con consulta en el Hospital del Río de Cuenca, Ecuador, ubicado en el Piso 1, Consultorio 112. Cuenta con amplia experiencia en el diagnóstico y tratamiento de enfermedades del sistema digestivo, incluyendo servicios de endoscopia y atención de telemedicina.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — descripción ya correcta, sin menciones prohibidas",
+    "prioridad": "",
+    "redes_candidatas": []
+  }
+]

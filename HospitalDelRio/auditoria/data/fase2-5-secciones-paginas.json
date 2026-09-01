@@ -1,0 +1,107 @@
+{
+  "fase": "2-5: Hero/CTAs, secciones home, footer, páginas internas",
+  "fecha": "2026-08-26",
+  "hallazgos": [
+    {
+      "pagina": "Home - Hero",
+      "estado": "ok",
+      "detalle": "CTAs 'Contacto' y 'Nuestros médicos' apuntan a rutas relativas correctas (/contacto, /medicos). Copy: 'Tu salud en las mejores manos'. Sin problemas."
+    },
+    {
+      "pagina": "Home - Sección Servicios",
+      "estado": "riesgo migración (ya reportado en fase1)",
+      "detalle": "Los anchors #lab-clinica, #imagenes-diagnosticas, #hemodialisis, #sala-de-infusiones, #terapia-respiratoria SÍ existen como IDs reales en /servicios — no están rotos funcionalmente, pero usan URL absoluta hardcodeada a hospital-del-rio.webflow.io."
+    },
+    {
+      "pagina": "Home - Cirugía Robótica DaVinci",
+      "estado": "ok",
+      "detalle": "Lightbox de video funciona vía JS (href=# es correcto para este patrón, no es un link roto)."
+    },
+    {
+      "pagina": "Home - Carrusel Actualizaciones",
+      "estado": "ok",
+      "detalle": "3 videos en lightbox, mismo patrón JS correcto."
+    },
+    {
+      "pagina": "Home - Instalaciones (grid)",
+      "estado": "ok funcional / riesgo migración",
+      "detalle": "6 links a subpáginas de instalaciones, todos absolutos hardcodeados (ver fase1)."
+    },
+    {
+      "pagina": "/nosotros",
+      "estado": "MAL",
+      "detalle": "Dos links a PDFs (Código de Ética, Reglamento Interno) apuntan al DOMINIO DE PRODUCCIÓN VIEJO: https://www.hospitaldelrio.com.ec/portal/... — verificado con curl, ambos responden 200 hoy, pero es un riesgo grave: si el WordPress viejo se da de baja al lanzar el nuevo sitio, estos 2 links se rompen inmediatamente. Recomendación: subir estos PDFs como asset de Webflow o a un storage propio antes de lanzar.",
+      "prioridad": "ALTA"
+    },
+    {
+      "pagina": "/nosotros",
+      "estado": "hallazgo nuevo",
+      "detalle": "Página tiene 3 perfiles de 'equipo/directorio' que NO están en el Directorio Médico principal (/medicos): /doctor/jose-borrero, /doctor/adriana-delgado, /doctor/carlos-suarez. Probablemente son directivos/gerencia, no médicos — confirmar que sus páginas cargan bien y tienen la info completa (no estaban en el lote de 227 auditado)."
+    },
+    {
+      "pagina": "/planes",
+      "estado": "revisar contenido",
+      "detalle": "H1 'Nuestros Paquetes de Chequeos Preventivos' pero no se detectan CTAs individuales por plan (botón de agendar/comprar por paquete). Solo nav genérico. Confirmar con Mau si los planes deberían tener CTA propio o si es solo informativo."
+    },
+    {
+      "pagina": "/servicios",
+      "estado": "ok",
+      "detalle": "Todos los anchors de tabs/secciones (lab-clinica, imagenes-diagnosticas, ambulancia, emergencia, hospitalizacion, quirofano, uci, hemodialisis, terapia-respiratoria, sala-de-infusiones, clinica-del-dia, cuidados-intermedios, respiro) existen y funcionan. La mega-menu vieja de cardiología (Cirugía de Corazón, Electrofisiología, Hemodinamia, etc.) documentada en CLAUDE.md YA NO EXISTE en el nav actual — parece que fue removida/simplificada. CLAUDE.md está desactualizado en este punto."
+    },
+    {
+      "pagina": "/contacto",
+      "estado": "MAL",
+      "detalle": "Email de contacto es un placeholder genérico: mailto:correo@hospital.com — no es un correo real del hospital. Debe reemplazarse por el correo real antes de publicar.",
+      "prioridad": "ALTA"
+    },
+    {
+      "pagina": "/contacto",
+      "estado": "ok",
+      "detalle": "6 teléfonos reales listados (072459555, 072459553, 0962613613, 0992798000, 0984362936, 0998127539). Formulario de contacto presente con Turnstile (captcha) — método GET (comportamiento normal de Webflow, JS intercepta el submit)."
+    },
+    {
+      "pagina": "/instalaciones-3",
+      "estado": "ok (con nota menor)",
+      "detalle": "No es una página huérfana — carga contenido real 'Instalaciones'. El slug con '-3' es un artifact de Webflow (probablemente hubo versiones duplicadas al crear la página) pero funcionalmente está bien. Nota menor: no tiene <h1> detectable — revisar accesibilidad/SEO."
+    },
+    {
+      "pagina": "/instalaciones/uci, /instalaciones/consultorios, /instalaciones/farmacia-hospitalaria, /instalaciones/parqueadero, /instalaciones/locales-comerciales, /instalaciones/patio-de-comidas",
+      "estado": "MAL — SEO",
+      "detalle": "Las 6 subpáginas de instalaciones tienen <title> genérico 'Hospital del Rio' en vez de un título específico por página (ej. 'UCI | Hospital del Río'). Esto afecta SEO y la pestaña del navegador. Fácil de arreglar en Webflow (Page Settings > SEO de cada página).",
+      "prioridad": "MEDIA"
+    },
+    {
+      "pagina": "/especialidades/cardiologia, /especialidades/gastroenterologia",
+      "estado": "MAL — SEO (menor)",
+      "detalle": "Título es solo 'Cardiología' / 'Gastroenterología' sin el sufijo '| Hospital del Río' que sí tienen las demás páginas — inconsistencia de branding/SEO.",
+      "prioridad": "BAJA"
+    },
+    {
+      "pagina": "/unidad-integral-de-fertilidad",
+      "estado": "ok",
+      "detalle": "Título correcto, carga bien."
+    },
+    {
+      "pagina": "/unidad-para-manejo-del-dolor",
+      "estado": "ok",
+      "detalle": "Título correcto, carga bien."
+    },
+    {
+      "pagina": "/legal",
+      "estado": "ok",
+      "detalle": "Los 4 anchors del footer (#terminos, #cookies, #sentencia, #datos) existen y funcionan. Contenido legal presente (58k caracteres). Empresa: 'Hospirio S.A.'"
+    },
+    {
+      "pagina": "/lopdp-condominio",
+      "estado": "revisar — posible contenido fuera de lugar",
+      "detalle": "Página carga bien (LOPDP Condominio | Hospital del Río) pero el contenido trata sobre protección de datos de un CONDOMINIO, no del hospital — probablemente es un artifact del template comercial de Webflow reutilizado (CLAUDE.md ya menciona 'template base: template comercial de Webflow, tiene artifacts de template'). Confirmar con Mau si esta página debe eliminarse o reemplazarse antes de publicar — hoy es accesible públicamente vía footer y no tiene relación con el hospital.",
+      "prioridad": "MEDIA"
+    },
+    {
+      "pagina": "Doctores 404 encontrados de casualidad (fuera de los lotes)",
+      "estado": "MAL",
+      "detalle": "/doctor/santiago-patricio-dominguez-vazquez y /doctor/manuel-eduardo-verdugo-tapia devuelven 'Página no encontrada' — aparecen como tarjetas en el Directorio Médico pero el link individual está roto. Esto se cruza también con la auditoría de lotes de doctores.",
+      "prioridad": "ALTA"
+    }
+  ]
+}

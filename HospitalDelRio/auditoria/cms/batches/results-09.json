@@ -1,0 +1,244 @@
+[
+  {
+    "slug": "hernan-sacoto-a",
+    "item_id": "6a54d27313dd3bf3f89cb925",
+    "nombre": "Hernán Sacoto A.",
+    "descripcion_actual": "<p>El Dr. Hernán Sacoto A. es especialista en Cirugía General con formación en cirugía digestiva, laparoscopia y endoscopia gastrointestinal. Completó su posgrado en Cirugía General en la Universidad de Cuenca y amplió su formación en universidades de Chile. Ejerce en el Hospital Universitario del Río en Cuenca, Ecuador, en el piso 3, consultorio 306.</p>",
+    "descripcion_propuesta": "<p>El Dr. Hernán Sacoto A. es especialista en Cirugía General con formación en cirugía digestiva, laparoscopia y endoscopia gastrointestinal. Completó su posgrado en Cirugía General en la Universidad de Cuenca y amplió su formación en universidades de Chile. Ejerce en el Hospital del Río en Cuenca, Ecuador, en el piso 3, consultorio 306.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "fabian-andres-merchan-bustos",
+    "item_id": "6a54d255bff580afc1dd379f",
+    "nombre": "Fabián Andrés Merchán Bustos",
+    "descripcion_actual": "<p>El Dr. Fabián Merchán Bustos es médico pediatra, cardiólogo pediatra y ecocardiografista con consulta en Cuenca y Machala, Ecuador. Atiende en el Hospital Universitario del Río (piso 4, consultorio 420) y ofrece servicios de consulta cardiológica, ecocardiograma, electrocardiograma, Holter y chequeo prequirúrgico. Cuenta con atención presencial y teleconsulta, y acepta reembolsos de seguros médicos.</p>",
+    "descripcion_propuesta": "<p>El Dr. Fabián Merchán Bustos es médico pediatra, cardiólogo pediatra y ecocardiografista con consulta en Cuenca y Machala, Ecuador. Atiende en el Hospital del Río (piso 4, consultorio 420) y ofrece servicios de consulta cardiológica, ecocardiograma, electrocardiograma, Holter y chequeo prequirúrgico. Cuenta con atención presencial y teleconsulta, y acepta reembolsos de seguros médicos.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "fabian-siguencia-a",
+    "item_id": "6a54d256dcf1118afd80f85a",
+    "nombre": "Fabián Sigüencia A.",
+    "descripcion_actual": "<p>El Dr. Fabián Sigüencia A. es especialista en Pediatría en el Hospital Universitario del Río, en Cuenca, Ecuador, donde atiende en el Piso N°1, Consultorio 109. Cuenta con amplia experiencia en la atención médica pediátrica y forma parte del cuerpo médico de uno de los centros hospitalarios más reconocidos de la región.</p>",
+    "descripcion_propuesta": "<p>El Dr. Fabián Sigüencia A. es especialista en Pediatría en el Hospital del Río, en Cuenca, Ecuador, donde atiende en el Piso N°1, Consultorio 109. Cuenta con amplia experiencia en la atención médica pediátrica y forma parte del cuerpo médico de uno de los centros hospitalarios más reconocidos de la región.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram/Facebook",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch: no se encontró cuenta personal verificable del Dr. Fabián Sigüencia A. (pediatra, UCUENCA). Solo aparecen cuentas genéricas de clínicas pediátricas ('Pediatri.co') sin relación confirmada con él — no se propone URL."
+      }
+    ]
+  },
+  {
+    "slug": "eduardo-verdugo",
+    "item_id": "6a54d24936e990a2e22fadad",
+    "nombre": "Manuel Eduardo Verdugo Tapia",
+    "descripcion_actual": "<p>Dr. Eduardo Verdugo Tapia es especialista en Cirugía General y Cirugía Bariátrica y Metabólica, con formación en la Universidad Central del Ecuador y subespecialidad en cirugía bariátrica y metabólica avalada por la UNAM en México. Junto a su equipo en Cuenca, Ecuador, ofrece procedimientos de mínima invasión para el tratamiento quirúrgico de la obesidad y enfermedades metabólicas asociadas como diabetes e hipertensión. Ejerce en el Hospital del Río y en la Clínica de Obesidad y Cirugía de Mínima Invasión Doctores Verdugo.</p>",
+    "descripcion_propuesta": "<p>Dr. Eduardo Verdugo Tapia es especialista en Cirugía General y Cirugía Bariátrica y Metabólica, con formación en la Universidad Central del Ecuador y subespecialidad en cirugía bariátrica y metabólica avalada por la UNAM en México. Junto a su equipo en Cuenca, Ecuador, ofrece procedimientos de mínima invasión para el tratamiento quirúrgico de la obesidad y enfermedades metabólicas asociadas como diabetes e hipertensión. Ejerce en el Hospital del Río, Cuenca, Ecuador.</p>",
+    "cambio": "Eliminada mención a 'Clínica de Obesidad y Cirugía de Mínima Invasión Doctores Verdugo' (otra clínica donde ejerce) por regla de contenido prohibido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-fernanda-delgado-suconota",
+    "item_id": "6a54d259338bfedff0ca3319",
+    "nombre": "Maria Fernanda Delgado Suconota",
+    "descripcion_actual": "<p>La Dra. Maria Fernanda Delgado Suconota es especialista en Medicina Interna con consulta en el Hospital Universitario del Río, Cuenca, Ecuador. Atiende en el piso 2, consultorio 212. Se puede contactar directamente al 099 287 6350 o al correo [email protected].</p>",
+    "descripcion_propuesta": "<p>La Dra. Maria Fernanda Delgado Suconota es especialista en Medicina Interna con consulta en el Hospital del Río, Cuenca, Ecuador. Atiende en el piso 2, consultorio 212.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Eliminada referencia a correo '[email protected]' (placeholder/dato roto, no es un correo real) y teléfono duplicado del campo Teléfono.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "franklin-xavier-bravo-aguilar",
+    "item_id": "6a54d26237de3718614a0fd5",
+    "nombre": "Franklin Xavier Bravo Aguilar",
+    "descripcion_actual": "<p>El Dr. Franklin Xavier Bravo Aguilar es especialista en Ortopedia y Traumatología, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador, ubicado en el Piso 1, Consultorio 108. Atiende afecciones del sistema musculoesquelético, incluyendo fracturas, lesiones articulares y patologías de columna, cadera y extremidades.</p>",
+    "descripcion_propuesta": "<p>El Dr. Franklin Xavier Bravo Aguilar es especialista en Ortopedia y Traumatología, con consulta en el Hospital del Río de Cuenca, Ecuador, ubicado en el Piso 1, Consultorio 108. Atiende afecciones del sistema musculoesquelético, incluyendo fracturas, lesiones articulares y patologías de columna, cadera y extremidades.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/traumatologos_bravo/",
+        "confianza": "media",
+        "fuente": "WebSearch: cuenta de Instagram 'Traumatologos Bravo' asociada a la práctica de traumatología/ortopedia de la familia Bravo Aguilar en Cuenca (confirmada para su hermano/colega Christian Bravo Aguilar, mismo consultorio 108). No confirmado individualmente para Franklin — verificar antes de publicar."
+      }
+    ]
+  },
+  {
+    "slug": "david-andrade-z",
+    "item_id": "6a54d21e9c775de11bb31414",
+    "nombre": "David Andrade Z.",
+    "descripcion_actual": "<p>El Dr. David Andrade Zamora es gastroenterólogo y endoscopista digestivo con más de 10 años de experiencia. Ejerce en el Hospital Universitario del Río en Cuenca y está afiliado al servicio de gastroenterología del Hospital del IESS. Es experto en hemorragia digestiva, balón intragástrico, cápsula endoscópica y dilataciones.</p>",
+    "descripcion_propuesta": "<p>El Dr. David Andrade Zamora es gastroenterólogo y endoscopista digestivo con más de 10 años de experiencia. Ejerce en el Hospital del Río en Cuenca, Ecuador. Es experto en hemorragia digestiva, balón intragástrico, cápsula endoscópica y dilataciones.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Eliminada mención de afiliación al 'Hospital del IESS' por regla de contenido prohibido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "luis-fernando-moreno-montes",
+    "item_id": "6a54d25dbff580afc1dd3ee2",
+    "nombre": "Luis Fernando Moreno Montes",
+    "descripcion_actual": "<p>El Dr. Luis Fernando Moreno Montes es especialista en Ginecología y Obstetricia, graduado de la Universidad de Cuenca y con especialidad obtenida en la Universidad San Francisco de Quito. Atiende en el Hospital Universitario del Río de Cuenca, piso 1, consultorio 137, con experiencia en embarazo de alto riesgo y cirugía ginecológica.</p>",
+    "descripcion_propuesta": "<p>El Dr. Luis Fernando Moreno Montes es especialista en Ginecología y Obstetricia, graduado de la Universidad de Cuenca y con especialidad obtenida en la Universidad San Francisco de Quito. Atiende en el Hospital del Río de Cuenca, piso 1, consultorio 137, con experiencia en embarazo de alto riesgo y cirugía ginecológica.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ivonne-alvarez-i",
+    "item_id": "6a54d27ab612b7f6c11e0603",
+    "nombre": "Ivonne Alvarez I.",
+    "descripcion_actual": "<p>La Dra. Ivonne Álvarez es especialista en Psicoterapia Integrativa, con formación en Psicología Clínica por la Universidad del Azuay y Maestría en Psicoterapia Integrativa por la Universidad Adolfo Ibáñez en Santiago, Chile. Brinda atención terapéutica a adolescentes y adultos en modalidad individual, de pareja y familiar, y es también terapeuta floral. Atiende en el Consultorio 430 del Hospital del Río, Cuenca, Ecuador.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — no menciona 'Universitario' ni otro hospital/clínica.",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram/Facebook",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch: no se encontró coincidencia confiable. Los resultados más cercanos ('Ivonne Montaleza', psicóloga deportiva; 'Ivonne Álvarez García') no coinciden en nombre completo ni especialidad (psicoterapia integrativa) — no se propone URL."
+      }
+    ]
+  },
+  {
+    "slug": "leticia-elizabeth-pacheco-quito",
+    "item_id": "6a54d24ab662e7aa3840e7f9",
+    "nombre": "Leticia Elizabeth Pacheco Quito",
+    "descripcion_actual": "<p>La Dra. Leticia Elizabeth Pacheco Quito es oftalmóloga con subespecialidad en Retina y Vítreo, formada en la UNAM y docente de Oftalmología en la Universidad del Azuay (UDA). Atiende en el Hospital del Río de Cuenca, consultorio 144, y su práctica privada Oftalmovisión ofrece servicios de oftalmología general, cirugía de cataratas, desprendimiento de retina, retinopatía diabética, glaucoma y trauma ocular, entre otros.</p>",
+    "descripcion_propuesta": "<p>La Dra. Leticia Elizabeth Pacheco Quito es oftalmóloga con subespecialidad en Retina y Vítreo, formada en la UNAM y docente de Oftalmología en la Universidad del Azuay (UDA). Atiende en el Hospital del Río de Cuenca, consultorio 144, con experiencia en oftalmología general, cirugía de cataratas, desprendimiento de retina, retinopatía diabética, glaucoma y trauma ocular, entre otros.</p>",
+    "cambio": "Eliminada mención a su práctica privada 'Oftalmovisión' (otra clínica) por regla de contenido prohibido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "rodrigo-eduardo-lopez-astudillo",
+    "item_id": "6a54d248167cf6172578830a",
+    "nombre": "Rodrigo Eduardo López Astudillo",
+    "descripcion_actual": "<p>El Dr. Rodrigo Eduardo López Astudillo es cirujano pediatra con especialización en Barcelona, España, adscrito al Hospital del Río de Cuenca en el consultorio 406, piso 4. Su práctica abarca cirugía pediátrica general, urología pediátrica, cirugía laparoscópica pediátrica y urgencias quirúrgicas, incluyendo el manejo de hernias, atresia esofágica, enfermedad de Hirschsprung y torsión testicular. También ejerce en la Clínica Santa Ana y Clínica Latino de Cuenca.</p>",
+    "descripcion_propuesta": "<p>El Dr. Rodrigo Eduardo López Astudillo es cirujano pediatra con especialización en Barcelona, España, adscrito al Hospital del Río de Cuenca en el consultorio 406, piso 4. Su práctica abarca cirugía pediátrica general, urología pediátrica, cirugía laparoscópica pediátrica y urgencias quirúrgicas, incluyendo el manejo de hernias, atresia esofágica, enfermedad de Hirschsprung y torsión testicular.</p>",
+    "cambio": "Eliminada mención a 'Clínica Santa Ana y Clínica Latino de Cuenca' (otras clínicas donde ejerce) por regla de contenido prohibido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram/Facebook",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch: no se encontró cuenta de Instagram o Facebook verificable. Solo aparece su ficha en el directorio de la Sociedad Ecuatoriana de Pediatría Filial Cuenca — no se propone URL."
+      }
+    ]
+  },
+  {
+    "slug": "fernando-manuel-arias-maldonado",
+    "item_id": "6a54d25c8740aaa736c6c3b5",
+    "nombre": "Fernando Manuel Arias Maldonado",
+    "descripcion_actual": "<p>El Dr. Fernando Manuel Arias Maldonado es especialista en Medicina Interna con consulta en el Hospital Universitario del Río, Piso 2, Consultorio 239, Cuenca, Ecuador. Ofrece atención médica presencial, teleconsulta y visitas a domicilio con servicios de enfermería, laboratorio, terapia respiratoria y electrocardiograma para pacientes de todas las edades. Trabaja con seguros como Generali, BMI y Confiamed Medicina Prepagada.</p>",
+    "descripcion_propuesta": "<p>El Dr. Fernando Manuel Arias Maldonado es especialista en Medicina Interna con consulta en el Hospital del Río, Piso 2, Consultorio 239, Cuenca, Ecuador. Ofrece atención médica presencial, teleconsulta y visitas a domicilio con servicios de enfermería, laboratorio, terapia respiratoria y electrocardiograma para pacientes de todas las edades. Trabaja con seguros como Generali, BMI y Confiamed Medicina Prepagada.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "diana-carolina-izquierdo-coronel",
+    "item_id": "6a54d221b2d9486b374d6503",
+    "nombre": "Diana Carolina Izquierdo Coronel",
+    "descripcion_actual": "<p>La Dra. Diana Carolina Izquierdo Coronel es especialista en Nutrición, Obesidad y Diabetes, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador, en el Piso 1, Consultorio 112. Brinda atención personalizada a pacientes con condiciones metabólicas y nutricionales, orientando hacia hábitos alimenticios saludables y el control de enfermedades crónicas.</p>",
+    "descripcion_propuesta": "<p>La Dra. Diana Carolina Izquierdo Coronel es especialista en Nutrición, Obesidad y Diabetes, con consulta en el Hospital del Río de Cuenca, Ecuador, en el Piso 1, Consultorio 112. Brinda atención personalizada a pacientes con condiciones metabólicas y nutricionales, orientando hacia hábitos alimenticios saludables y el control de enfermedades crónicas.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram/Facebook",
+        "url": null,
+        "confianza": "baja",
+        "fuente": "WebSearch: no se encontró cuenta de Instagram o Facebook verificable, solo su ficha en doctoranytime.ec — no se propone URL."
+      }
+    ]
+  },
+  {
+    "slug": "christian-romeo-bravo-aguilar",
+    "item_id": "6a54d215e22eae1436a5603d",
+    "nombre": "Christian Romeo Bravo Aguilar",
+    "descripcion_actual": "<p>El Dr. Christian Romero Bravo Aguilar es especialista en Ortopedia y Traumatología Infantil, con atención en el Hospital Universitario del Río de Cuenca, Ecuador, donde ejerce en el consultorio 108 del primer piso. Su práctica se centra en el diagnóstico y tratamiento de afecciones musculoesqueléticas en pacientes pediátricos, incluyendo deformidades óseas y traumatismos propios de la infancia.</p>",
+    "descripcion_propuesta": "<p>El Dr. Christian Romeo Bravo Aguilar es especialista en Ortopedia y Traumatología Infantil, con atención en el Hospital del Río de Cuenca, Ecuador, donde ejerce en el consultorio 108 del primer piso. Su práctica se centra en el diagnóstico y tratamiento de afecciones musculoesqueléticas en pacientes pediátricos, incluyendo deformidades óseas y traumatismos propios de la infancia.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Corregido nombre 'Christian Romero' → 'Christian Romeo' para coincidir con el campo Nombre del CMS.",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/traumatologos_bravo/",
+        "confianza": "alta",
+        "fuente": "WebSearch: publicación en la cuenta de Instagram 'Traumatologos Bravo' (@traumatologos_bravo) que presenta específicamente al 'Dr. Christian Bravo Aguilar', ortopedia/traumatología infantil, Cuenca — coincide nombre completo y especialidad."
+      }
+    ]
+  },
+  {
+    "slug": "edison-guallpa",
+    "item_id": "6a54d247d54e6bcacb493913",
+    "nombre": "Edison Guallpa",
+    "descripcion_actual": "<p>El Dr. Edison Guallpa es cirujano oncólogo graduado de la Universidad de Cuenca y especializado en Cirugía Oncológica por la Universidad Nacional Autónoma de México. Ejerce en Cuenca con enfoque en el tratamiento quirúrgico del cáncer.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — no menciona 'Universitario' ni otro hospital/clínica, ya tiene redes cargadas.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "edison-espinoza",
+    "item_id": "6a54d2464164caab75a49f93",
+    "nombre": "Edison Espinoza",
+    "descripcion_actual": "<p>El Dr. Edison Espinoza es cirujano cardiovascular y torácico en Cuenca, Ecuador. Ejerce en el Hospital del Río y es especialista en procedimientos quirúrgicos del corazón, pulmones, esófago y otros órganos del tórax. Cuenta con presencia activa en redes sociales y en su sitio web profesional.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — no menciona 'Universitario' ni otro hospital/clínica, ya tiene redes cargadas.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "cristina-vintimilla-diaz",
+    "item_id": "6a54d2191f210111b03d1a08",
+    "nombre": "Cristina Vintimilla Díaz",
+    "descripcion_actual": "<p>La Dra. Cristina Vintimilla Díaz es especialista en Cardiología Pediátrica, dedicada al diagnóstico, tratamiento y prevención de problemas cardíacos en recién nacidos, niños y adolescentes. Ejerce en el Hospital Universitario del Río en Cuenca, Ecuador.</p>",
+    "descripcion_propuesta": "<p>La Dra. Cristina Vintimilla Díaz es especialista en Cardiología Pediátrica, dedicada al diagnóstico, tratamiento y prevención de problemas cardíacos en recién nacidos, niños y adolescentes. Ejerce en el Hospital del Río en Cuenca, Ecuador.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "daniela-augusta-saquicela-noveillo",
+    "item_id": "6a54d21cb18ad47dadaa68ef",
+    "nombre": "Daniela Augusta Saquicela Noveillo",
+    "descripcion_actual": "<p>La Dra. Daniela Augusta Saquicela Noveillo es médica especialista en Endocrinología Pediátrica, graduada de la Universidad del Azuay y subespecialista egresada del Hospital Centro Médico Nacional Siglo XXI en México, con certificación del Consejo Mexicano de Endocrinología Pediátrica. Atiende en el Hospital del Río de Cuenca, consultorio 417, y tiene amplia experiencia en el diagnóstico y tratamiento de enfermedades endocrinológicas en niños y adolescentes, como obesidad infantil, diabetes tipo 1, patología tiroidea, alteraciones de la pubertad y trastornos del crecimiento.</p>",
+    "descripcion_propuesta": "<p>La Dra. Daniela Augusta Saquicela Noveillo es médica especialista en Endocrinología Pediátrica, graduada de la Universidad del Azuay y subespecialista formada en México, con certificación del Consejo Mexicano de Endocrinología Pediátrica. Atiende en el Hospital del Río de Cuenca, consultorio 417, y tiene amplia experiencia en el diagnóstico y tratamiento de enfermedades endocrinológicas en niños y adolescentes, como obesidad infantil, diabetes tipo 1, patología tiroidea, alteraciones de la pubertad y trastornos del crecimiento.</p>",
+    "cambio": "Eliminada mención específica al 'Hospital Centro Médico Nacional Siglo XXI' (hospital de formación/residencia en el extranjero) por regla de contenido prohibido — se mantiene solo el dato universitario/país.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "cesar-octavio-toral-chacon",
+    "item_id": "6a54d20fd6acf999f46279b1",
+    "nombre": "César Octavio Toral Chacón",
+    "descripcion_actual": "<p>El Dr. César Octavio Toral Chacón es especialista en Nefrología con formación de posgrado en Estados Unidos, incluyendo una fellowship en el Jackson Memorial Hospital. Ejerce en el Hospital Universitario del Río (piso 2, consultorio 224) y es docente en la Universidad del Azuay, siendo miembro activo de la Sociedad Ecuatoriana de Nefrología, Diálisis y Trasplantes.</p>",
+    "descripcion_propuesta": "<p>El Dr. César Octavio Toral Chacón es especialista en Nefrología con formación de posgrado en Estados Unidos. Ejerce en el Hospital del Río (piso 2, consultorio 224) y es docente en la Universidad del Azuay, siendo miembro activo de la Sociedad Ecuatoriana de Nefrología, Diálisis y Trasplantes.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Eliminada mención a la fellowship en 'Jackson Memorial Hospital' (hospital de formación en el extranjero) por regla de contenido prohibido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "henry-rolando-ochoa-vazquez",
+    "item_id": "6a54d270a827049286336950",
+    "nombre": "Henry Rolando Ochoa Vázquez",
+    "descripcion_actual": "<p>El Dr. Ochoa Vázquez es especialista en Cirugía General y Cirugía Vascular y Endovascular, con formación de posgrado en el Hospital Clínico de la Universidad de Chile y entrenamiento avanzado en cirugía endovascular en Washington University, Estados Unidos. Ejerce en el Hospital Universitario del Río de Cuenca, Ecuador, y ha participado activamente en congresos nacionales e internacionales de angiología y cirugía vascular.</p>",
+    "descripcion_propuesta": "<p>El Dr. Ochoa Vázquez es especialista en Cirugía General y Cirugía Vascular y Endovascular, con formación de posgrado en Chile y entrenamiento avanzado en cirugía endovascular en Washington University, Estados Unidos. Ejerce en el Hospital del Río de Cuenca, Ecuador, y ha participado activamente en congresos nacionales e internacionales de angiología y cirugía vascular.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Eliminada mención específica al 'Hospital Clínico de la Universidad de Chile' (hospital de formación/residencia) por regla de contenido prohibido, manteniendo el dato del país. Se conserva 'Washington University' por ser mención puramente universitaria (permitida).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  }
+]

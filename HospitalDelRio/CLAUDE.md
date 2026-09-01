@@ -4,6 +4,7 @@
 Web del Hospital del Río, Cuenca Ecuador. Mayor centro médico del Austro.
 **Construida en Webflow.** Ya no es propuesta — es el sitio activo.
 
+- Webflow site ID: `6a3189b602855332320401b3`
 - URL staging: https://hospital-del-rio.webflow.io/
 - URL producción: https://www.hospitaldelrio.com.ec/ (WP, pendiente migración)
 - Dominio custom en Webflow: no configurado aún
@@ -52,7 +53,7 @@ Blanco:      #FFFFFF
 ## Reglas de trabajo
 - **Siempre hacer backup** antes de cambiar Custom Code → `.claude/backups/`
 - Los cambios en Webflow afectan todo el sitio si son a nivel site (no solo página)
-- Webflow MCP disponible — pedir site_id a Mau (no lo hardcodees en commits públicos)
+- Webflow MCP disponible — site_id: `6a3189b602855332320401b3`
 - Publicar manualmente después de cada cambio via Webflow o MCP
 
 ## Archivos del proyecto
@@ -61,5 +62,3 @@ Blanco:      #FFFFFF
 - `investigacion.md` — research CMS original
 - `.claude/backups/` — backups de custom code antes de cada cambio
 - `webflow/` — scripts y notas técnicas de Webflow
-
-> Nota: credenciales/tokens de Webflow NUNCA van en este repo — viven en Doppler o `.env` local, gitignoreados.

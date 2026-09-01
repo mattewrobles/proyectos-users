@@ -1,0 +1,216 @@
+[
+  {
+    "slug": "juan-francisco-carrion",
+    "item_id": "6a84db3769e80750cff0dc67",
+    "nombre": "Juan Francisco Carrión",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Juan Francisco Carrión es especialista en Cirugía General, con subespecialidad en Cirugía del Aparato Digestivo. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Sin descripción previa (null). Se redactó descripción mínima 100% factual con datos del CMS (especialidad, subespecialidad, hospital) — no se usó el hallazgo de búsqueda en la bio para no mezclar posible identidad incorrecta.",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/drjuancarrion/",
+        "confianza": "media",
+        "fuente": "WebSearch: 'Dr Juan Francisco Carrión M. Cirugía General y Digestiva | Cuenca' — coincide especialidad (cirugía general y digestiva) y ciudad, pero el apellido completo en fuentes (Carrión Maldonado) no se puede confirmar 1:1 contra el CMS (que solo trae 'Carrión')."
+      }
+    ]
+  },
+  {
+    "slug": "rodrigo-jose-mendoza-rivas",
+    "item_id": "6a54d33dbff580afc1ddd171",
+    "nombre": "Rodrigo Jose Mendoza Rivas",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Rodrigo Mendoza Rivas es cardiólogo clínico e intervencionista, especialista en Cateterismo Cardiovascular. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso N° 3, Consultorio 336.</p>",
+    "cambio": "Sin descripción previa. Se consultó su sitio web (drodrigomendoza.com) vía WebFetch: no expone universidades ni instituciones de formación específicas, solo describe su rol como 'referente regional' en cardiología intervencionista y volumen de pacientes atendidos (dato promocional, no factual verificable para CMS). Se optó por descripción mínima con datos confirmados del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "cristian-xavier-astudillo-carrera",
+    "item_id": "6a54d214d7ced48cb554e9de",
+    "nombre": "Cristian Xavier Astudillo Carrera",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Cristian Astudillo Carrera es especialista en Cirugía Plástica y Reconstructiva. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 308.</p>",
+    "cambio": "Sin descripción previa. Ya tiene redes (Instagram, Facebook, TikTok) cargadas en el CMS, así que no se intentó extraer bio de ahí (regla: no vale la pena vía WebFetch). No tiene sitio web. Descripción mínima con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-augusta-illescas-reinoso",
+    "item_id": "6a54d2c362cd0a61dd559614",
+    "nombre": "María Augusta Illescas Reinoso",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Augusta Illescas Reinoso es especialista en Ginecología y Obstetricia. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 116.</p>",
+    "cambio": "Sin descripción previa y sin ninguna red social en el CMS. Se hizo WebSearch — no se encontró Instagram ni Facebook propios (solo directorios médicos externos tipo doctoranytime/doctopro). Descripción mínima con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "michele-angely-pacheco-quito",
+    "item_id": "6a54d2f7fbb935ec54e2d80d",
+    "nombre": "Michele Angely Pacheco Quito",
+    "descripcion_actual": "<p>La Dra. Michelle Pacheco Q. es subespecialista en Córnea, Enfermedades Externas del Ojo y Cirugía Refractiva, con consulta en el Hospital del Río de Cuenca. También ejerce en el Hospital del Río. Es experta en el diagnóstico y tratamiento de enfermedades de la córnea y procedimientos de corrección visual.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — no menciona 'Universitario' ni otro hospital/clínica distinto al Hospital del Río (la frase 'También ejerce en el Hospital del Río' es redundante pero no viola las reglas de contenido).",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "anyi-machuca-castrellon",
+    "item_id": "6a54d1fc8a6d86fced7b6f6d",
+    "nombre": "Anyi Machuca Castrellón",
+    "descripcion_actual": "<p>La Dra. Anyi Machuca Castrellón es médico cirujana de la Universidad de Cuenca y Magíster en Medicina Estética por la Universitat de les Illes Balears (España). Fundadora de MedicalTime, clínica exclusiva especializada en medicina estética avanzada en Cuenca. Cuenta con amplia formación internacional en dermatología estética y tratamientos con resultados garantizados.</p>",
+    "descripcion_propuesta": "<p>La Dra. Anyi Machuca Castrellón es médico cirujana de la Universidad de Cuenca y Magíster en Medicina Estética por la Universitat de les Illes Balears (España). Es especialista en Medicina Estética, con formación internacional en dermatología estética.</p>",
+    "cambio": "Se eliminó la mención de que es 'Fundadora de MedicalTime, clínica exclusiva' — viola la regla de no mencionar que ejerce/trabaja en otra clínica distinta al Hospital del Río. Se conservó la formación universitaria (Universidad de Cuenca, Universitat de les Illes Balears) que sí está permitida. También se quitó 'con resultados garantizados' (claim no verificable / no corresponde a CMS de doctores).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-jose-diaz-carrasco",
+    "item_id": "6a54d2a4b2d9486b374db1b1",
+    "nombre": "Juan Jose Díaz Carrasco",
+    "descripcion_actual": "<p>El Dr. Juan José Díaz Carrasco es oftalmólogo en el Hospital del Río de Cuenca, Ecuador. Forma parte del equipo de Díaz Oftalmología, institución dedicada a la atención integral de patologías oculares. Ofrece servicios de oftalmología pediátrica y adultos, cirugía de cataratas, glaucoma y retinopatía diabética.</p>",
+    "descripcion_propuesta": "<p>El Dr. Juan José Díaz Carrasco es oftalmólogo en el Hospital del Río de Cuenca, Ecuador. Ofrece servicios de oftalmología pediátrica y adultos, cirugía de cataratas, glaucoma y retinopatía diabética.</p>",
+    "cambio": "Se eliminó la mención de que 'Forma parte del equipo de Díaz Oftalmología, institución...' — viola la regla de no mencionar que ejerce en otra clínica distinta al Hospital del Río.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-diego-cordero-garcia",
+    "item_id": "6a54d29ff590e02a7d09cb04",
+    "nombre": "Juan Diego Cordero García",
+    "descripcion_actual": "<p>El Dr. Cordero García es especialista en Coloproctología, área de la cirugía dedicada al diagnóstico y tratamiento de enfermedades del colon, recto y ano. Realizó su especialización en la Universidad Nacional Autónoma de México (UNAM) y cuenta con certificación del Consejo Mexicano de Especialistas en Coloproctología. Atiende en el Hospital Universitario del Río en Cuenca, Ecuador, consultorio 204.</p>",
+    "descripcion_propuesta": "<p>El Dr. Cordero García es especialista en Coloproctología, área de la cirugía dedicada al diagnóstico y tratamiento de enfermedades del colon, recto y ano. Realizó su especialización en la Universidad Nacional Autónoma de México (UNAM) y cuenta con certificación del Consejo Mexicano de Especialistas en Coloproctología. Atiende en el Hospital del Río en Cuenca, Ecuador, consultorio 204.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. El resto (formación en UNAM, certificación del Consejo Mexicano) es universitario/certificación, permitido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-augusta-peralta-g",
+    "item_id": "6a54d2c440d01b33ec18831f",
+    "nombre": "María Augusta Peralta G.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Augusta Peralta G. es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4, Consultorio 408.</p>",
+    "cambio": "Sin descripción previa y sin ninguna red social en el CMS. Se hizo WebSearch — solo aparecen directorios médicos externos (edina.com.ec), sin Instagram/Facebook propio confirmable. Descripción mínima con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "carmen-cecilia-cedillo-armijos",
+    "item_id": "6a54d206392145753422a4b0",
+    "nombre": "Carmen Cecilia Cedillo Armijos",
+    "descripcion_actual": "<p>La Dra. Carmen Cecilia Cedillo Armijos es especialista en Geriatría Clínica y ejerce en el Hospital Universitario del Río en Cuenca, Ecuador, donde se desempeña como jefa de la Unidad de Geriatría. Atiende en el Piso 1, Consultorio 128, brindando atención médica integral a pacientes adultos mayores.</p>",
+    "descripcion_propuesta": "<p>La Dra. Carmen Cecilia Cedillo Armijos es especialista en Geriatría Clínica y ejerce en el Hospital del Río en Cuenca, Ecuador, donde se desempeña como jefa de la Unidad de Geriatría. Atiende en el Piso 1, Consultorio 128, brindando atención médica integral a pacientes adultos mayores.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "guillermo-teodoro-lopez-torres",
+    "item_id": "6a54d26bd6acf999f462a3aa",
+    "nombre": "Guillermo Teodoro López Torres",
+    "descripcion_actual": "<p>El Dr. Guillermo López Torres es especialista en Tratamiento del Dolor, con subespecialidad en Terapia del Dolor realizada en el Hospital Universitario de Cruces (España) y Máster en Tratamiento del Dolor por la Universidad de Salamanca. Dirige la Unidad del Dolor del Hospital Universitario del Río en Cuenca, Ecuador, donde brinda atención integral a pacientes con dolor agudo y crónico, con el objetivo de mejorar su calidad de vida.</p>",
+    "descripcion_propuesta": "<p>El Dr. Guillermo López Torres es especialista en Tratamiento del Dolor, con Máster en Tratamiento del Dolor por la Universidad de Salamanca. Dirige la Unidad del Dolor del Hospital del Río en Cuenca, Ecuador, donde brinda atención integral a pacientes con dolor agudo y crónico, con el objetivo de mejorar su calidad de vida.</p>",
+    "cambio": "Se eliminó la mención de formación práctica en 'Hospital Universitario de Cruces (España)' (institución específica de formación, no universitaria pura). Se conservó el Máster de la Universidad de Salamanca (universitario, permitido). Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "miguel-estuardo-molina-maldonado",
+    "item_id": "6a54d2fdf590e02a7d09fc56",
+    "nombre": "Miguel Estuardo Molina Maldonado",
+    "descripcion_actual": "<p>El Dr. Claudio Galarza Maldonado es reumatólogo con más de 30 años de experiencia, investigador y académico reconocido en América Latina y Europa. Fue pionero en el uso de rituximab y terapias biológicas en Ecuador. Ha participado como investigador principal en estudios clínicos internacionales para Eli Lilly, Roche, Pfizer, Abbott y Novartis, y es co-ganador del Premio ILAR 2011.</p>",
+    "descripcion_propuesta": "<p>El Dr. Miguel Estuardo Molina Maldonado es especialista en Ortopedia y Traumatología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 321.</p>",
+    "cambio": "ERROR DE DATOS DETECTADO (no es un problema de las reglas 1-2, es un mismatch de contenido): la descripción publicada actualmente pertenece a otro doctor por completo — 'Dr. Claudio Galarza Maldonado', reumatólogo — mientras el item del CMS es 'Miguel Estuardo Molina Maldonado', especialista en Ortopedia y Traumatología. Las redes sociales (Instagram @galarzaclaudio, Facebook, LinkedIn, sitio reumacuenca.com) que aparecen en el CMS para este item TAMBIÉN corresponden a Claudio Galarza, no a Miguel Molina. Se propone una descripción mínima 100% factual solo con los datos de Miguel Molina del CMS (nombre + especialidad + consultorio), y se recomienda a Mau NO subir las redes sociales listadas para este item hasta verificar con el hospital a qué doctor pertenecen realmente (probablemente hay un item duplicado o mal mapeado para 'Claudio Galarza Maldonado' en otro batch).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "aviso",
+        "url": "",
+        "confianza": "baja",
+        "fuente": "Las redes cargadas en este item del CMS (IG https://www.instagram.com/galarzaclaudio/, FB, LinkedIn, sitio https://www.reumacuenca.com/) pertenecen a Claudio Galarza Maldonado, no a Miguel Estuardo Molina Maldonado. NO usar para este perfil — requiere verificación manual con el hospital."
+      }
+    ]
+  },
+  {
+    "slug": "diego-bravo",
+    "item_id": "6a54d224d6acf999f46281eb",
+    "nombre": "Diego Bravo",
+    "descripcion_actual": "<p>El Dr. Diego Bravo es especialista en Ortopedia y Traumatología con subespecialidad en Cirugía de Mano, Artroscopia, Cirugía de Nervio Periférico y Microcirugía. Realizó su formación en el Instituto Nacional de Rehabilitación 'Luis Guillermo Ibarra Ibarra' (avalado por la UNAM) en México. Es miembro de la Sociedad Ecuatoriana de Cirugía de la Mano.</p>",
+    "descripcion_propuesta": "<p>El Dr. Diego Bravo es especialista en Ortopedia y Traumatología con subespecialidad en Cirugía de Mano, Artroscopia, Cirugía de Nervio Periférico y Microcirugía. Realizó su formación avalada por la Universidad Nacional Autónoma de México (UNAM). Es miembro de la Sociedad Ecuatoriana de Cirugía de la Mano.</p>",
+    "cambio": "Se eliminó la mención del 'Instituto Nacional de Rehabilitación Luis Guillermo Ibarra Ibarra' (institución específica de formación práctica), dejando solo el aval universitario (UNAM), que sí está permitido. Se conservó la membresía a la Sociedad Ecuatoriana de Cirugía de la Mano.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "claudia-rosana-rodas-espinoza",
+    "item_id": "6a54d212b1043d6b41bf31f4",
+    "nombre": "Claudia Rosana Rodas Espinoza",
+    "descripcion_actual": "<p>La Dra. Claudia Rodas Espinoza es especialista en Inmunología y Profesora de la Universidad del Azuay en Cuenca. Ejerce en el Hospital del Río y cuenta con 13 publicaciones científicas en inmunología. Su práctica está orientada al diagnóstico y tratamiento de enfermedades del sistema inmune.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — no dice 'Universitario' ni menciona otro hospital/clínica.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ismael-chango-c",
+    "item_id": "6a54d276d2181feb90de357c",
+    "nombre": "Ismael Chango C.",
+    "descripcion_actual": "<p>El Dr. Chango es especialista en Medicina Crítica con subespecialidad en Terapia Intensiva, dedicado al diagnóstico y manejo avanzado de pacientes en estado crítico. Su formación le permite brindar atención integral en unidades de cuidados intensivos, aplicando protocolos actualizados de soporte vital y monitorización hemodinámica. Forma parte del equipo médico del Hospital Universitario del Río en Cuenca, Ecuador.</p>",
+    "descripcion_propuesta": "<p>El Dr. Chango es especialista en Medicina Crítica con subespecialidad en Terapia Intensiva, dedicado al diagnóstico y manejo avanzado de pacientes en estado crítico. Su formación le permite brindar atención integral en unidades de cuidados intensivos, aplicando protocolos actualizados de soporte vital y monitorización hemodinámica. Forma parte del equipo médico del Hospital del Río en Cuenca, Ecuador.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "david-francisco-bravo-lopez",
+    "item_id": "6a54d355b662e7aa38420265",
+    "nombre": "David Francisco Bravo López",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. David Francisco Bravo López es especialista en Cirugía Oncológica, con subespecialidad en Cirugía Digestiva. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso N° 3, Consultorio 314.</p>",
+    "cambio": "Sin descripción previa. Ya tiene Instagram cargado en el CMS, así que no se intentó extraer bio de ahí. No tiene sitio web. Descripción mínima con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-augusta-vazquez-quezada",
+    "item_id": "6a54d2c5a06b16ffe13c8daf",
+    "nombre": "María Augusta Vázquez Quezada",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Augusta Vázquez Quezada es especialista en Nutrición, con subespecialidad en Clínica Estética y Reparadora. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4, Consultorio 428.</p>",
+    "cambio": "Sin descripción previa. Ya tiene Instagram y Facebook cargados en el CMS (neoestetic_cuenca / Nutricioncuenca), así que no se intentó extraer bio de ahí. No tiene sitio web. Descripción mínima con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marcelo-enrique-cazar-almache",
+    "item_id": "6a54d2be1f210111b03d83a1",
+    "nombre": "Marcelo Enrique Cazar Almache",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Marcelo Cazar Almache es especialista en Cirugía Maxilofacial, subespecialista en Cirugía Ortognática. Es docente de la Universidad de Cuenca. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4, Consultorio 434.</p>",
+    "cambio": "Sin descripción previa. Sitio web cargado (ResearchGate) devolvió 403 al hacer WebFetch directo; se completó con WebSearch, que confirma que es docente/investigador de la Universidad de Cuenca (Facultad de Odontología) en Cirugía Oral y Maxilofacial, subespecialista en cirugía ortognática — dato universitario, permitido. Se evitó mencionar 'Servicio de Cirugía Maxilofacial' u otras instituciones clínicas que aparecían en los resultados por no poder confirmar si son distintas al Hospital del Río.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "felipe-crespo-d",
+    "item_id": "6a54d258b18ad47dadaa843a",
+    "nombre": "Felipe Crespo D.",
+    "descripcion_actual": "<p>El Dr. Felipe Crespo D. es médico especialista en Ortopedia y Traumatología, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador. Atiende de forma presencial y ofrece también consultas de telemedicina. Su consultorio se encuentra en el piso 2, oficina 225 del hospital.</p>",
+    "descripcion_propuesta": "<p>El Dr. Felipe Crespo D. es médico especialista en Ortopedia y Traumatología, con consulta en el Hospital del Río de Cuenca, Ecuador. Atiende de forma presencial y ofrece también consultas de telemedicina. Su consultorio se encuentra en el piso 2, oficina 225 del hospital.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "pedro-jose-gonzales-serrano",
+    "item_id": "6a54d31395f8b3779900beac",
+    "nombre": "Pedro Jose Gonzales Serrano",
+    "descripcion_actual": "<p>El Dr. Pedro González S. es especialista en Endocrinología Ginecológica y Reproducción, graduado de la Universidad del Azuay en Cuenca. Completó su especialidad en la Universidad de Favaloro y está certificado en Reproducción Asistida por Red LARA desde 2015. Es miembro de la ASRM (American Society for Reproductive Medicine) y profesor en la Facultad de Medicina de la Universidad del Azuay.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — solo menciona universidades, certificación y membresía a sociedad médica, todo permitido; no menciona 'Universitario' ni otro hospital/clínica.",
+    "prioridad": "",
+    "redes_candidatas": []
+  }
+]

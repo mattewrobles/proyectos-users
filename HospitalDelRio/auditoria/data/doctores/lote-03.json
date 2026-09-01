@@ -1,0 +1,416 @@
+[
+  {
+    "slug": "/doctor/ginelda-veronica-montalvan-rodriguez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ginelda-veronica-montalvan-rodriguez",
+    "carga_ok": true,
+    "nombre": "Ginelda Veronica Montalván Rodríguez",
+    "especialidad": "Cirugía Plástica y Reconstructiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.facebook.com/dragineldamontalvan/"],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593995364442",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/guido-galindo-c",
+    "url": "https://hospital-del-rio.webflow.io/doctor/guido-galindo-c",
+    "carga_ok": true,
+    "nombre": "Guido Galindo C.",
+    "especialidad": "Ortopedia y Traumatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.facebook.com/drguidogalindo/",
+      "https://www.linkedin.com/in/dr-guido-galindo-8238b7101/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto de perfil es el placeholder genérico del sitio (archivo '..._placeholder.jpeg'), no una foto real del doctor",
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/guillermo-teodoro-lopez-torres",
+    "url": "https://hospital-del-rio.webflow.io/doctor/guillermo-teodoro-lopez-torres",
+    "carga_ok": true,
+    "nombre": "Guillermo Teodoro López Torres",
+    "especialidad": "Algología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.youtube.com/watch?v=5vMDecsbtoc"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'",
+      "Único 'link social' es un video de YouTube, no un canal/perfil (no hay Instagram/Facebook/LinkedIn de contacto)"
+    ]
+  },
+  {
+    "slug": "/doctor/gustavo-armando-santillan",
+    "url": "https://hospital-del-rio.webflow.io/doctor/gustavo-armando-santillan",
+    "carga_ok": true,
+    "nombre": "Gustavo Armando Santillán",
+    "especialidad": "Cirugía Oncológica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/drgustavosantillan/",
+      "https://ec.linkedin.com/in/gustavo-santillan-14961310a"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://api.whatsapp.com/send?phone=593988612789",
+    "problemas": [
+      "Foto de perfil es el placeholder genérico del sitio (archivo '..._placeholder.jpeg'), no una foto real del doctor"
+    ]
+  },
+  {
+    "slug": "/doctor/gustavo-enrique-calle-hinojosa",
+    "url": "https://hospital-del-rio.webflow.io/doctor/gustavo-enrique-calle-hinojosa",
+    "carga_ok": true,
+    "nombre": "Gustavo Enrique Calle Hinojosa",
+    "especialidad": "Gastroenterología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://ec.linkedin.com/in/gustavo-calle-hinojosa-20177813"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/gustavo-hernan-neira-maldonado",
+    "url": "https://hospital-del-rio.webflow.io/doctor/gustavo-hernan-neira-maldonado",
+    "carga_ok": true,
+    "nombre": "Gustavo Hernan Neira Maldonado",
+    "especialidad": "Ginecología y Obstetricia",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593999891109",
+    "problemas": [
+      "Sin ninguna red social (Instagram/Facebook/LinkedIn/etc.)"
+    ]
+  },
+  {
+    "slug": "/doctor/heidy-vasquez-r",
+    "url": "https://hospital-del-rio.webflow.io/doctor/heidy-vasquez-r",
+    "carga_ok": true,
+    "nombre": "Heidy Vásquez R.",
+    "especialidad": "Cirugía Pediátrica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": ["https://www.facebook.com/CirujanaPediatrica/"],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593990071577",
+    "problemas": [
+      "Foto de perfil es el placeholder genérico del sitio (archivo '..._placeholder.jpeg'), no una foto real de la doctora"
+    ]
+  },
+  {
+    "slug": "/doctor/henry-rolando-ochoa-vazquez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/henry-rolando-ochoa-vazquez",
+    "carga_ok": true,
+    "nombre": "Henry Rolando Ochoa Vázquez",
+    "especialidad": "Cirugía Vascular y Endovascular",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/vcvascularclinic/",
+      "https://ec.linkedin.com/in/henry-ochoa-vazquez-5bb73966"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593987527140",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/hernan-patricio-martinez-calderon",
+    "url": "https://hospital-del-rio.webflow.io/doctor/hernan-patricio-martinez-calderon",
+    "carga_ok": true,
+    "nombre": "Hernan Patricio Martínez Calderón",
+    "especialidad": "Cirugía General",
+    "tiene_descripcion": true,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593997145238",
+    "problemas": [
+      "CRÍTICO: la biografía es la de otro doctor — el texto dice 'El Dr. Hernán Sacoto A. es especialista en Cirugía General...' en vez de hablar de Hernán Patricio Martínez Calderón",
+      "El mismo número de WhatsApp (+593997145238) aparece también en el perfil de /doctor/hernan-sacoto-a — revisar si es un duplicado de perfil o un error de datos",
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/hernan-sacoto-a",
+    "url": "https://hospital-del-rio.webflow.io/doctor/hernan-sacoto-a",
+    "carga_ok": true,
+    "nombre": "Hernán Sacoto A.",
+    "especialidad": "Cirugía General",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593997145238",
+    "problemas": [
+      "La bio de este perfil (correcta para Hernán Sacoto A.) aparece duplicada/copiada en el perfil de /doctor/hernan-patricio-martinez-calderon; comparten también el mismo número de WhatsApp — revisar si son la misma persona con dos entradas o un error de contenido",
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/hugo-david-coronel",
+    "url": "https://hospital-del-rio.webflow.io/doctor/hugo-david-coronel",
+    "carga_ok": true,
+    "nombre": "Hugo David Coronel",
+    "especialidad": "Medicina Deportiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593984047624",
+    "problemas": [
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/ismael-chango-c",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ismael-chango-c",
+    "carga_ok": true,
+    "nombre": "Ismael Chango C.",
+    "especialidad": "Medicina Critica e Intensiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto de perfil es el placeholder genérico del sitio (archivo '..._placeholder.jpeg'), no una foto real del doctor",
+      "No tiene botón/link de WhatsApp o 'Agendar cita'",
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/israel-destruge-molina",
+    "url": "https://hospital-del-rio.webflow.io/doctor/israel-destruge-molina",
+    "carga_ok": true,
+    "nombre": "Israel Destruge Molina",
+    "especialidad": "Oncología Clínica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": ["https://www.facebook.com/OncologoIsraelDestruge/"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto de perfil es el placeholder genérico del sitio (archivo '..._placeholder.jpeg'), no una foto real del doctor",
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/ivan-rosero-viteri",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ivan-rosero-viteri",
+    "carga_ok": true,
+    "nombre": "Iván Rosero Viteri",
+    "especialidad": "Nefrología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.instagram.com/drivanrosero_nefrologo/"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/ivonne-alvarez-i",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ivonne-alvarez-i",
+    "carga_ok": true,
+    "nombre": "Ivonne Alvarez I.",
+    "especialidad": "Psicología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593992913900",
+    "problemas": [
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/jaime-fernando-ortega-berrezueta",
+    "url": "https://hospital-del-rio.webflow.io/doctor/jaime-fernando-ortega-berrezueta",
+    "carga_ok": true,
+    "nombre": "Jaime Fernando Ortega Berrezueta",
+    "especialidad": "Medicina Critica e Intensiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'",
+      "Sin ninguna red social",
+      "Menor: la bio se refiere a él como 'Fernando Ortega Berrezueta' mientras el H1 dice 'Jaime Fernando Ortega Berrezueta' (inconsistencia de nombre, no crítica)"
+    ]
+  },
+  {
+    "slug": "/doctor/janneth-cristina-sanchez-becerra",
+    "url": "https://hospital-del-rio.webflow.io/doctor/janneth-cristina-sanchez-becerra",
+    "carga_ok": true,
+    "nombre": "Janneth Cristina Sánchez Becerra",
+    "especialidad": "Neonatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.instagram.com/dra.jannethsanchez/"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/javier-andres-vega-morejon",
+    "url": "https://hospital-del-rio.webflow.io/doctor/javier-andres-vega-morejon",
+    "carga_ok": true,
+    "nombre": "Javier Andrés Vega Morejón",
+    "especialidad": "Otorrinolaringología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drandresvega/",
+      "https://www.facebook.com/orlecuador/",
+      "https://www.linkedin.com/in/andr%C3%A9s-vega-31280331/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593999091477",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/javier-fernando-pinos-vasquez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/javier-fernando-pinos-vasquez",
+    "carga_ok": true,
+    "nombre": "Javier Fernando Pinos Vásquez",
+    "especialidad": "Cardiología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/cardiologojavierpinosv/",
+      "https://www.facebook.com/cardiologojavierpv/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/javier-marcelo-coello-serrano",
+    "url": "https://hospital-del-rio.webflow.io/doctor/javier-marcelo-coello-serrano",
+    "carga_ok": true,
+    "nombre": "Javier Marcelo Coello Serrano",
+    "especialidad": "Gastroenterología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/javiercoellogastroenterologo/",
+      "https://www.facebook.com/p/Dr-Javier-Coello-100057376332461/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/jenny-gabriela-torres-ortiz",
+    "url": "https://hospital-del-rio.webflow.io/doctor/jenny-gabriela-torres-ortiz",
+    "carga_ok": true,
+    "nombre": "Jenny Gabriela Torres Ortiz",
+    "especialidad": "Reumatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.instagram.com/dragabrielatorreso/"],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'",
+      "Menor: falta espacio entre oraciones en la bio ('...Madrid, España.Es miembro...')"
+    ]
+  },
+  {
+    "slug": "/doctor/jessica-silvana-cumbe-sarmiento",
+    "url": "https://hospital-del-rio.webflow.io/doctor/jessica-silvana-cumbe-sarmiento",
+    "carga_ok": true,
+    "nombre": "Jéssica Silvana Cumbe Sarmiento",
+    "especialidad": "Odontología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No tiene botón/link de WhatsApp o 'Agendar cita'",
+      "Sin ninguna red social"
+    ]
+  },
+  {
+    "slug": "/doctor/jhonatan-heriberto-vazquez-albornoz",
+    "url": "https://hospital-del-rio.webflow.io/doctor/jhonatan-heriberto-vazquez-albornoz",
+    "carga_ok": true,
+    "nombre": "Jhonatan Heriberto Vázquez Albornoz",
+    "especialidad": "Cirugía Plástica y Reconstructiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": ["https://www.facebook.com/DrJhonatanVazquezCirujanoPlastico/"],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593988869864",
+    "problemas": []
+  }
+]

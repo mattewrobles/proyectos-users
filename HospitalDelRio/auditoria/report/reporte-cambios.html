@@ -1,0 +1,387 @@
+<title>Reporte de Cambios — Directorio Médico</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --naranja: #FF5A00;
+    --azul: #00429A;
+    --azul-oscuro: #012274;
+    --bg: #F7F8FB;
+    --surface: #FFFFFF;
+    --border: #E3E7F0;
+    --text: #10162B;
+    --text-muted: #55607A;
+    --ok-bg: #E6F4EA;
+    --ok-text: #1C7A34;
+    --warn-bg: #FFF3E0;
+    --warn-text: #B45F06;
+    --crit-bg: #FDE8E8;
+    --crit-text: #C21D1D;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0B0E17;
+      --surface: #131826;
+      --border: #232B41;
+      --text: #EDEFF6;
+      --text-muted: #98A2BE;
+      --ok-bg: #12301D;
+      --ok-text: #6FDB8F;
+      --warn-bg: #3A2A0E;
+      --warn-text: #F5B95E;
+      --crit-bg: #3A1414;
+      --crit-text: #F58B8B;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0B0E17;
+    --surface: #131826;
+    --border: #232B41;
+    --text: #EDEFF6;
+    --text-muted: #98A2BE;
+    --ok-bg: #12301D;
+    --ok-text: #6FDB8F;
+    --warn-bg: #3A2A0E;
+    --warn-text: #F5B95E;
+    --crit-bg: #3A1414;
+    --crit-text: #F58B8B;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Lato', -apple-system, sans-serif;
+    line-height: 1.55;
+    margin: 0;
+    padding: 48px 20px 96px;
+  }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--naranja);
+    font-weight: 600;
+  }
+
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: clamp(28px, 4vw, 40px);
+    color: var(--azul-oscuro);
+    margin: 6px 0 4px;
+    text-wrap: balance;
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 15.5px;
+    margin: 0 0 36px;
+  }
+
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--azul-oscuro);
+    margin: 52px 0 14px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+    padding-top: 24px;
+  }
+
+  h2 .num {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--naranja);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text);
+    margin: 28px 0 10px;
+  }
+
+  p { color: var(--text); margin: 0 0 12px; }
+  p.muted { color: var(--text-muted); font-size: 14.5px; }
+
+  /* Stat grid */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 24px 0 8px;
+  }
+  @media (max-width: 640px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+  }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 16px;
+  }
+  .stat .n {
+    font-family: 'IBM Plex Mono', monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--azul);
+    display: block;
+    line-height: 1.1;
+  }
+  .stat .n.accent { color: var(--naranja); }
+  .stat .label {
+    font-size: 12.5px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    display: block;
+  }
+
+  /* Phase timeline */
+  .phase {
+    display: flex;
+    gap: 16px;
+    padding: 14px 0;
+  }
+  .phase .dot {
+    flex: 0 0 auto;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--azul);
+    margin-top: 7px;
+  }
+  .phase.done .dot { background: var(--ok-text); }
+  .phase .body { flex: 1; }
+  .phase .title { font-weight: 700; font-size: 15px; }
+  .phase .desc { color: var(--text-muted); font-size: 14px; margin-top: 2px; }
+
+  /* Table */
+  .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--text-muted);
+    background: var(--bg);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+
+  .chip {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  .chip.ok { background: var(--ok-bg); color: var(--ok-text); }
+  .chip.warn { background: var(--warn-bg); color: var(--warn-text); }
+  .chip.crit { background: var(--crit-bg); color: var(--crit-text); }
+
+  ul.clean { margin: 0 0 12px; padding-left: 20px; }
+  ul.clean li { margin-bottom: 6px; color: var(--text); }
+  ul.clean li b { color: var(--azul-oscuro); }
+
+  .callout {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--naranja);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin: 16px 0;
+    font-size: 14.5px;
+  }
+  .callout.crit { border-left-color: var(--crit-text); }
+  .callout.ok { border-left-color: var(--ok-text); }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+</style>
+
+<main>
+  <span class="eyebrow">Hospital del Río · Directorio Médico</span>
+  <h1>Reporte de cambios</h1>
+  <p class="subtitle">Auditoría del sitio + ajuste del CMS de doctores. Del 26 al 28 de agosto de 2026. Todo lo listado abajo ya está publicado en Webflow, salvo lo marcado como pendiente.</p>
+
+  <div class="callout crit" style="margin-bottom:16px;">
+    <b>🚀 Actualización 28 de agosto — sitio ya en producción</b> en <code>www.hospitaldelrio.com.ec</code>. Se repitió la auditoría completa (navbar, 17 páginas internas, 227 doctores) sobre el dominio real. Ver sección <b>00</b> más abajo para el detalle — hay 1 problema crítico y varios menores nuevos, más las cosas que sí se arreglaron.
+  </div>
+  <div class="callout crit" style="margin-bottom:32px; border-left-color:#C21D1D;">
+    <b>🧪 QA de lanzamiento (mismo día)</b> — prueba real de usuario: formularios, Core Web Vitals, SEO/GEO, accesibilidad. <b>El formulario de contacto no se puede enviar</b> (captcha Turnstile con error de dominio) y el nombre "Hospital Universitario del Río" también está metido en el <code>schema.org</code> que lee Google/IA. Reporte completo en <code>auditoria/qa-lanzamiento-produccion.xlsx</code>.
+  </div>
+
+  <div class="stats">
+    <div class="stat"><span class="n">225</span><span class="label">doctores en el CMS revisados</span></div>
+    <div class="stat"><span class="n accent">177</span><span class="label">descripciones publicadas</span></div>
+    <div class="stat"><span class="n">93</span><span class="label">con contenido prohibido corregido</span></div>
+    <div class="stat"><span class="n">23</span><span class="label">doctores con teléfono/redes corregidos</span></div>
+  </div>
+
+  <h2><span class="num">00</span>Sitio en producción — chequeo del 28 de agosto</h2>
+  <p>Se repitió la auditoría de navegación (navbar, footer, home, 17 páginas internas, 227 perfiles de doctores) directamente sobre <code>www.hospitaldelrio.com.ec</code>, con Playwright.</p>
+
+  <h3>🔴 Crítico</h3>
+  <div class="callout crit">
+    <b>El sitio viejo (staging) sigue público y varios links de la web real todavía apuntan ahí</b> — exactamente el riesgo de migración que se había anticipado en la auditoría original, y no se corrigió antes del lanzamiento.
+    <ul class="clean" style="margin-top:10px;">
+      <li>El dropdown "Instalaciones" del navbar (6 links) apunta a <code>hospital-del-rio.webflow.io</code> en TODAS las páginas del sitio (es un componente global — se arregla en un solo lugar en Webflow).</li>
+      <li>En el Home, los links de la sección Servicios (Laboratorio Clínico, Imágenes Diagnósticas, Hemodiálisis, Sala de Infusiones, Terapia Respiratoria) y uno de "Política de Cookies" también apuntan al dominio viejo.</li>
+      <li><code>hospital-del-rio.webflow.io</code> sigue respondiendo 200 públicamente — cualquiera que caiga ahí ve el sitio de staging, no el real.</li>
+    </ul>
+  </div>
+
+  <h3>🟡 Nuevo, no crítico</h3>
+  <ul class="clean">
+    <li><b>El link "Instalaciones" del footer ahora da 404</b> (<code>/instalaciones-3</code> y <code>/instalaciones</code> ambos rotos) — andaba bien en staging, se rompió en el paso a producción. Los 6 links directos a subpáginas (UCI, Farmacia, etc.) sí funcionan.</li>
+    <li><b>Error de consola en TODAS las páginas</b>: un runtime de gráficos 3D (Spline) tira "Missing property" y no logra renderizar 54 elementos (warnings de WebGPU) — revisar en un navegador real si se ve algo roto visualmente, en el chequeo automatizado no se pudo confirmar impacto visual.</li>
+    <li><b>sitemap.xml da 404</b> y <code>robots.txt</code> existe pero está vacío (no referencia ningún sitemap) — afecta cuánto y qué tan rápido indexa Google el sitio nuevo.</li>
+  </ul>
+
+  <h3>✅ Confirmado arreglado desde la auditoría anterior</h3>
+  <ul class="clean">
+    <li>Los <b>2 PDFs legales</b> (Código de Ética, Reglamento Interno) ya NO apuntan al WordPress viejo — ahora viven en el CDN propio de Webflow.</li>
+    <li>Los <b>4 doctores que antes daban 404</b> ahora cargan bien — se confirmaron los <b>227/227</b> perfiles de doctores con status 200.</li>
+  </ul>
+
+  <h3>⚠️ Seguía sin arreglarse</h3>
+  <ul class="clean">
+    <li>El email placeholder <code>correo@hospital.com</code> en /contacto — sigue ahí.</li>
+    <li><code>/lopdp-condominio</code> (contenido de un condominio, no del hospital) sigue publicado, ahora en el dominio real e indexable.</li>
+    <li>Las 6 subpáginas de Instalaciones siguen con <code>&lt;title&gt;</code> genérico "Hospital del Rio" en vez de uno específico por página.</li>
+  </ul>
+
+  <h2><span class="num">01</span>Qué se hizo, en orden</h2>
+
+  <div class="phase done">
+    <div class="dot"></div>
+    <div class="body">
+      <div class="title">Auditoría completa del sitio</div>
+      <div class="desc">Navbar, footer, home, 17 páginas internas y los 227 perfiles del Directorio Médico. Reporte en <code>hospital-del-rio-audit.xlsx</code>.</div>
+    </div>
+  </div>
+  <div class="phase done">
+    <div class="dot"></div>
+    <div class="body">
+      <div class="title">Piloto de 21 doctores</div>
+      <div class="desc">Muestra representativa revisada primero, para validar tono y criterio antes de escalar al resto.</div>
+    </div>
+  </div>
+  <div class="phase done">
+    <div class="dot"></div>
+    <div class="body">
+      <div class="title">Ajuste de los 204 doctores restantes</div>
+      <div class="desc">Mismo criterio del piloto aplicado al resto — descripciones, redes sociales, verificación cruzada de datos.</div>
+    </div>
+  </div>
+  <div class="phase done">
+    <div class="dot"></div>
+    <div class="body">
+      <div class="title">Publicación en Webflow vía API</div>
+      <div class="desc">177 descripciones, 9 perfiles con redes nuevas, 14 perfiles con teléfono/WhatsApp corregido.</div>
+    </div>
+  </div>
+
+  <h2><span class="num">02</span>Descripciones</h2>
+  <p>177 de 225 doctores tuvieron su descripción actualizada y publicada.</p>
+  <ul class="clean">
+    <li><b>93</b> tenían contenido prohibido ya publicado — decían <i>"Hospital Universitario del Río"</i> en vez de <i>"Hospital del Río"</i>, o mencionaban que el doctor ejerce, rota o se formó en otro hospital/clínica. Se corrigió el nombre y se quitó toda mención a otras instituciones, dejando solo estudios universitarios y membresías a sociedades médicas.</li>
+    <li><b>75</b> no tenían ninguna descripción — se redactó una nueva, usando su sitio web propio cuando existía, o datos mínimos y 100% verificados del CMS (nombre, especialidad, consultorio) cuando no había ninguna fuente confiable.</li>
+    <li><b>9</b> se corrigieron por otras razones menores (typos de nombre, número de consultorio inconsistente, frases de relleno tipo placeholder).</li>
+  </ul>
+
+  <div class="callout crit">
+    <b>2 casos de contenido cruzado</b> — la ficha pública tenía la biografía, redes y/o WhatsApp de otro doctor distinto:
+    <ul class="clean" style="margin-top:10px;">
+      <li><b>Miguel Estuardo Molina Maldonado</b> (Ortopedia) tenía publicada la bio, Instagram, Facebook, LinkedIn, sitio web y WhatsApp de <b>Claudio Galarza</b> (Reumatología). Se limpiaron todos esos campos y se dejó una descripción mínima solo con datos propios verificados.</li>
+      <li><b>Juan Pablo Valdivieso Aguirre</b> (Dermatología) tenía publicada la bio completa de un psicólogo distinto ("El Ps. Martínez..."). Se reemplazó por una descripción propia.</li>
+    </ul>
+  </div>
+
+  <h2><span class="num">03</span>Redes sociales</h2>
+  <p>Solo se publicaron las redes que confirmaste una por una — ningún candidato de búsqueda se subió sin tu aprobación explícita.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Doctor</th><th>Qué se agregó</th></tr></thead>
+      <tbody>
+        <tr><td>José Luis Izquierdo Coronel</td><td>Instagram + Facebook (@tipsdentalec, consultorio compartido)</td></tr>
+        <tr><td>María Verónica Arévalo Moscoso</td><td>Instagram + Facebook (@tipsdentalec, consultorio compartido)</td></tr>
+        <tr><td>Juan Francisco Carrión</td><td>Facebook (drjuancarrion)</td></tr>
+        <tr><td>Franklin Xavier Bravo Aguilar</td><td>Instagram (@traumatologos_bravo)</td></tr>
+        <tr><td>Christian Romeo Bravo Aguilar</td><td>Instagram (@traumatologos_bravo)</td></tr>
+        <tr><td>Diana Carolina Izquierdo Coronel</td><td>Facebook (Dra.DCIC.Diabetologa.Nutricion)</td></tr>
+        <tr><td>Andrea Susana Astudillo Carrera</td><td>Facebook + LinkedIn (se descartó el Instagram encontrado por no coincidir la especialidad)</td></tr>
+        <tr><td>Juan Pablo Arias Cortez</td><td>Instagram + Sitio web + TikTok</td></tr>
+        <tr><td>Miguel Estuardo Molina Maldonado</td><td>Limpieza total — se quitaron todas las redes que pertenecían a otro doctor</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2><span class="num">04</span>Teléfono y WhatsApp</h2>
+  <p>Se cruzaron los campos Teléfono, Celular, WhatsApp y Whatsapp 2 de los 225 doctores para detectar números inconsistentes o repetidos entre doctores distintos.</p>
+
+  <h3>Limpieza automática — 11 doctores</h3>
+  <p class="muted">El campo "Whatsapp 2" repetía el mismo número que ya estaba en el campo WhatsApp, solo con formato distinto. Se eliminó el duplicado, dejando un solo dato como fuente de verdad.</p>
+
+  <h3>Correcciones puntuales — 3 doctores</h3>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Doctor</th><th>Antes</th><th>Después</th></tr></thead>
+      <tbody>
+        <tr><td>Diego Xavier Maldonado Vega</td><td>WhatsApp con el número de otro doctor (Diego Almeida P.)</td><td>Corregido al número que coincide con su Teléfono</td></tr>
+        <tr><td>Hernán Patricio Martínez Calderón</td><td>WhatsApp con el número de Hernán Sacoto A.</td><td>Campo vaciado hasta confirmar el número real</td></tr>
+        <tr><td>Juan Pablo Valdivieso Aguirre</td><td>WhatsApp con el número de Juan Pablo Cedillo</td><td>Corregido al número terminado en 053, propio</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Revisado y dejado como está — 3 casos</h3>
+  <ul class="clean">
+    <li><b>Juan Carlos Verdugo Tapia ↔ Manuel Eduardo Verdugo Tapia</b> — comparten número, confirmado que es correcto (familia).</li>
+    <li><b>Juan Pablo Cedillo</b> — su número está bien, no se tocó.</li>
+    <li><b>Fernández de Córdova (Ricardo Alfredo y Juan Carlos)</b> — comparten número, se dejó sin tocar a pedido tuyo.</li>
+  </ul>
+
+  <h2><span class="num">05</span>Pendiente — necesita tu revisión</h2>
+  <div class="callout">
+    Quedaron candidatos de redes sociales encontrados por búsqueda que <b>no llegaste a confirmar uno por uno</b> — están en la pestaña "Redes candidatas" de <code>revision-final-cms-doctores.xlsx</code>, con nivel de confianza (alta/media/baja) y la fuente de cada uno. No se publicó ninguno todavía.
+  </div>
+
+  <h2><span class="num">06</span>Archivos de referencia</h2>
+  <ul class="clean">
+    <li><code>auditoria/hospital-del-rio-audit.xlsx</code> — auditoría completa del sitio</li>
+    <li><code>auditoria/revision-final-cms-doctores.xlsx</code> — descripciones, redes candidatas y números a revisar, los 225 doctores</li>
+    <li><code>auditoria/piloto-cms-doctores.xlsx</code> — piloto original de 21 doctores</li>
+    <li><code>auditoria/cms/</code> — datos crudos por lote, resultados aplicados, y el token de API guardado localmente</li>
+  </ul>
+
+  <footer>Hospital del Río · Cleo — Users Designers · 2026-08-27</footer>
+</main>

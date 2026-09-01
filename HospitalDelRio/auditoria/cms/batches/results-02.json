@@ -1,0 +1,216 @@
+[
+  {
+    "slug": "marco-vinicio-barzallo-cabrera",
+    "item_id": "6a62a31632c1988923a2c601",
+    "nombre": "Marco Vinicio Barzallo Cabrera",
+    "descripcion_actual": "<p>El <strong>Dr. Marco Vinicio Barzallo Cabrera</strong> es un experimentado <strong>médico ginecólogo y obstetra</strong> con trayectoria en la ciudad de <strong>Cuenca</strong>. Se especializa en el <strong>control del embarazo</strong>, atención del parto y el cuidado integral de la salud femenina, atendiendo de manera presencial en el <strong>Hospital del Río</strong> y mediante telemedicina.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/ginecologoencuenca/",
+        "confianza": "baja",
+        "fuente": "WebSearch: aparece un 'Dr. Marco José Barzallo Salazar' ginecólogo en Cuenca (no 'Marco Vinicio Barzallo Cabrera') — nombre y segundo apellido no coinciden, probablemente otro médico con el mismo apellido. No usar sin verificar."
+      }
+    ]
+  },
+  {
+    "slug": "juan-carlos-verdugo-tapia",
+    "item_id": "6a54d29d59e9aa02a0a3915c",
+    "nombre": "Juan Carlos Verdugo Tapia",
+    "descripcion_actual": "<p>El Dr. Verdugo es especialista en Cirugía General con subespecialidad en cirugía laparoscópica avanzada y alta especialidad en Cirugía Bariátrica y Metabólica, formado en IRCAD Brasil, la Universidad de Guadalajara y la UNAM en México. Ofrece tratamiento médico-quirúrgico de la obesidad y enfermedades asociadas como diabetes, hipertensión e hígado graso. Ejerce su práctica en Cuenca, Ecuador, atendiendo como cirujano del Ministerio de Salud Pública y en consulta privada.</p>",
+    "descripcion_propuesta": "<p>El Dr. Verdugo es especialista en Cirugía General con subespecialidad en cirugía laparoscópica avanzada y alta especialidad en Cirugía Bariátrica y Metabólica, formado en IRCAD Brasil, la Universidad de Guadalajara y la UNAM en México. Ofrece tratamiento médico-quirúrgico de la obesidad y enfermedades asociadas como diabetes, hipertensión e hígado graso. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Se eliminó la mención de que ejerce como cirujano del Ministerio de Salud Pública (otro empleador/hospital, prohibido por regla 2) y se reemplazó por la mención de atención en el Hospital del Río.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-carlos-romero-r",
+    "item_id": "6a54d29bdca040ee7c159c34",
+    "nombre": "Juan Carlos Romero R.",
+    "descripcion_actual": "<p>El Dr. Juan Carlos Romero Rodríguez es especialista en Endocrinología, Diabetología y Nutrición, formado en el Hospital Universitario 12 de Octubre de Madrid (2013-2017). Desde 2017 ejerce en el Hospital Universitario del Río en Cuenca y también ofrece telemedicina. Es uno de los endocrinólogos mejor valorados en Cuenca con más de 300 reseñas de pacientes.</p>",
+    "descripcion_propuesta": "<p>El Dr. Juan Carlos Romero Rodríguez es especialista en Endocrinología, Diabetología y Nutrición. Desde 2017 ejerce en el Hospital del Río en Cuenca y también ofrece telemedicina. Es uno de los endocrinólogos mejor valorados en Cuenca con más de 300 reseñas de pacientes.</p>",
+    "cambio": "Se eliminó la mención de formación/residencia en el Hospital Universitario 12 de Octubre de Madrid (otro hospital, prohibido por regla 2) y se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jorge-fabian-guapisaca-juca",
+    "item_id": "6a54d25359e9aa02a0a35e84",
+    "nombre": "Jorge Fabián Guapisaca Juca",
+    "descripcion_actual": "<p>El Dr. Jorge Fabián Guapisaca Juca es médico especialista en Geriatría, graduado de la Universidad de Santiago de Chile, con ejercicio clínico en el Hospital Universitario del Río de Cuenca. Se dedica a la prevención y tratamiento integral de enfermedades propias del adulto mayor, incluyendo Alzheimer, demencias, Parkinson, depresión y artritis, además de ofrecer atención domiciliaria. Es docente en la Universidad del Azuay y cuenta con amplia trayectoria en el cuidado gerontológico en el Ecuador.</p>",
+    "descripcion_propuesta": "<p>El Dr. Jorge Fabián Guapisaca Juca es médico especialista en Geriatría, graduado de la Universidad de Santiago de Chile, con ejercicio clínico en el Hospital del Río de Cuenca. Se dedica a la prevención y tratamiento integral de enfermedades propias del adulto mayor, incluyendo Alzheimer, demencias, Parkinson, depresión y artritis, además de ofrecer atención domiciliaria. Es docente en la Universidad del Azuay y cuenta con amplia trayectoria en el cuidado gerontológico en el Ecuador.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1). La mención de docencia en la Universidad del Azuay se mantuvo por ser formación/rol universitario, permitido.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "fidel-nivelo-g",
+    "item_id": "6a54d260b612b7f6c11df5ea",
+    "nombre": "Fidel Nivelo G.",
+    "descripcion_actual": "<p>El Dr. Fidel Nivelo Guaraca es oftalmólogo con más de 40 años de experiencia en Cuenca, Ecuador. Dirige el Centro Oftalmológico Fidel Nivelo y la Fundación Fidel Nivelo, dedicada a la atención de personas con recursos limitados. Es experto en cirugía láser, cataratas, queratocono, trasplante de cornea y corrección de miopía, astigmatismo e hipermetropía.</p>",
+    "descripcion_propuesta": "<p>El Dr. Fidel Nivelo Guaraca es oftalmólogo con más de 40 años de experiencia en Cuenca, Ecuador. Es experto en cirugía láser, cataratas, queratocono, trasplante de córnea y corrección de miopía, astigmatismo e hipermetropía.</p>",
+    "cambio": "Se eliminó la mención de que dirige el Centro Oftalmológico Fidel Nivelo y la Fundación Fidel Nivelo (otra clínica/institución donde ejerce, prohibido por regla 2).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ariadna-evelyne-garcia-castro",
+    "item_id": "6a54d250b768fad8c4a7bcce",
+    "nombre": "Ariadna Evelyne García Castro",
+    "descripcion_actual": "<p>La Dra. Ariadna Evelyne García Castro es especialista en Oftalmología con subespecialidad en Córnea y Cirugía Refractiva. Ejerce en el Hospital del Río de Cuenca, Ecuador, donde atiende en el piso 4, consultorio 411. Cuenta con formación avanzada en trasplante de membrana amniótica y esclera, y está registrada en el padrón nacional de profesionales de la salud del Ecuador.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "edgar-becerra-n",
+    "item_id": "6a54d244d54e6bcacb4937d1",
+    "nombre": "Edgar Becerra N.",
+    "descripcion_actual": "<p>El Dr. Edgar Becerra Navarrete es especialista en Hematología y trasplante de médula ósea, con atención en el Hospital Universitario del Río en Cuenca, Ecuador (piso 2, consultorio 221). Cuenta con amplia experiencia en el diagnóstico y tratamiento de enfermedades de la sangre y trastornos hematológicos.</p>",
+    "descripcion_propuesta": "<p>El Dr. Edgar Becerra Navarrete es especialista en Hematología y trasplante de médula ósea, con atención en el Hospital del Río en Cuenca, Ecuador (piso 2, consultorio 221). Cuenta con amplia experiencia en el diagnóstico y tratamiento de enfermedades de la sangre y trastornos hematológicos.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "johana-alexandra-piedra-bravo",
+    "item_id": "6a54d283b612b7f6c11e0c37",
+    "nombre": "Johana Alexandra Piedra Bravo",
+    "descripcion_actual": "<p>La Dra. Johana Alexandra Piedra Bravo es especialista en Nutrición y Magíster en Diabetes, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador. Brinda atención enfocada en el manejo nutricional de enfermedades metabólicas, incluyendo planes de alimentación y dietas especializadas como la dieta cetogénica. Su práctica combina la nutrición clínica con el abordaje integral de pacientes con diabetes y otras condiciones metabólicas.</p>",
+    "descripcion_propuesta": "<p>La Dra. Johana Alexandra Piedra Bravo es especialista en Nutrición y Magíster en Diabetes, con consulta en el Hospital del Río de Cuenca, Ecuador. Brinda atención enfocada en el manejo nutricional de enfermedades metabólicas, incluyendo planes de alimentación y dietas especializadas como la dieta cetogénica. Su práctica combina la nutrición clínica con el abordaje integral de pacientes con diabetes y otras condiciones metabólicas.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jhonatan-heriberto-vazquez-albornoz",
+    "item_id": "6a54d2817aad5170f4eb18c5",
+    "nombre": "Jhonatan Heriberto Vázquez Albornoz",
+    "descripcion_actual": "<p>El Dr. Vázquez Albornoz es especialista en Cirugía Plástica y Reconstructiva con amplia formación internacional, incluyendo un fellowship en cirugía craneofacial en la Universidad Nacional Autónoma de México y entrenamiento en cirugía ortognática en Buenos Aires, Argentina. Ha ejercido como jefe del servicio de cirugía plástica y cuenta con múltiples publicaciones científicas sobre técnicas reconstructivas y anomalías congénitas. Atiende en el Hospital del Río de Cuenca, Ecuador, en el Consultorio 304, piso 3.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — la formación mencionada es universitaria (UNAM) o solo indica ciudad (Buenos Aires) sin nombrar un hospital/clínica específico, y no hay mención de otro hospital de trabajo actual o pasado.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "luis-marcelo-vazquez-torres",
+    "item_id": "6a54d2badca040ee7c15b077",
+    "nombre": "Luis Marcelo Vázquez Torres",
+    "descripcion_actual": "<p>El Dr. Luis Vázquez T. es otorrinolaringólogo en el Hospital del Río de Cuenca con amplia trayectoria académica. Ha participado en múltiples congresos de educación continua en su especialidad y cuenta con publicaciones en el área de otorrinolaringología.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jonathan-andres-cordero-yanza",
+    "item_id": "6a54d28a5b903a2fa5045e8a",
+    "nombre": "Jonathan Andrés Cordero Yanza",
+    "descripcion_actual": "<p>El Dr. Jonathan Cordero es especialista en Otorrinolaringología y Cirugía de Cabeza y Cuello, graduado de la Universidad de Cuenca y con especialización en la Universidad Nacional Autónoma de México (UNAM). Cuenta con alta especialidad en Rinología y Cirugía Facial, siendo referente en Cuenca en rinoplastia ultrasónica y cirugía endoscópica de senos paranasales. Atiende patologías del oído, nariz y garganta, así como cirugía funcional y estética nasal en el Hospital Universitario del Río.</p>",
+    "descripcion_propuesta": "<p>El Dr. Jonathan Cordero es especialista en Otorrinolaringología y Cirugía de Cabeza y Cuello, graduado de la Universidad de Cuenca y con especialización en la Universidad Nacional Autónoma de México (UNAM). Cuenta con alta especialidad en Rinología y Cirugía Facial, siendo referente en Cuenca en rinoplastia ultrasónica y cirugía endoscópica de senos paranasales. Atiende patologías del oído, nariz y garganta, así como cirugía funcional y estética nasal en el Hospital del Río.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-castanier-m",
+    "item_id": "6a54d29edcbdc6600f2ef4df",
+    "nombre": "Juan Castanier M.",
+    "descripcion_actual": "<p>El Dr. Castanier es especialista en Cirugía General, con consulta en el Hospital Universitario del Río de Cuenca, Ecuador. Su práctica abarca procedimientos quirúrgicos del aparato digestivo, pared abdominal y tejidos blandos, brindando atención integral a pacientes que requieren intervención quirúrgica electiva y de urgencia. Forma parte del equipo médico de uno de los centros hospitalarios de mayor referencia en la región austral del Ecuador.</p>",
+    "descripcion_propuesta": "<p>El Dr. Castanier es especialista en Cirugía General, con consulta en el Hospital del Río de Cuenca, Ecuador. Su práctica abarca procedimientos quirúrgicos del aparato digestivo, pared abdominal y tejidos blandos, brindando atención integral a pacientes que requieren intervención quirúrgica electiva y de urgencia. Forma parte del equipo médico de uno de los centros hospitalarios de mayor referencia en la región austral del Ecuador.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "johnny-paul-pacheco-ayora",
+    "item_id": "6a54d289d54e6bcacb4966a2",
+    "nombre": "Johnny Paul Pacheco Ayora",
+    "descripcion_actual": "<p>El Dr. Johnny Pacheco Ayora es un Doctor en Odontología y Magíster Especialista en Periodoncia e Implantología. Su práctica clínica privada en el Hospital del Río está especializada en el diagnóstico y tratamiento de enfermedades de las encías (periodontales), restauración dental, cirugía de implantes, endodoncia, ortodoncia y diseño de sonrisa.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "octavio-enrique-viteri-leon",
+    "item_id": "6a54d24be97151d6ff8cd437",
+    "nombre": "Octavio Enrique Viteri León",
+    "descripcion_actual": "<p>El Dr. Enrique Viteri L. es especialista en Anestesiología en el Hospital Universitario del Río, el principal centro médico de la región sur del Ecuador, con sede en Cuenca. Forma parte del equipo de anestesiología de dicha institución, brindando atención a pacientes en procedimientos quirúrgicos y de cuidado crítico.</p>",
+    "descripcion_propuesta": "<p>El Dr. Enrique Viteri L. es especialista en Anestesiología en el Hospital del Río, el principal centro médico de la región sur del Ecuador, con sede en Cuenca. Forma parte del equipo de anestesiología de dicha institución, brindando atención a pacientes en procedimientos quirúrgicos y de cuidado crítico.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": [
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/anestezia.ec/",
+        "confianza": "baja",
+        "fuente": "WebSearch: página de un grupo de anestesiología en Cuenca ('Anestezia Ecuador'), no un perfil personal del doctor — no se confirma que sea su cuenta. No usar sin verificar."
+      }
+    ]
+  },
+  {
+    "slug": "juan-carlos-fernandez-de-cordova-aguirre",
+    "item_id": "6a54d29ab2d9486b374dade3",
+    "nombre": "Juan Carlos Fernández de Córdova Aguirre",
+    "descripcion_actual": "<p>El Dr. Alfredo Fernández de Córdova es un médico pediatra y subespecialista en neumología pediátrica (formado en la Universidad de Buenos Aires y el Hospital Garrahan de Argentina) con más de 20 años de experiencia.Actualmente ejerce como Jefe del Servicio de Pediatría del Hospital del Río y Vicepresidente de la Sociedad Ecuatoriana de Neumología Pediátrica. Es experto en el control del niño sano y en el tratamiento de enfermedades respiratorias complejas como asma, bronquitis, alergias y neumonías.</p>",
+    "descripcion_propuesta": "<p>El Dr. Juan Carlos Fernández de Córdova Aguirre es médico pediatra y subespecialista en neumología pediátrica, formado en la Universidad de Buenos Aires, con más de 20 años de experiencia. Actualmente ejerce como Jefe del Servicio de Pediatría del Hospital del Río y Vicepresidente de la Sociedad Ecuatoriana de Neumología Pediátrica. Es experto en el control del niño sano y en el tratamiento de enfermedades respiratorias complejas como asma, bronquitis, alergias y neumonías.</p>",
+    "cambio": "ALERTA DE DATOS: la descripción actual llama al doctor 'Alfredo Fernández de Córdova', pero el campo Nombre del CMS dice 'Juan Carlos Fernández de Córdova Aguirre' — hay que verificar con el hospital cuál nombre es correcto antes de publicar, la propuesta usa el nombre del CMS por default. Además se eliminó la mención de formación/residencia en el Hospital Garrahan de Argentina (otro hospital, prohibido por regla 2), dejando solo la formación universitaria en la Universidad de Buenos Aires.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "francisco-j-carvelli-d",
+    "item_id": "6a54d26199a728deb65e17c6",
+    "nombre": "Francisco J. Carvelli D.",
+    "descripcion_actual": "<p>El Dr. Francisco J. Carvelli D. es especialista en Cirugía Urológica en el Hospital del Río de Cuenca, Ecuador, con 18 años de experiencia urológica internacional. Se especializa en endourología y cirugía mínimamente invasiva, atendiendo enfermedades renales, prostáticas, de vías urinarias y disfunción sexual masculina. Además se desempeña como docente de posgrado en la Universidad de Cuenca.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "lupita-katherine-verdugo-silva",
+    "item_id": "6a54d2bbf590e02a7d09d8c4",
+    "nombre": "Lupita Katherine Verdugo Silva",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Lupita Katherine Verdugo Silva es especialista en Psiquiatría con subespecialidad en Manejo de Adicciones. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3 - Consultorio 328.</p>",
+    "cambio": "Descripción nueva, mínima y 100% factual con datos del CMS únicamente — no tiene sitio web ni redes sociales cargadas, y no se encontró ninguna fuente externa confiable vía WebSearch.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "cesar-humberto-guillen-astudillo",
+    "item_id": "6a54d20d972ac4970d69079c",
+    "nombre": "César Humberto Guillen Astudillo",
+    "descripcion_actual": "<p>El Dr. César Humberto Guillén Astudillo es especialista en Pediatría, graduado en Medicina y Cirugía en la Universidad de Cuenca y con especialización en Pediatría en la Universidad del Rosario (Colombia). Se desempeña como Jefe de Pediatría en el Hospital Universitario del Río en Cuenca, Ecuador, atendiendo en el consultorio 318 del tercer piso. Cuenta con más de 36 años de experiencia en la atención pediátrica.</p>",
+    "descripcion_propuesta": "<p>El Dr. César Humberto Guillén Astudillo es especialista en Pediatría, graduado en Medicina y Cirugía en la Universidad de Cuenca y con especialización en Pediatría en la Universidad del Rosario (Colombia). Se desempeña como Jefe de Pediatría en el Hospital del Río en Cuenca, Ecuador, atendiendo en el consultorio 318 del tercer piso. Cuenta con más de 36 años de experiencia en la atención pediátrica.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-fernanda-shinin-merchan",
+    "item_id": "6a54d25bdc5aabbe1f5f8989",
+    "nombre": "Maria Fernanda Shinin Merchán",
+    "descripcion_actual": "<p>La Dra. Maria Fernanda Shinin Merchán es especialista en Gastroenterología en el Hospital Universitario del Río, en Cuenca, Ecuador. Atiende en el Piso 1, Consultorio 128 del hospital. No se encontraron perfiles activos en redes sociales ni plataformas de citas en línea.</p>",
+    "descripcion_propuesta": "<p>La Dra. Maria Fernanda Shinin Merchán es especialista en Gastroenterología en el Hospital del Río, en Cuenca, Ecuador. Atiende en el Piso 1, Consultorio 128 del hospital.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1) y se eliminó la frase 'No se encontraron perfiles activos en redes sociales ni plataformas de citas en línea', que es un artifact de generación de contenido y no aporta valor en una bio pública.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-pablo-cedillo",
+    "item_id": "6a54d2a74d0989d14d9ad7b5",
+    "nombre": "Juan Pablo Cedillo",
+    "descripcion_actual": "<p>El Dr. Cedillo es especialista en Cirugía Cardiovascular y forma parte del equipo médico del Hospital Universitario del Río en Cuenca, Ecuador. Atiende en el Piso 1, Consultorio 127, brindando atención en diagnóstico y tratamiento quirúrgico de patologías del corazón y los grandes vasos. Su práctica se desarrolla en uno de los centros hospitalarios de mayor referencia en la región sur del país.</p>",
+    "descripcion_propuesta": "<p>El Dr. Cedillo es especialista en Cirugía Cardiovascular y forma parte del equipo médico del Hospital del Río en Cuenca, Ecuador. Atiende en el Piso 1, Consultorio 127, brindando atención en diagnóstico y tratamiento quirúrgico de patologías del corazón y los grandes vasos. Su práctica se desarrolla en uno de los centros hospitalarios de mayor referencia en la región sur del país.</p>",
+    "cambio": "Se corrigió 'Hospital Universitario del Río' a 'Hospital del Río' (regla 1).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  }
+]

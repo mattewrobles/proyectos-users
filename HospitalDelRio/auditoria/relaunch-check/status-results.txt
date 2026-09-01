@@ -1,0 +1,2 @@
+Total: 227, OK: 226, problemas: 1
+('/doctor/alexandra-cordova-v', 'ERROR:ConnectTimeout', '')

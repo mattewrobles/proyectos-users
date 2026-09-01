@@ -1,0 +1,447 @@
+[
+  {
+    "slug": "/doctor/diego-almeida-p",
+    "url": "https://hospital-del-rio.webflow.io/doctor/diego-almeida-p",
+    "carga_ok": true,
+    "nombre": "Diego Almeida P.",
+    "especialidad": "Urología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593993990267",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/diego-andres-guarango-jaramillo",
+    "url": "https://hospital-del-rio.webflow.io/doctor/diego-andres-guarango-jaramillo",
+    "carga_ok": true,
+    "nombre": "Diego Andres Guarango Jaramillo",
+    "especialidad": "Neumología · Endoscopía Respiratoria",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Teléfono mostrado con formato inconsistente: '+593 0969326161' (0 extra tras el código de país)"
+    ]
+  },
+  {
+    "slug": "/doctor/diego-bravo",
+    "url": "https://hospital-del-rio.webflow.io/doctor/diego-bravo",
+    "carga_ok": true,
+    "nombre": "Diego Bravo",
+    "especialidad": "Ortopedia y Traumatología · Cirugía de Mano",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono"
+    ]
+  },
+  {
+    "slug": "/doctor/diego-ernesto-coronel-aguilar",
+    "url": "https://hospital-del-rio.webflow.io/doctor/diego-ernesto-coronel-aguilar",
+    "carga_ok": true,
+    "nombre": "Diego Ernesto Coronel Aguilar",
+    "especialidad": "Nefrología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/nefrologiadrcoronel/",
+      "https://es.linkedin.com/in/diego-coronel-aguilar-06088431"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593987298037",
+    "problemas": [
+      "Inconsistencia de consultorio: el encabezado dice 'Piso 4 - Consultorio 439' pero la bio dice 'Consultorio 131'"
+    ]
+  },
+  {
+    "slug": "/doctor/diego-xavier-maldonado-vega",
+    "url": "https://hospital-del-rio.webflow.io/doctor/diego-xavier-maldonado-vega",
+    "carga_ok": true,
+    "nombre": "Diego Xavier Maldonado Vega",
+    "especialidad": "Otorrinolaringología",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/doctordiegomaldonado/",
+      "https://www.facebook.com/Dr.DiegoMaldonado/",
+      "https://drdiegomaldonado.com/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593993990267",
+    "problemas": [
+      "Sin descripción/bio del doctor",
+      "El número de WhatsApp (593993990267) no coincide con el teléfono mostrado en pantalla (983037768)"
+    ]
+  },
+  {
+    "slug": "/doctor/edgar-becerra-n",
+    "url": "https://hospital-del-rio.webflow.io/doctor/edgar-becerra-n",
+    "carga_ok": true,
+    "nombre": "Edgar Becerra N.",
+    "especialidad": "Hematología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/dr.edgarbecerra/",
+      "https://www.facebook.com/dr.edgar.becerra/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593991979916",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/edison-espinoza",
+    "url": "https://hospital-del-rio.webflow.io/doctor/edison-espinoza",
+    "carga_ok": true,
+    "nombre": "Edison Espinoza",
+    "especialidad": "Cirugía Cardiovascular · Cirugía Torácica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/cirujano_cardiaco/",
+      "https://www.facebook.com/Dr.EdisonEspinoza/",
+      "https://dr--edison-espinoza.webnode.ec/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593963986541",
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor"
+    ]
+  },
+  {
+    "slug": "/doctor/edison-guallpa",
+    "url": "https://hospital-del-rio.webflow.io/doctor/edison-guallpa",
+    "carga_ok": true,
+    "nombre": "Edison Guallpa",
+    "especialidad": "Cirugía Oncológica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/dredisonguallpa/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono"
+    ]
+  },
+  {
+    "slug": "/doctor/edmundo-fajardo-r",
+    "url": "https://hospital-del-rio.webflow.io/doctor/edmundo-fajardo-r",
+    "carga_ok": true,
+    "nombre": "Edmundo Fajardo R.",
+    "especialidad": "Cirugía Cardiovascular",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio del doctor",
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Sin redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/elsa-cecilia-alvarez-gomez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/elsa-cecilia-alvarez-gomez",
+    "carga_ok": true,
+    "nombre": "Elsa Cecilia Álvarez Gómez",
+    "especialidad": "Endocrinología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Sin redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/esteban-leon",
+    "url": "https://hospital-del-rio.webflow.io/doctor/esteban-leon",
+    "carga_ok": true,
+    "nombre": "Esteban León",
+    "especialidad": "Medicina Nuclear",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Sin redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/esteban-toral-v",
+    "url": "https://hospital-del-rio.webflow.io/doctor/esteban-toral-v",
+    "carga_ok": true,
+    "nombre": "Esteban Toral V.",
+    "especialidad": "Geriatría · Medicina Interna",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.medicosecuador.com/drestebantoral/index.html"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593969956667",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/eudoxia-georgina-munoz-ortiz",
+    "url": "https://hospital-del-rio.webflow.io/doctor/eudoxia-georgina-munoz-ortiz",
+    "carga_ok": true,
+    "nombre": "Eudoxia Georgina Muñoz Ortiz",
+    "especialidad": "Neonatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/pediatracuenca/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593990640419",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/fabian-andres-merchan-bustos",
+    "url": "https://hospital-del-rio.webflow.io/doctor/fabian-andres-merchan-bustos",
+    "carga_ok": true,
+    "nombre": "Fabián Andrés Merchán Bustos",
+    "especialidad": "Cardiología Pediátrica · Ecocardiografía Pediátrica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/cardiopedia.fabianmerchan/",
+      "https://www.facebook.com/p/Cardiopedia-Fabi%C3%A1n-Merch%C3%A1n-100090344661364/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593991010744",
+    "problemas": [
+      "El número de WhatsApp (593991010744) no coincide con el teléfono mostrado en pantalla (984830505)"
+    ]
+  },
+  {
+    "slug": "/doctor/fabian-esteban-cardenas",
+    "url": "https://hospital-del-rio.webflow.io/doctor/fabian-esteban-cardenas",
+    "carga_ok": true,
+    "nombre": "Fabian Esteban Cárdenas",
+    "especialidad": "Radiología e Imagen",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.linkedin.com/in/fabi%C3%A1n-c%C3%A1rdenas-92371551/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Falta la ubicación (piso/consultorio) que sí muestran los demás perfiles",
+      "Teléfono mostrado con formato inconsistente: '+593 072459555' (0 extra tras el código de país)",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono"
+    ]
+  },
+  {
+    "slug": "/doctor/fabian-siguencia-a",
+    "url": "https://hospital-del-rio.webflow.io/doctor/fabian-siguencia-a",
+    "carga_ok": true,
+    "nombre": "Fabián Sigüencia A.",
+    "especialidad": "Pediatría",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Sin redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/felipe-crespo-d",
+    "url": "https://hospital-del-rio.webflow.io/doctor/felipe-crespo-d",
+    "carga_ok": true,
+    "nombre": "Felipe Crespo D.",
+    "especialidad": "Ortopedia y Traumatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono",
+      "Sin redes sociales"
+    ]
+  },
+  {
+    "slug": "/doctor/fernando-manuel-arias-maldonado",
+    "url": "https://hospital-del-rio.webflow.io/doctor/fernando-manuel-arias-maldonado",
+    "carga_ok": true,
+    "nombre": "Fernando Manuel Arias Maldonado",
+    "especialidad": "Docencia",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drcarlosarias/",
+      "https://www.facebook.com/drcarlosariasp/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593999891256",
+    "problemas": [
+      "Especialidad mostrada como 'Docencia' pero la bio describe Medicina Interna — no coincide",
+      "Las redes sociales (Instagram/Facebook 'drcarlosarias') parecen pertenecer a otro médico ('Carlos Arias', posiblemente Carlos Fernando Arias Pesantez, otro doctor del directorio) — posible mezcla de datos entre perfiles"
+    ]
+  },
+  {
+    "slug": "/doctor/fidel-nivelo-g",
+    "url": "https://hospital-del-rio.webflow.io/doctor/fidel-nivelo-g",
+    "carga_ok": true,
+    "nombre": "Fidel Nivelo G.",
+    "especialidad": "Oftalmología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/codrfidelnivelo/",
+      "https://www.facebook.com/codrfidelnivelo/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593998716748",
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "El número de WhatsApp (593998716748) no coincide con el teléfono mostrado en pantalla (990485248)"
+    ]
+  },
+  {
+    "slug": "/doctor/francisco-j-carvelli-d",
+    "url": "https://hospital-del-rio.webflow.io/doctor/francisco-j-carvelli-d",
+    "carga_ok": true,
+    "nombre": "Francisco J. Carvelli D.",
+    "especialidad": "Urología · Cirugía Urológica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/dr.franciscocarvelli/",
+      "https://www.linkedin.com/in/dr-francisco-carvelli-318745232/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593960189214",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/franklin-xavier-bravo-aguilar",
+    "url": "https://hospital-del-rio.webflow.io/doctor/franklin-xavier-bravo-aguilar",
+    "carga_ok": true,
+    "nombre": "Franklin Xavier Bravo Aguilar",
+    "especialidad": "Ortopedia y Traumatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.hospitalhumanitario.org/profile/dr-christian-bravo/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593987010881",
+    "problemas": [
+      "El número de WhatsApp (593987010881) no coincide con el teléfono mostrado en pantalla (985003436)",
+      "El enlace de sitio web apunta al perfil de otro médico ('dr-christian-bravo') en vez de Franklin Bravo — posible mezcla de datos entre perfiles"
+    ]
+  },
+  {
+    "slug": "/doctor/gabriel-tigsi-m",
+    "url": "https://hospital-del-rio.webflow.io/doctor/gabriel-tigsi-m",
+    "carga_ok": true,
+    "nombre": "Gabriel Tigsi M.",
+    "especialidad": "Gastroenterología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/dr_luis_gabriel_tigsi_m/",
+      "https://www.facebook.com/DrLuisGabrielTigsiGastro/",
+      "https://uy.linkedin.com/in/luis-gabriel-tigsi-m-ab822aa5"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono"
+    ]
+  },
+  {
+    "slug": "/doctor/gabriela-pazmino",
+    "url": "https://hospital-del-rio.webflow.io/doctor/gabriela-pazmino",
+    "carga_ok": true,
+    "nombre": "Gabriela Pazmiño",
+    "especialidad": "Medicina Estética",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/dra.gabipazminocardoso/",
+      "https://ec.linkedin.com/in/gabriela-pazmi%C3%B1o-9a819b1b1"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es el placeholder genérico del template, no una foto real del doctor",
+      "Teléfono mostrado con formato inconsistente: '+593 0963537639' (0 extra tras el código de país)",
+      "No hay botón 'Agendar cita' ni enlace de WhatsApp pese a mostrar un número de teléfono"
+    ]
+  }
+]

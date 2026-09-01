@@ -1,0 +1,71 @@
+SCHEMA.ORG (JSON-LD) — página HOME
+Hospital del Río — preparado por Cleo, 2026-08-28
+
+Dónde: Home > Page Settings (ícono engranaje) > pestaña SEO/Custom Code >
+sección de Schema / Structured Data (JSON-LD). Si no aparece ahí, buscar
+el bloque de Custom Code "Before </body>" de la página Home — puede estar
+metido como <script type="application/ld+json">.
+
+Problema: el campo "name" dice "Hospital Universitario del Río" — debe
+decir "Hospital del Río". También el "geo" no era válido (usaba una URL
+de Maps en vez de coordenadas) y el "sameAs" solo tenía TikTok, le
+faltaban las otras redes.
+
+Reemplazar el JSON completo por este (ya corregido):
+
+{
+  "@context": "https://schema.org",
+  "@type": "Hospital",
+  "name": "Hospital del Río",
+  "url": "/",
+  "description": "Hospital líder del sur de Ecuador con más de 100 médicos experimentados en más de 60 especialidades médicas, equipado con tecnología de cirugía robótica Da Vinci.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. 24 de Mayo y Av. de las Américas",
+    "addressLocality": "Cuenca",
+    "addressCountry": "EC"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -2.8929386,
+    "longitude": -78.9607957
+  },
+  "medicalSpecialty": ["Cardiología", "Gastroenterología", "Cirugía Cardiovascular", "Electrofisiología", "Hemodinamia", "Fertilidad", "Manejo del Dolor"],
+  "availableService": [
+    {"@type": "MedicalProcedure", "name": "Cirugía Robótica Da Vinci"},
+    {"@type": "MedicalTest", "name": "Laboratorio Clínico"},
+    {"@type": "MedicalTest", "name": "Imágenes Diagnósticas"},
+    {"@type": "MedicalTherapy", "name": "Hemodiálisis"},
+    {"@type": "MedicalTherapy", "name": "Sala de Infusiones"},
+    {"@type": "MedicalTherapy", "name": "Terapia Respiratoria"},
+    {"@type": "MedicalBusiness", "name": "Unidad Integral de Fertilidad"},
+    {"@type": "MedicalBusiness", "name": "Unidad para Manejo del Dolor"},
+    {"@type": "EmergencyService", "name": "Emergencia 24/7"},
+    {"@type": "MedicalBusiness", "name": "UCI - Unidad de Cuidados Intensivos"},
+    {"@type": "MedicalBusiness", "name": "Cuidados Intermedios"},
+    {"@type": "MedicalBusiness", "name": "Quirófano"},
+    {"@type": "MedicalBusiness", "name": "Ambulancia"},
+    {"@type": "MedicalBusiness", "name": "Hospitalización"}
+  ],
+  "amenityFeature": [
+    {"@type": "LocationFeatureSpecification", "name": "Farmacia Hospitalaria"},
+    {"@type": "LocationFeatureSpecification", "name": "Patio de Comidas"},
+    {"@type": "LocationFeatureSpecification", "name": "Parqueadero"},
+    {"@type": "LocationFeatureSpecification", "name": "Locales Comerciales"},
+    {"@type": "LocationFeatureSpecification", "name": "Consultorios"}
+  ],
+  "sameAs": [
+    "https://www.tiktok.com/@hospitaldelrio",
+    "https://www.instagram.com/hospitaldelrio",
+    "https://www.facebook.com/hospitaldelrio/",
+    "https://www.linkedin.com/company/hospital-del-río/",
+    "https://www.youtube.com/@hospitaldelrio."
+  ],
+  "image": "https://cdn.prod.website-files.com/6a3189b602855332320401b3/6a8cc6d8f6be691e51750cff_suenos.png"
+}
+
+Nota técnica: se intentó escribir esto por API (token de la colección
+Doctors y la integración de Webflow conectada a Claude) y ambos dieron
+error 403 "insufficient_permissions" — el campo jsonLdSchema necesita un
+scope de API que ninguno de los dos tiene habilitado. Por eso queda para
+hacerlo a mano en el Designer.

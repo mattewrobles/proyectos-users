@@ -1,0 +1,12 @@
+FOOTER — texto del copyright (visible en TODAS las páginas)
+Hospital del Río — preparado por Cleo, 2026-08-28
+
+Dónde: componente "Footer" (Symbol), el texto de copyright al final.
+
+Dice ahora:      © 2026 Hospital Universitario del Río · Certified ISO 9001:2015
+Debe decir:      © 2026 Hospital del Río · Certified ISO 9001:2015
+
+No lo tocamos por API a propósito (nos pidieron no hacer cambios
+visibles sin avisar). Es un cambio de texto simple dentro del
+componente Footer, va a afectar automáticamente a todas las páginas del
+sitio en una sola edición.

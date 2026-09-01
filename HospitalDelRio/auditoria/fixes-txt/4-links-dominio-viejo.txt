@@ -1,0 +1,22 @@
+LINKS AL DOMINIO VIEJO (staging) — siguen en todas las páginas
+Hospital del Río — preparado por Cleo, 2026-08-28
+
+Dónde:
+- Componente "Navbar" > dropdown "Instalaciones" (6 links)
+- Página Home > sección "Servicios" (5 links: Laboratorio Clínico,
+  Imágenes Diagnósticas, Hemodiálisis, Sala de Infusiones, Terapia
+  Respiratoria)
+- Página Home > sección "Instalaciones" (grid de 6 tarjetas + imágenes)
+- Componente "Cookies" (popup) > link de "política de cookies"
+
+Todos estos links todavía apuntan a:
+  https://hospital-del-rio.webflow.io/...
+en vez de rutas relativas (ej. /instalaciones/uci) o al dominio real.
+
+Por qué importa: el sitio viejo (staging) sigue público. Cualquiera que
+haga click en estos links termina en el sitio de prueba, no en el real.
+
+Cómo arreglarlo: cambiar cada uno de esos links para que apunten a la
+página interna (link relativo), no a una URL completa del dominio viejo.
+El Navbar es un componente global — se corrige una sola vez y se
+propaga a todo el sitio.

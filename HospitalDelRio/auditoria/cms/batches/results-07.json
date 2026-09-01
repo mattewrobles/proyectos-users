@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "maria-dolores-toral-chacon",
+    "item_id": "6a54d2e43594818e73eaa78e",
+    "nombre": "María Dolores Toral Chacón",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Dolores Toral Chacón es especialista en Psicología Infantil. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 117.</p>",
+    "cambio": "Sin descripción previa. No tiene sitio web, sí tiene LinkedIn cargado en el CMS (no se intentó leer). Se escribió descripción mínima 100% factual con datos del CMS, sin inventar formación ni logros.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ximena-karina-guillen-verdesoto",
+    "item_id": "6a54d35468beb901568ea503",
+    "nombre": "Ximena Karina Guillén Verdesoto",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Ximena Karina Guillén Verdesoto es especialista en Psicología Infantil. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 319.</p>",
+    "cambio": "Sin descripción previa ni redes sociales en el CMS. Se hizo WebSearch (regla 4) — no apareció ninguna URL de Instagram/Facebook verificable a nombre propio. Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "karol-andrea-guzman-guillen",
+    "item_id": "6a54d2b2bff580afc1dd7435",
+    "nombre": "Karol Andrea Guzmán Guillén",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Karol Andrea Guzmán Guillén es especialista en Cardiología, con subespecialidad en Ecocardiografía. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 305.</p>",
+    "cambio": "Sin descripción previa. Tiene Facebook en el CMS (no se intentó leer, no da texto útil). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "gabriela-pazmino",
+    "item_id": "6a54d26559e9aa02a0a36984",
+    "nombre": "Gabriela Pazmiño",
+    "descripcion_actual": "<p>La Dra. Gabriela Pazmiño Cardoso es médico estética con Maestría en Medicina Estética por la Universitat de les Illes Balears (España). Ejerce en el Hospital del Río en Cuenca, con formación y participación en congresos internacionales en Ecuador, España, Panamá, Colombia, Estados Unidos e Italia. Es experta en tratamientos estéticos avanzados con resultados comprobados.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — dice 'Hospital del Río' correctamente y no menciona ningún otro hospital o clínica de trabajo.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "diego-xavier-maldonado-vega",
+    "item_id": "6a567e492f69e5dfe9643e1d",
+    "nombre": "Diego Xavier Maldonado Vega",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Diego Xavier Maldonado Vega es médico otorrinolaringólogo, graduado de la Universidad de Cuenca (2006) y con especialización en Otorrinolaringología por la Universidade de São Paulo, Brasil (2011), donde también realizó un fellowship en Apnea Obstructiva del Sueño. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 329.</p>",
+    "cambio": "Sin descripción previa. Tenía sitio web (drdiegomaldonado.com) — se hizo WebFetch y se tomaron solo datos de formación académica (universidad, año, especialización, fellowship), sin mencionar ningún hospital o clínica donde ejerza.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-daniela-carpio-toro",
+    "item_id": "6a54d21b1f210111b03d1add",
+    "nombre": "María Daniela Carpio Toro",
+    "descripcion_actual": "<p>La Dra. Daniela Carpio es cardióloga del Hospital Universitario del Río en Cuenca, Ecuador, con consultorio en el piso 4, oficina 436. Cuenta con formación especializada en Cardiología Clínica, Unidad Coronaria y Cuidados Intensivos Postoperatorios de Cirugía Cardíaca obtenida en el Instituto Dante Passaneze de Cardiología en São Paulo, Brasil. Realizó su pregrado en Medicina en la Universidad del Azuay y habla inglés, español y portugués.</p>",
+    "descripcion_propuesta": "<p>La Dra. Daniela Carpio es cardióloga del Hospital del Río en Cuenca, Ecuador, con consultorio en el piso 4, oficina 436. Cuenta con formación especializada en Cardiología Clínica, Unidad Coronaria y Cuidados Intensivos Postoperatorios de Cirugía Cardíaca. Realizó su pregrado en Medicina en la Universidad del Azuay y habla inglés, español y portugués.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Eliminada la mención del Instituto Dante Passaneze de Cardiología (São Paulo, Brasil) por ser una institución/clínica de formación práctica específica, no una universidad — se mantiene únicamente el pregrado en la Universidad del Azuay.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "ximena-paola-albuja-arias",
+    "item_id": "6a54d352dcf1118afd81e848",
+    "nombre": "Ximena Paola Albuja Arias",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Ximena Paola Albuja Arias es especialista en Medicina Interna. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 118.</p>",
+    "cambio": "Sin descripción previa. Tiene Instagram en el CMS (no se intentó leer). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-eugenia-aguirre-ochoa",
+    "item_id": "6a54d2e56709f408a2f95a39",
+    "nombre": "María Eugenia Aguirre Ochoa",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Eugenia Aguirre Ochoa es especialista en Nutrición. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 326.</p>",
+    "cambio": "Sin descripción previa. Tiene Facebook en el CMS (no se intentó leer). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-isabel-orellana-jerves",
+    "item_id": "6a54d2e713dd3bf3f89d04da",
+    "nombre": "María Isabel Orellana Jerves",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María Isabel Orellana Jerves es especialista en Neumología Pediátrica. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4, Consultorio 420.</p>",
+    "cambio": "Sin descripción previa. Tiene Facebook en el CMS (no se intentó leer). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "xavier-genaro-abril-orellana",
+    "item_id": "6a54d351e22eae1436a67f8f",
+    "nombre": "Xavier Genaro Abril Orellana",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Xavier Genaro Abril Orellana es especialista en Terapia Intensiva Pediátrica, con subespecialidad en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 325.</p>",
+    "cambio": "Sin descripción previa ni redes sociales en el CMS. Se hizo WebSearch (regla 4) — los resultados lo asocian a formación en la Universidad del Azuay y subespecialidad en la Universidad de Buenos Aires, pero también aparece trabajando en 'Hospital Humanitario', que por regla NUNCA puede mencionarse. No se encontró Instagram/Facebook propio verificable, así que no se agregó ese dato de formación (fuente no confiable al 100% y mezclada con mención de otro hospital) — se dejó la descripción mínima solo con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "gabriel-tigsi-m",
+    "item_id": "6a54d2638740aaa736c6c7d0",
+    "nombre": "Gabriel Tigsi M.",
+    "descripcion_actual": "<p>El Dr. Luis Gabriel Tigsi Mendoza es médico gastroenterólogo y especialista en endoscopia digestiva, graduado de la Universidad de Cuenca (2013) y con especialización en Gastroenterología por la Universidad de la República, Uruguay (2017). Ejerce en el Hospital del Río y en el Centro de Especialidades Médicas HM/Endos Center en Cuenca, Ecuador, donde atiende patologías del sistema digestivo y realiza procedimientos endoscópicos avanzados.</p>",
+    "descripcion_propuesta": "<p>El Dr. Luis Gabriel Tigsi Mendoza es médico gastroenterólogo y especialista en endoscopia digestiva, graduado de la Universidad de Cuenca (2013) y con especialización en Gastroenterología por la Universidad de la República, Uruguay (2017). Ejerce en el Hospital del Río en Cuenca, Ecuador, donde atiende patologías del sistema digestivo y realiza procedimientos endoscópicos avanzados.</p>",
+    "cambio": "Eliminada la mención de que también ejerce en el 'Centro de Especialidades Médicas HM/Endos Center' — contenido prohibido (otro centro de trabajo). Se mantiene la formación universitaria intacta.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-pablo-valdivieso-aguirre",
+    "item_id": "6a54d2abb1043d6b41bf9bef",
+    "nombre": "Juan Pablo Valdivieso Aguirre",
+    "descripcion_actual": "<p>El Ps. Martinez es especialista en Psicología Clínica, con atención en el Hospital Universitario del Río en Cuenca, Ecuador. Su consulta se enfoca en la evaluación, diagnóstico y tratamiento de trastornos emocionales y conductuales, brindando acompañamiento psicoterapéutico a pacientes de todas las edades. Ofrece atención en el Piso 3, Consultorio 301 del hospital.</p>",
+    "descripcion_propuesta": "<p>El Dr. Juan Pablo Valdivieso Aguirre es especialista en Dermatología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2, Consultorio 209.</p>",
+    "cambio": "La descripción publicada pertenecía a otro profesional por completo ('El Ps. Martinez', psicólogo, consultorio 301) — no coincide en nombre, especialidad (CMS dice dermatología) ni consultorio (CMS dice Piso 2 - Consultorio 209) con Juan Pablo Valdivieso Aguirre. Además decía 'Hospital Universitario del Río'. Se reemplazó por una descripción mínima 100% factual y correcta con los datos reales del CMS.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "karla-lucia-abril-hinojosa",
+    "item_id": "6a54d2b16056f575081c8287",
+    "nombre": "Karla Lucia Abril Hinojosa",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Karla Lucia Abril Hinojosa es especialista en Medicina Estética. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3, Consultorio 311.</p>",
+    "cambio": "Sin descripción previa. Tiene sitio web (medikaluah.com) pero el WebFetch devolvió error 403 (bloqueado). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "leonardo-santiago-arizaga-arce",
+    "item_id": "6a54d2b54d0989d14d9ae019",
+    "nombre": "Leonardo Santiago Arízaga Arce",
+    "descripcion_actual": "<p>El Dr. Leonardo Arízaga Arce es médico especialista en Anestesiología, graduado por la Universidad de Cuenca. Cuenta con trayectoria como médico en el Hospital del Río. Actualmente es médico anestesiólogo tratante en el Hospital del Río, siendo experto en anestesia general, manejo avanzado de la vía aérea y cuidados pre y postoperatorios de pacientes quirúrgicos.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — solo menciona 'Hospital del Río', sin 'Universitario' y sin ningún otro hospital o clínica.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "diana-katherine-astudillo-bravo",
+    "item_id": "6a54d2b41f210111b03d7e95",
+    "nombre": "Diana Katherine Astudillo Bravo",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Diana Katherine Astudillo Bravo es médico cirujana, graduada de la Universidad de Cuenca, con certificación en Cirugía General y Maestría en Gerencia en Salud para el Desarrollo Local, ambas por la Universidad de Cuenca. Cuenta con especialización en Cirugía Oncológica de Tórax por la Universidade de São Paulo, Brasil. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 129.</p>",
+    "cambio": "Sin descripción previa. Tenía sitio web (toraxecuador.com/web) — se hizo WebFetch; el sitio identifica a la doctora como 'Katherine Astudillo' (coincide con el segundo nombre en el CMS: Diana Katherine Astudillo Bravo). Se tomaron solo datos de formación académica, sin mencionar ningún hospital o clínica donde ejerza.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "justin-eduardo-aguirre-moscoso",
+    "item_id": "6a54d2b09790610aa31234be",
+    "nombre": "Justin Eduardo Aguirre Moscoso",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Justin Eduardo Aguirre Moscoso es especialista en Cirugía Plástica y Reconstructiva. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 139.</p>",
+    "cambio": "Sin descripción previa. Tiene Instagram y Facebook en el CMS (no se intentó leer). Se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "libia-victoria-avila-campoverde",
+    "item_id": "6a54d2b64d0989d14d9ae064",
+    "nombre": "Libia Victoria Ávila Campoverde",
+    "descripcion_actual": "<p>La Dra. Libia Ávila es una médico especialista en Otorrinolaringología, graduada por la Universidad de Cuenca y formada en el Instituto Superior de Ciencias Médicas de La Habana, Cuba.Ejerce en el Hospital del Río y cuenta con un alto entrenamiento en cirugía estética y funcional de nariz (rinoplastia). Es experta en el diagnóstico y tratamiento integral de patologías de oído, nariz y garganta, atendiendo tanto a pacientes niños como adultos.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — solo menciona 'Hospital del Río' como lugar de trabajo; el Instituto Superior de Ciencias Médicas de La Habana es una institución de formación académica (equivalente a universidad/escuela de medicina), no un hospital o clínica de trabajo, por lo que se mantiene permitido.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "andres-esteban-delgado-ponce",
+    "item_id": "6a54d1f83594818e73ea18e9",
+    "nombre": "Andres Esteban Delgado Ponce",
+    "descripcion_actual": "<p>El Dr. Andrés Esteban Delgado Ponce es especialista en Ginecología y Obstetricia con subespecialidad en Biología de la Reproducción Humana. Atiende en el Hospital Universitario del Río, consultorio 135, en Cuenca, Ecuador, donde ofrece consultas en fertilidad, medicina reproductiva e infertilidad. Es reconocido por su enfoque personalizado en el acompañamiento a parejas durante el proceso de búsqueda de embarazo.</p>",
+    "descripcion_propuesta": "<p>El Dr. Andrés Esteban Delgado Ponce es especialista en Ginecología y Obstetricia con subespecialidad en Biología de la Reproducción Humana. Atiende en el Hospital del Río, Piso 4, Consultorio 401, en Cuenca, Ecuador, donde ofrece consultas en fertilidad, medicina reproductiva e infertilidad. Es reconocido por su enfoque personalizado en el acompañamiento a parejas durante el proceso de búsqueda de embarazo.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. Corregido el número de consultorio ('consultorio 135') para que coincida con el dato real del CMS (Piso 4 - Consultorio 401).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-jose-vera-b",
+    "item_id": "6a54d2ecbff580afc1dd9e11",
+    "nombre": "María José Vera B.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María José Vera B. es especialista en Cirugía General. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1, Consultorio 142.</p>",
+    "cambio": "Sin descripción previa ni redes sociales en el CMS. Se hizo WebSearch (regla 4) — el único resultado relevante corresponde a una persona homónima (Miss Grand Ecuador 2024, modelo/comunicadora), claramente no la misma persona (especialidad y contexto no coinciden). Se descartó por completo y se escribió descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "andrea-veronica-garcia-pacheco",
+    "item_id": "6a567e48f1372b2fff3337ce",
+    "nombre": "Andrea Veronica García Pacheco",
+    "descripcion_actual": "<p>La Dra. Andrea Veronica García Pacheco es especialista en Medicina Interna y ejerce en el Hospital del Río de Cuenca, Ecuador, atendiendo en el Consultorio 307 del piso 3. Su práctica se enfoca en la atención integral del adulto bajo el concepto de \"Salud en todas las tallas\", abordando condiciones como diabetes, manejo de peso y salud preventiva.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — dice 'Hospital del Río' correctamente y no menciona ningún otro hospital o clínica.",
+    "prioridad": "",
+    "redes_candidatas": []
+  }
+]

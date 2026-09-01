@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "juan-rafael-saavedra-palacios",
+    "item_id": "6a54d31a8a6d86fced7c0e1b",
+    "nombre": "Juan Rafael Saavedra Palacios",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Juan Rafael Saavedra Palacios es especialista en Geriatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Consultorio 302.</p>",
+    "cambio": "Sin fuente externa (Instagram no es fetchable). Descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "tannya-priscila-rodriguez-cardenas",
+    "item_id": "6a54d31799a728deb65ea5b2",
+    "nombre": "Tannya Priscila Rodríguez Cárdenas",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Tannya Priscila Rodríguez Cárdenas es especialista en Cardiología, con subespecialización en Electrofisiología Cardíaca. Su práctica se enfoca en el manejo de arritmias cardíacas y en el uso de marcapasos y desfibriladores. Atiende en el Hospital del Río de Cuenca, Ecuador, Consultorio 412.</p>",
+    "cambio": "Creada a partir de su sitio web oficial (cardiologapriscilarodriguez.com). El sitio no menciona universidades ni otros hospitales, así que no se incluyó nada de eso.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "rafael-salamea-m",
+    "item_id": "6a54d31b64ddb74f3be2b27a",
+    "nombre": "Santiago Rafael Salamea Molina",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Santiago Rafael Salamea Molina es especialista en Anestesiología, con subespecialidad en Reanimación. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Ya tiene LinkedIn en el CMS (no se buscó más redes). Descripción mínima 100% factual, sin consultorio porque el CMS no lo tiene.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "nestor-rodrigo-barros-tapia",
+    "item_id": "6a54d33c8740aaa736c73f86",
+    "nombre": "Nestor Rodrigo Barros Tapia",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Nestor Rodrigo Barros Tapia es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2 - Consultorio 208.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web no confirmó match seguro. Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/nestor.barros.71/",
+        "confianza": "baja",
+        "fuente": "WebSearch — cuenta 'Nestor Barros' encontrada pero sin ninguna referencia a pediatría ni a Cuenca en el resultado, no se puede confirmar que sea el mismo doctor"
+      }
+    ]
+  },
+  {
+    "slug": "rossana-lazo",
+    "item_id": "6a54d33da82704928633d790",
+    "nombre": "Rossana Lazo",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Rossana Lazo es especialista en Neurología Infantil, con subespecialidad en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2 - Consultorio 220.</p>",
+    "cambio": "Sin redes en el CMS. Descripción mínima 100% factual con datos del CMS.",
+    "prioridad": "",
+    "redes_candidatas": [
+      {
+        "plataforma": "Instagram",
+        "url": "https://www.instagram.com/reel/DE5RdWTtki3/",
+        "confianza": "media",
+        "fuente": "WebSearch — post de Instagram titulado 'Dra. Rossana Lazo | Neuróloga pediatra', especialidad coincide con el CMS. Es un post puntual, no el perfil — Mau debería ubicar el @ del perfil desde ahí antes de cargarlo"
+      },
+      {
+        "plataforma": "Facebook",
+        "url": "https://www.facebook.com/100064316041409/videos/dra-rossana-lazo-neur%C3%B3loga-pediatra-especialista-en-diagn%C3%B3stico-y-manejo-de-tras/837686385110800/",
+        "confianza": "media",
+        "fuente": "WebSearch — video de Facebook titulado 'Dra. Rossana Lazo Neuróloga Pediatra', especialidad coincide. También es un post, no la página en sí"
+      }
+    ]
+  },
+  {
+    "slug": "silvia-monserrath-loyola-arce",
+    "item_id": "6a54d3444164caab75a56daa",
+    "nombre": "Silvia Monserrath Loyola Arce",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Silvia Monserrath Loyola Arce es especialista en Pediatría. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1 - Consultorio 102.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web no encontró ningún resultado relevante (solo coincidencias de nombre parcial). Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "catherine-mercedes-cabrera-ordonez",
+    "item_id": "6a54d207972ac4970d6903fb",
+    "nombre": "Catherine Mercedes Cabrera Ordóñez",
+    "descripcion_actual": "<p>La Dra. Catherine Mercedes Cabrera Ordóñez es especialista en Coloproctología, con formación en medicina general (2009), cirugía general (2016) y subespecialidad en Coloproctología por la Universidad de Guadalajara, México (2019). Brinda atención especializada en el diagnóstico y tratamiento clínico-quirúrgico de enfermedades del colon, recto y ano. Ejerce en el Hospital Universitario del Río y en el Hospital San Juan de Dios, en Cuenca, Ecuador.</p>",
+    "descripcion_propuesta": "<p>La Dra. Catherine Mercedes Cabrera Ordóñez es especialista en Coloproctología, con formación en medicina general (2009), cirugía general (2016) y subespecialidad en Coloproctología por la Universidad de Guadalajara, México (2019). Brinda atención especializada en el diagnóstico y tratamiento clínico-quirúrgico de enfermedades del colon, recto y ano. Atiende en el Hospital del Río, en Cuenca, Ecuador.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río' y eliminada la mención de que también ejerce en el Hospital San Juan de Dios (contenido prohibido).",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jose-leonardo-asanza-heredia",
+    "item_id": "6a54d290b662e7aa3841143a",
+    "nombre": "José Leonardo Asanza Heredia",
+    "descripcion_actual": "<p>El Dr. Asanza Heredia es especialista en Ginecología y Obstetricia con consulta en el Hospital Universitario del Río de Cuenca, Ecuador. Brinda atención integral en salud femenina, embarazo, parto y cuidado obstétrico. Su consultorio se encuentra en el piso 3, consultorio 334 del Hospital del Río.</p>",
+    "descripcion_propuesta": "<p>El Dr. Asanza Heredia es especialista en Ginecología y Obstetricia con consulta en el Hospital del Río de Cuenca, Ecuador. Brinda atención integral en salud femenina, embarazo, parto y cuidado obstétrico. Su consultorio se encuentra en el piso 3, consultorio 334 del Hospital del Río.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "jose-ricardo-ordonez-vintimilla",
+    "item_id": "6a54d33b92e75db5dca4a274",
+    "nombre": "Jose Ricardo Ordóñez Vintimilla",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Jose Ricardo Ordóñez Vintimilla es especialista en Cirugía de Tórax, con más de 30 años de experiencia en el diagnóstico y tratamiento de enfermedades broncopulmonares. Atiende en el Hospital del Río de Cuenca, Ecuador, Consultorio 421.</p>",
+    "cambio": "Creada a partir de su sitio web oficial (ordonezmd.com). El sitio no menciona universidades ni otros hospitales.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "silvia-carrion-s",
+    "item_id": "6a54d34444e8daf778c5e92b",
+    "nombre": "Silvia Carrión S.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Silvia Carrión S. es especialista en Gastroenterología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4 - Consultorio 423.</p>",
+    "cambio": "Ya tiene Instagram en el CMS (no se buscó más redes). Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "semiramis-cecilia-portillo-de-varela",
+    "item_id": "6a54d342bff580afc1ddd46c",
+    "nombre": "Semiramis Cecilia Portillo de Varela",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Semiramis Cecilia Portillo de Varela es especialista en Cardiología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3 - Consultorio 332.</p>",
+    "cambio": "Ya tiene Facebook en el CMS (no se buscó más redes). Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "santiago-patricio-dominguez-vasquez",
+    "item_id": "6a54d33f37de3718614a9374",
+    "nombre": "Santiago Patricio Domínguez Vázquez",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Santiago Patricio Domínguez Vázquez es especialista en Cardiología. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 2 - Consultorio 225.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web no encontró ningún resultado relevante. Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "juan-carlos-salamea-m",
+    "item_id": "6a54d29c59e9aa02a0a390e6",
+    "nombre": "Juan Carlos Salamea M.",
+    "descripcion_actual": "<p>El Dr. Salamea es especialista en Cirugía General con subespecialidad en Cirugía de Trauma y Emergencias, con formación en la Universidad de Cuenca y un fellowship en trauma en la Universidad del Valle, Colombia. Se desempeña como cirujano en el Hospital Universitario del Río de Cuenca y es profesor en la Universidad del Azuay, además de ser Coordinador del sistema de trauma en el sur del Ecuador. Fue elegido Presidente de la Sociedad Panamericana de Trauma para el período 2026–2027.</p>",
+    "descripcion_propuesta": "<p>El Dr. Salamea es especialista en Cirugía General con subespecialidad en Cirugía de Trauma y Emergencias, con formación en la Universidad de Cuenca y un fellowship en trauma en la Universidad del Valle, Colombia. Se desempeña como cirujano en el Hospital del Río de Cuenca y es profesor en la Universidad del Azuay, además de ser Coordinador del sistema de trauma en el sur del Ecuador. Fue elegido Presidente de la Sociedad Panamericana de Trauma para el período 2026–2027.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'. El resto del contenido (universidad, fellowship, cátedra, sociedad médica) es formación/membresía permitida, no se tocó.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "esteban-toral-v",
+    "item_id": "6a54d24f64ddb74f3be21770",
+    "nombre": "Esteban Toral V.",
+    "descripcion_actual": "<p>El Dr. Esteban Toral Valdivieso es especialista en Geriatría y Medicina Interna en el Hospital Universitario del Río, Cuenca, Ecuador, donde atiende en el cuarto piso, consultorio 409. Su práctica se enfoca en el manejo integral de enfermedades crónicas, evaluación de demencias y trastornos conductuales (psicogeriatría), alteraciones de la marcha y valoraciones pre y postquirúrgicas. Ofrece consultas presenciales, visitas domiciliarias y atención en línea.</p>",
+    "descripcion_propuesta": "<p>El Dr. Esteban Toral Valdivieso es especialista en Geriatría y Medicina Interna en el Hospital del Río, Cuenca, Ecuador, donde atiende en el cuarto piso, consultorio 409. Su práctica se enfoca en el manejo integral de enfermedades crónicas, evaluación de demencias y trastornos conductuales (psicogeriatría), alteraciones de la marcha y valoraciones pre y postquirúrgicas. Ofrece consultas presenciales, visitas domiciliarias y atención en línea.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "maria-jose-pesantez-jara",
+    "item_id": "6a54d3576056f575081d14ca",
+    "nombre": "María José Pesantez Jara",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. María José Pesantez Jara es especialista en Medicina Forense. Atiende en el Hospital del Río de Cuenca, Ecuador.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web no encontró ningún resultado relevante para esta doctora en particular. Descripción mínima 100% factual (sin consultorio, el CMS no lo tiene).",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "vicente-corral-v",
+    "item_id": "6a54d34d95f8b377990123f5",
+    "nombre": "Vicente Corral V.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Vicente Corral V. es especialista en Cirugía General. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 4 - Consultorio 419.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web solo encontró un listado en directorio médico (doctoranytime.ec) confirmando que atiende en Hospital del Río — no es Instagram/Facebook/LinkedIn/TikTok/YouTube así que no aplica como red candidata. Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "marco-calle-s",
+    "item_id": "6a54d2c08740aaa736c6f66f",
+    "nombre": "Marco Calle S.",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>El Dr. Marco Calle S. es especialista en Medicina Interna. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 1 - Consultorio 101.</p>",
+    "cambio": "Sin redes en el CMS. Búsqueda web solo encontró personas distintas (otro rubro o apellido distinto). Descripción mínima 100% factual.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "aldo-mateo-torracchi-carrasco",
+    "item_id": "6a54d2f57d782a40e58f4ce1",
+    "nombre": "Aldo Mateo Torracchi Carrasco",
+    "descripcion_actual": "<p>El Dr. Mateo Torracchi es médico especialista en Medicina Interna y Neumología, formado y con un Máster en Análisis de Datos por la Universidad de Salamanca (España).Se desempeña como médico tratante en el Hospital del Río y es Profesor Titular de la Universidad del Azuay. Es experto en el diagnóstico y tratamiento avanzado de patologías respiratorias como asma, EPOC, neumonías, apnea del sueño y tabaquismo.</p>",
+    "descripcion_propuesta": null,
+    "cambio": "sin cambios — ya dice 'Hospital del Río' correctamente, no menciona otro hospital, y solo tiene formación universitaria/cátedra permitida.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "melissa-sofia-gonzalez-urdaneta",
+    "item_id": "6a54d2f6b2d9486b374dddc7",
+    "nombre": "Melissa Sofia González Urdaneta",
+    "descripcion_actual": null,
+    "descripcion_propuesta": "<p>La Dra. Melissa Sofia González Urdaneta es especialista en Cirugía Cardiovascular, con subespecialidad en Cirugía General. Su práctica se enfoca en el tratamiento de várices y pie diabético. Atiende en el Hospital del Río de Cuenca, Ecuador, Piso 3 - Consultorio 332.</p>",
+    "cambio": "Creada a partir de su sitio web (medicosecuador.com/dramelissagonzalez). El sitio no menciona universidades ni otros hospitales.",
+    "prioridad": "",
+    "redes_candidatas": []
+  },
+  {
+    "slug": "aida-f-marino-a",
+    "item_id": "6a567e2f3b40bf4d7c105581",
+    "nombre": "Aida F. Mariño A.",
+    "descripcion_actual": "<p>La Dra. Aida F. Mariño A. es especialista en Oncología Clínica y Magíster en Cuidados Paliativos, con atención en el Hospital Universitario del Río en Cuenca, Ecuador. Su práctica integra el tratamiento oncológico con un enfoque en calidad de vida y manejo integral del dolor en pacientes con enfermedades avanzadas. Atiende en el piso 2, consultorio 211 del hospital.</p>",
+    "descripcion_propuesta": "<p>La Dra. Aida F. Mariño A. es especialista en Oncología Clínica y Magíster en Cuidados Paliativos, con atención en el Hospital del Río en Cuenca, Ecuador. Su práctica integra el tratamiento oncológico con un enfoque en calidad de vida y manejo integral del dolor en pacientes con enfermedades avanzadas. Atiende en el piso 2, consultorio 211 del hospital.</p>",
+    "cambio": "Corregido 'Hospital Universitario del Río' → 'Hospital del Río'.",
+    "prioridad": "ALTA",
+    "redes_candidatas": []
+  }
+]

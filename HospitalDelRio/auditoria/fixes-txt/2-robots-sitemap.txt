@@ -1,0 +1,18 @@
+ROBOTS.TXT Y SITEMAP.XML
+Hospital del Río — preparado por Cleo, 2026-08-28
+
+Dónde: Project Settings (no es Page Settings, es a nivel de todo el
+sitio) > pestaña SEO.
+
+Problema: sitemap.xml da 404 (no existe) y robots.txt responde 200 pero
+el archivo está completamente vacío (no tiene ni el Allow: / básico ni
+la línea Sitemap:).
+
+Qué revisar/activar ahí:
+- "Enable indexing" / permitir que los buscadores indexen el sitio
+- Generar/activar el sitemap.xml automático de Webflow
+- Confirmar que quede referenciado en robots.txt (Webflow lo hace solo
+  una vez que el sitemap está generado)
+
+Esto no es editable por API — es un toggle que solo existe en el
+Designer, no lo pudimos automatizar.

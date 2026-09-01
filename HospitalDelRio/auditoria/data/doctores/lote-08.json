@@ -1,0 +1,459 @@
+[
+  {
+    "slug": "/doctor/nestor-rodrigo-barros-tapia",
+    "url": "https://hospital-del-rio.webflow.io/doctor/nestor-rodrigo-barros-tapia",
+    "carga_ok": true,
+    "nombre": "Nestor Rodrigo Barros Tapia",
+    "especialidad": "Pediatría",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin botón de WhatsApp ni 'Agendar cita'",
+      "Sin redes sociales propias del médico"
+    ]
+  },
+  {
+    "slug": "/doctor/octavio-enrique-viteri-leon",
+    "url": "https://hospital-del-rio.webflow.io/doctor/octavio-enrique-viteri-leon",
+    "carga_ok": true,
+    "nombre": "Octavio Enrique Viteri León",
+    "especialidad": "Anestesiología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593997844196",
+    "problemas": [
+      "Sin redes sociales propias del médico"
+    ]
+  },
+  {
+    "slug": "/doctor/omidres-de-la-consolacion-perez-de-carvelli",
+    "url": "https://hospital-del-rio.webflow.io/doctor/omidres-de-la-consolacion-perez-de-carvelli",
+    "carga_ok": true,
+    "nombre": "Omidres de la Consolación Pérez de Carvelli",
+    "especialidad": "Endocrinología / Metabolismo",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/draomidres/",
+      "https://www.facebook.com/DraOmidres/",
+      "https://www.linkedin.com/in/draomidres/",
+      "https://www.draomidresperez.com/",
+      "https://www.youtube.com/c/draomidresperez"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pablo-gerardo-pena-tapia",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pablo-gerardo-pena-tapia",
+    "carga_ok": true,
+    "nombre": "Pablo Gerardo Peña Tapia",
+    "especialidad": "Neurocirugía",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/DrPabloPena",
+      "https://www.linkedin.com/in/pablo-pe%C3%B1a-tapia-29488038/",
+      "https://www.drpablopena.com/",
+      "https://www.youtube.com/channel/UCMf58Tp6yljEgsFf7r8s_ag"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pablo-hurtado-b",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pablo-hurtado-b",
+    "carga_ok": true,
+    "nombre": "Pablo Hurtado B.",
+    "especialidad": "Infectología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es un placeholder genérico (archivo 'placeholder.jpeg'), no foto real del médico",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pablo-javier-salamea-molina",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pablo-javier-salamea-molina",
+    "carga_ok": true,
+    "nombre": "Pablo Javier Salamea Molina",
+    "especialidad": "Cirugía Plástica y Reconstructiva",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drpablosalamea/",
+      "https://www.facebook.com/drpablosalamea/",
+      "https://www.pablosalamea.com/",
+      "https://www.youtube.com/@drpablosalamea9180"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/fanbh1",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/pablo-xavier-machuca-chiriboga",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pablo-xavier-machuca-chiriboga",
+    "carga_ok": true,
+    "nombre": "Pablo Xavier Machuca Chiriboga",
+    "especialidad": "Cirugía General / Aparato Digestivo",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/drpablomachuca/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/paola-alejandra-jaramillo-mieles",
+    "url": "https://hospital-del-rio.webflow.io/doctor/paola-alejandra-jaramillo-mieles",
+    "carga_ok": true,
+    "nombre": "Paola Alejandra Jaramillo Mieles",
+    "especialidad": "Nutrición Infantil",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/patricia-zea-g",
+    "url": "https://hospital-del-rio.webflow.io/doctor/patricia-zea-g",
+    "carga_ok": true,
+    "nombre": "Patricia Zea G.",
+    "especialidad": "Ginecología y Obstetricia",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "http://www.cuencanos.com/profesionales/detallesprofesionalporid.php?Id_Miembro=11325"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es un placeholder genérico ('placeholder.jpg'), no foto real de la médica",
+      "Sin descripción/bio (campo vacío)",
+      "Único 'link social' es un directorio externo antiguo (cuencanos.com), no red social propia",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/patricio-fernando-cordova-lopez",
+    "url": "https://hospital-del-rio.webflow.io/doctor/patricio-fernando-cordova-lopez",
+    "carga_ok": true,
+    "nombre": "Patricio Fernando Córdova López",
+    "especialidad": "Neurología",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/paul-ramiro-cobos-villavicencio",
+    "url": "https://hospital-del-rio.webflow.io/doctor/paul-ramiro-cobos-villavicencio",
+    "carga_ok": true,
+    "nombre": "Paúl Ramiro Cobos Villavicencio",
+    "especialidad": "Medicina Crítica e Intensiva / Cuidado Intensivo",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'",
+      "Sin información de piso/consultorio (a diferencia de la mayoría de perfiles)"
+    ]
+  },
+  {
+    "slug": "/doctor/paul-santiago-martinez-torres",
+    "url": "https://hospital-del-rio.webflow.io/doctor/paul-santiago-martinez-torres",
+    "carga_ok": true,
+    "nombre": "Paúl Santiago Martínez Torres",
+    "especialidad": "Medicina Interna",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/drpaulmartinez",
+      "https://www.facebook.com/DrPaulMartinezT",
+      "https://www.linkedin.com/in/pa%C3%BAl-mart%C3%ADnez-torres-53753221/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/cw4p7k",
+    "problemas": [
+      "Sin descripción/bio (campo vacío)"
+    ]
+  },
+  {
+    "slug": "/doctor/pedro-alvarez-mendoza",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pedro-alvarez-mendoza",
+    "carga_ok": true,
+    "nombre": "Pedro Álvarez Mendoza",
+    "especialidad": "Anestesiología",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pedro-jose-gonzales-serrano",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pedro-jose-gonzales-serrano",
+    "carga_ok": true,
+    "nombre": "Pedro Jose Gonzales Serrano",
+    "especialidad": "Fertilidad / Ginecológica y de la Reproducción / Endocrinología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "http://www.drpedrogonzalez.com/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pedro-pacheco-bacuilima",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pedro-pacheco-bacuilima",
+    "carga_ok": true,
+    "nombre": "Pedro Pacheco Bacuilima",
+    "especialidad": "Cuidados Paliativos",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://www.instagram.com/palliummed/",
+      "https://ec.linkedin.com/in/pedro-pacheco-bacuilima-916906179"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es un placeholder genérico (archivo 'placeholder.jpeg'), no foto real del médico",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pedro-sebastian-cordero-asanza",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pedro-sebastian-cordero-asanza",
+    "carga_ok": true,
+    "nombre": "Pedro Sebastian Cordero Asanza",
+    "especialidad": "Psiquiatría",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/pedro_cordero_asanza/",
+      "https://doctopro.com/dr/drpedrocordero"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/pierina-leon-a",
+    "url": "https://hospital-del-rio.webflow.io/doctor/pierina-leon-a",
+    "carga_ok": true,
+    "nombre": "Pierina León A.",
+    "especialidad": "Reumatología",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": false,
+    "redes_sociales": [
+      "https://masquemedicos.ec/reumatologo_cuenca/pierina-leon-astudillo/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Foto es un placeholder genérico (archivo 'placeholder.jpeg'), no foto real de la médica",
+      "Único 'link social' es un directorio externo (masquemedicos.ec), no red social propia",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/priscila-jamel-sanchez-astudillo",
+    "url": "https://hospital-del-rio.webflow.io/doctor/priscila-jamel-sanchez-astudillo",
+    "carga_ok": true,
+    "nombre": "Priscila Jamel Sánchez Astudillo",
+    "especialidad": "Radiología e Imagen",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/priscila-rosana-sanchez-avila",
+    "url": "https://hospital-del-rio.webflow.io/doctor/priscila-rosana-sanchez-avila",
+    "carga_ok": true,
+    "nombre": "Priscila Rosana Sánchez Ávila",
+    "especialidad": "Pediatría",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin redes sociales propias",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/rebeca-arhimo-banderas-heras",
+    "url": "https://hospital-del-rio.webflow.io/doctor/rebeca-arhimo-banderas-heras",
+    "carga_ok": true,
+    "nombre": "Rebeca Arhimo Banderas Heras",
+    "especialidad": "Endocrinología",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/endocrino_rebebanderas/"
+    ],
+    "tiene_whatsapp": false,
+    "whatsapp": null,
+    "problemas": [
+      "Sin descripción/bio (campo vacío)",
+      "Sin botón de WhatsApp ni 'Agendar cita'"
+    ]
+  },
+  {
+    "slug": "/doctor/ricardo-alfredo-fernandez-de-cordova-jerves",
+    "url": "https://hospital-del-rio.webflow.io/doctor/ricardo-alfredo-fernandez-de-cordova-jerves",
+    "carga_ok": true,
+    "nombre": "Ricardo Alfredo Fernández de Córdova Jerves",
+    "especialidad": "Neumología Pediátrica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.facebook.com/alfredogweb/",
+      "https://ec.linkedin.com/in/dr-alfredo-fern%C3%A1ndez-de-c%C3%B3rdova-jerves-32145723"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.link/jh0abr",
+    "problemas": []
+  },
+  {
+    "slug": "/doctor/rodrigo-eduardo-lopez-astudillo",
+    "url": "https://hospital-del-rio.webflow.io/doctor/rodrigo-eduardo-lopez-astudillo",
+    "carga_ok": true,
+    "nombre": "Rodrigo Eduardo López Astudillo",
+    "especialidad": "Cirugía Pediátrica",
+    "tiene_descripcion": true,
+    "descripcion_ok": true,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593990105807",
+    "problemas": [
+      "Sin redes sociales propias del médico"
+    ]
+  },
+  {
+    "slug": "/doctor/rodrigo-jose-mendoza-rivas",
+    "url": "https://hospital-del-rio.webflow.io/doctor/rodrigo-jose-mendoza-rivas",
+    "carga_ok": true,
+    "nombre": "Rodrigo Jose Mendoza Rivas",
+    "especialidad": "Cardiología / Cateterismo Cardiovascular",
+    "tiene_descripcion": false,
+    "descripcion_ok": false,
+    "tiene_foto": true,
+    "foto_ok": true,
+    "redes_sociales": [
+      "https://www.instagram.com/cardiologointervencionista.ec/",
+      "https://www.facebook.com/cardiologos.cuenca.drrodrigomendoza/",
+      "https://drodrigomendoza.com/"
+    ],
+    "tiene_whatsapp": true,
+    "whatsapp": "https://wa.me/593987573773",
+    "problemas": [
+      "Sin descripción/bio (campo vacío)"
+    ]
+  }
+]
