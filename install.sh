@@ -50,7 +50,8 @@ echo "  1) uTransfer"
 echo "  2) Airpals"
 echo "  3) Kaito"
 echo "  4) Ecogara DS"
-echo "  5) Otro"
+echo "  5) Hospital del Río"
+echo "  6) Otro"
 read -r PROYECTOS_CHOICE
 
 PROYECTOS_LIST=""
@@ -75,6 +76,10 @@ for num in $PROYECTOS_CHOICE; do
       REFERENTES_LIST+="Ecogara DS → Material Design, Primer"$'\n'
       ;;
     5)
+      PROYECTOS_LIST+="**Hospital del Río** → web médica en Webflow. CLAUDE.md en \`HospitalDelRio/CLAUDE.md\`"$'\n'
+      REFERENTES_LIST+="Hospital del Río → sitios médicos institucionales"$'\n'
+      ;;
+    6)
       echo -e "  ${CYAN}¿Nombre del proyecto?${RESET}"
       read -r OTRO_PROYECTO
       PROYECTOS_LIST+="**${OTRO_PROYECTO}**"$'\n'
@@ -111,11 +116,20 @@ done
 
 # ── 6. Instalar rules ─────────────────────────────────────────────────────
 echo ""
-echo -e "${YELLOW}Instalando rules de Figma...${RESET}"
-cp "$SCRIPT_DIR/rules/figma-master.md" "$RULES_DIR/figma-master.md"
-echo -e "  ${GREEN}✓${RESET} figma-master.md"
-cp "$SCRIPT_DIR/rules/design-resources.md" "$RULES_DIR/design-resources.md"
-echo -e "  ${GREEN}✓${RESET} design-resources.md"
+echo -e "${YELLOW}Instalando rules del equipo...${RESET}"
+mkdir -p "$RULES_DIR/common"
+for f in figma-master.md design-resources.md behaviors.md design.md project-loop.md web-project-assets.md mcp-reference.md; do
+  if [ -f "$SCRIPT_DIR/rules/$f" ]; then
+    cp "$SCRIPT_DIR/rules/$f" "$RULES_DIR/$f"
+    echo -e "  ${GREEN}✓${RESET} $f"
+  fi
+done
+for f in "$SCRIPT_DIR"/rules/common/*.md; do
+  if [ -f "$f" ]; then
+    cp "$f" "$RULES_DIR/common/"
+    echo -e "  ${GREEN}✓${RESET} common/$(basename "$f")"
+  fi
+done
 
 # ── 7. Generar CLAUDE.md global ───────────────────────────────────────────
 echo ""
@@ -181,7 +195,7 @@ echo -e "${BOLD}╚════════════════════�
 echo ""
 echo -e "${GREEN}Instalado:${RESET}"
 echo "  • 8 skills en ~/.claude/skills/"
-echo "  • 2 rules en ~/.claude/rules/"
+echo "  • rules del equipo en ~/.claude/rules/ (incluye common/)"
 echo "  • ~/.claude/CLAUDE.md personalizado"
 echo ""
 echo -e "${CYAN}Próximos pasos:${RESET}"

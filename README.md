@@ -136,6 +136,26 @@ Rail de pagos B2B: Kaito Konnect (API para bancos/fintechs) + Kaito Business (da
 
 **Referentes:** Stripe, Ripple
 
+**Claude Code en Kaito:**
+```bash
+claude Kaito/
+```
+
+---
+
+### Hospital del Río
+
+Web médica en Webflow, Cuenca Ecuador. Mayor centro médico del Austro.
+
+**Stack:** Webflow + GSAP + Lenis
+
+**Claude Code en Hospital del Río:**
+```bash
+claude HospitalDelRio/
+```
+
+> Credenciales de Webflow nunca van en este repo — pedirlas a Mau, viven en Doppler/`.env` local.
+
 ---
 
 ## Figma CLI — instalación
